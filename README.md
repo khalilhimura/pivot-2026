@@ -6,7 +6,7 @@ Course repository: [khalilhimura/pivot-2026](https://github.com/khalilhimura/piv
 
 Local dependency folders, narration caches, temporary deployment archives and nested Git histories are excluded. The `sites/` source files are included as ordinary files; the original local Sites checkouts retain their separate Git repositories and deployment identities.
 
-The course is a teaching draft. The detailed plan, six-file synthetic dataset, private reference Site/Pages, integrated course reader and seven captioned narrated reference lessons exist. Draft TFIS PR #125 is open. A fresh Plus desktop build recording, production release and executive pilot remain open.
+The course is a teaching draft. The detailed plan, six-file synthetic dataset, private reference Site/Pages, integrated course reader and seven captioned narrated reference lessons exist. Draft TFIS PR #125 is open. The owner completed a ChatGPT Plus desktop rehearsal on 15 November 2026, reporting about 40 minutes without a recovery build, and supplied 12 screenshots with an 8/10 self-check. [Rehearsal evidence and remaining metadata](production/rehearsal-log.md) are recorded. The actual-build recording, remaining app/timing/assistance evidence, production release and executive pilot remain open.
 
 ## Course previews
 
@@ -31,8 +31,9 @@ Both hosted previews are private admin review routes. A facilitator using anothe
 - [Editable facilitator handover Page](https://chatgpt.com/space/page_a1c72e45615081919a45d04a7eda2dde) — private owner access
 - [Complete facilitator handover ZIP](downloads/pivot-2026-facilitator-handover-v1.zip) — runbook, rehearsal/pilot/media forms, answer key, learner materials and reviewed course assets
 - [Facilitator runbook in this repository](delivery/facilitator-handover.md) — rehearsal, pilot, evidence return and release procedure
+- [Ready-to-send facilitator message](delivery/facilitator-message.md) — current preview/download links and remaining validation tasks
 
-The facilitator must validate a fresh Plus desktop build, review media and accessibility, then observe five executive beginners. Return the completed forms, actual timings/waits/repairs/assistance, permitted recordings or screenshots, learner Site/Page links and reproducible issues. Independent, assisted, walkthrough and incomplete outcomes are recorded separately. The course remains a teaching draft pending those results and production release.
+The facilitator should review the [completed owner rehearsal and remaining confirmations](production/rehearsal-log.md), fill any evidence gaps, review media and accessibility, then observe five executive beginners. Return the completed forms, actual timings/waits/repairs/assistance, permitted recordings or screenshots, learner Site/Page links and reproducible issues. Independent, assisted, walkthrough and incomplete outcomes are recorded separately. The course remains a teaching draft pending those results and production release.
 
 ## Course materials and production status
 
@@ -45,6 +46,8 @@ The facilitator must validate a fresh Plus desktop build, review media and acces
 - [TFIS draft PR #125](https://github.com/khalilhimura/tfis-website/pull/125)
 
 The source folder contains exactly six files: DOCX, PDF, XLSX, PPTX, CSV and JSON. The derived reference dashboard snapshot is not an additional learner input.
+
+The owner requested more natural narration after the rehearsal. The [OpenAI narration replacement plan](production/narration-replacement-plan.md) is prepared; no replacement audio has been generated or deployed yet. The facilitator ZIP and native Page now include the completed owner rehearsal and remaining checks. The videos themselves are unchanged.
 
 ## Publisher workflow
 

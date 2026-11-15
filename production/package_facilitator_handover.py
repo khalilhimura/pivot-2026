@@ -13,6 +13,7 @@ SOURCES = {
     'facilitator/runbook.md': 'delivery/facilitator-handover.md',
     'facilitator/answer-key.md': 'production/answer-key.md',
     'facilitator/rehearsal-log.md': 'production/rehearsal-log.md',
+    'facilitator/rehearsal-evidence.json': 'qa/rehearsal-2026-11-15-evidence.json',
     'facilitator/media-review.md': 'qa/media-review-template.md',
     'facilitator/pilot/observer-guide.md': 'qa/pilot/observer-guide.md',
     'facilitator/pilot/observations.csv': 'qa/pilot/observations.csv',
@@ -23,6 +24,7 @@ SOURCES = {
     'learner/prompts.md': 'course-content/prompts.md',
     'learner/checkpoints.md': 'course-content/checkpoints.md',
     'publisher/pivot-2026-course-preview-v1.zip': 'downloads/pivot-2026-course-preview-v1.zip',
+    'publisher/narration-replacement-plan.md': 'production/narration-replacement-plan.md',
 }
 
 def sha(data):
@@ -30,7 +32,8 @@ def sha(data):
 
 data = {dest: (ROOT / source).read_bytes() for dest, source in SOURCES.items()}
 data['START-HERE.txt'] = f'''TFIS Pivot 2026 facilitator handover
-Status: teaching draft; rehearsal and executive pilot not conducted.
+Status: teaching draft; owner Plus rehearsal completed, executive pilot pending.
+Owner report: about 40 minutes, no recovery build, self-check 8/10.
 
 Read facilitator/runbook.md or the private editable Page:
 {PAGE}
@@ -38,7 +41,7 @@ Read facilitator/runbook.md or the private editable Page:
 The owner must arrange authorized preview access for the facilitator.
 Do not share owner credentials. No invitations or new access grants are included.
 
-1. Run the complete fresh Plus desktop rehearsal; fill facilitator/rehearsal-log.md.
+1. Review facilitator/rehearsal-log.md and rehearsal-evidence.json; close evidence gaps.
 2. Listen/review every clip and complete facilitator/media-review.md.
 3. Observe five executive beginners using facilitator/pilot/observer-guide.md.
 4. Copy the run-notes template for each run; complete observations.csv and pilot-results.md.
@@ -72,6 +75,10 @@ manifest = {
     'title': 'TFIS Pivot 2026 facilitator handover',
     'status': 'teaching-draft-human-validation-pending',
     'prepared_date': '2026-11-14',
+    'updated_date': '2026-11-15',
+    'owner_rehearsal': {'account': 'ChatGPT Plus', 'approximate_minutes': 40,
+                        'recovery_build_used': False, 'self_check': 8,
+                        'duration_basis': 'owner report'},
     'editable_page': PAGE,
     'course_commit': '154836ab3701c2de30ba30d223d7e5965bcc886c',
     'chatgpt_course_preview_version': 1,
@@ -88,13 +95,20 @@ with zipfile.ZipFile(TARGET) as z:
     assert z.testzip() is None and set(z.namelist()) == set(data)
     for name, content in data.items():
         assert z.read(name) == content
+page_review = json.loads((ROOT / 'qa/facilitator-page-readback.json').read_text())
+assert page_review['page_id'] == 'page_a1c72e45615081919a45d04a7eda2dde'
+assert page_review['local_runbook_sha256'] == sha(data['facilitator/runbook.md'])
+assert page_review['page_text_matches_local'] is True
 report = {
     'archive': TARGET.name, 'archive_bytes': TARGET.stat().st_size,
     'archive_sha256': sha(TARGET.read_bytes()), 'file_count': len(data),
     'exact_source_bytes': True, 'learner_source_count': 6,
     'public_course_asset_count': 53, 'pilot_rows': 5, 'pilot_status': 'pending',
     'page_id': 'page_a1c72e45615081919a45d04a7eda2dde',
-    'page_readback_blocks': 40, 'page_text_matches_local': True,
+    'page_readback_blocks': page_review['blocks'],
+    'page_text_matches_local': page_review['page_text_matches_local'],
+    'page_readback_evidence': 'qa/facilitator-page-readback.json',
+    'owner_rehearsal': manifest['owner_rehearsal'],
 }
 (ROOT / 'delivery/facilitator-handover-manifest.json').write_text(json.dumps(report, indent=2) + '\n')
 print(json.dumps(report, indent=2))

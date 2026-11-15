@@ -1,0 +1,8 @@
+{
+  "page_id": "page_a1c72e45615081919a45d04a7eda2dde",
+  "reviewed_date": "2026-11-15",
+  "blocks": 41,
+  "page_text_matches_local": true,
+  "local_runbook_sha256": "c3205e6251758d9663aec99ccf12f75eb1d70f4912461fdf8039d22abe1dd31a",
+  "verification": "Complete native Page readback; whitespace and heading levels normalized; rendered review remains the prior unchanged layout review."
+}

@@ -1,0 +1,129 @@
+{
+  "run_id": "R01",
+  "date": "2026-11-15",
+  "timezone": "Asia/Kuala_Lumpur",
+  "status": "owner_reports_completed_screenshot_supported",
+  "originals": "Owner-provided local screenshots, retained outside the public repository and course assets.",
+  "screenshot_span_seconds": 3566,
+  "timed_duration_verified": false,
+  "self_check": {
+    "source_judgment": 2,
+    "numerical_verification": 2,
+    "dashboard_operation": 1,
+    "decision_quality": 1,
+    "responsible_publication": 2,
+    "total": 8
+  },
+  "native_readback": {
+    "site_project_id": "appgprj_6af9b2ac83988191a68c856023c9ca9f",
+    "site_url": "https://aura-board-snapshot-2026.khalilnooh.chatgpt.site",
+    "site_latest_version": 2,
+    "site_status": "active",
+    "site_access": "custom, one owner user, no groups or editors",
+    "page_id": "page_614d7839cae4819191ff1f72558e1aea",
+    "page_url": "https://chatgpt.com/space/page_614d7839cae4819191ff1f72558e1aea",
+    "page_readback": "Complete 16-block content read; scope, KPI controls, scenario caveats, recommendation and return Site link present.",
+    "limitation": "Connector metadata and Page content readback do not prove every live dashboard interaction or Page sharing policy."
+  },
+  "pending": [
+    "Exact post-preflight timing and cumulative system waits",
+    "Source extraction coverage for every original file and workbook tab/slide",
+    "Actual build recording and manual media/accessibility review",
+    "Five executive pilot observations",
+    "Desktop app version",
+    "Repair prompts and any help beyond recovery"
+  ],
+  "screenshots": [
+    {
+      "evidence_id": "R01-01",
+      "filename": "Screenshot 2026-11-15 at 9.06.10 PM.png",
+      "bytes": 402437,
+      "sha256": "12658c75929e942fdbf18f3db3211412899cd38c4cf5be2e4c5b5bb32f135581",
+      "observation": "Six source filenames and Board question displayed; filename enumeration alone does not establish extraction."
+    },
+    {
+      "evidence_id": "R01-02",
+      "filename": "Screenshot 2026-11-15 at 9.12.51 PM.png",
+      "bytes": 644464,
+      "sha256": "eeafd7d44975852e387d30b686d895edd1b03fae9427e003697c7bbde557d2bd",
+      "observation": "Definitions distinguish login-active, transacting and 30-day activated customers; origin convention explained."
+    },
+    {
+      "evidence_id": "R01-03",
+      "filename": "Screenshot 2026-11-15 at 9.14.13 PM.png",
+      "bytes": 397659,
+      "sha256": "dfcbca243d77a79b4d9b8657b04b211b1b0f3cc33658bb2ce316dbb71d528e71",
+      "observation": "Lesson 2 checkpoint selects 40,000 transacting customers and displays correct feedback."
+    },
+    {
+      "evidence_id": "R01-04",
+      "filename": "Screenshot 2026-11-15 at 9.21.34 PM.png",
+      "bytes": 526035,
+      "sha256": "8ca8589c778930ec3d84bbf31cd318cd26872a741ee009817bc26f10caec122d",
+      "observation": "May/June source arithmetic reconciles revenue, activation, weighted transaction success, CAC and contribution margin; assistant pauses before building."
+    },
+    {
+      "evidence_id": "R01-05",
+      "filename": "Screenshot 2026-11-15 at 9.21.39 PM.png",
+      "bytes": 529436,
+      "sha256": "ba00df26d60c2a7d35d701e7281e247f109154ad269de0140d799846ad4fb734",
+      "observation": "Lesson 3 weighted transaction success checkpoint answered correctly."
+    },
+    {
+      "evidence_id": "R01-06",
+      "filename": "Screenshot 2026-11-15 at 9.39.06 PM.png",
+      "bytes": 718720,
+      "sha256": "9917b9bf47ce83a3f4ea666d8c4948d118376e9b88cf38b3d513cf1be3172425",
+      "observation": "Saved Sites v1 reported; local preview visibly shows June/Mobile KPIs and target scope. All 18 filter combinations are an assistant assertion in the screenshot."
+    },
+    {
+      "evidence_id": "R01-07",
+      "filename": "Screenshot 2026-11-15 at 9.46.47 PM.png",
+      "bytes": 918042,
+      "sha256": "10573ec58316c1625ceb67e46be6815e23bebf2a88cb19118d8ee9eac6956790",
+      "observation": "June/All KPIs visible; recommendation compares choices and distinguishes evidence from interpretation."
+    },
+    {
+      "evidence_id": "R01-08",
+      "filename": "Screenshot 2026-11-15 at 9.48.23 PM.png",
+      "bytes": 417617,
+      "sha256": "73708ef901ad0e6366b49c2bb52471420a1c2b5bb45cc0efc18d5bd47bb905bb",
+      "observation": "Lesson 5 checkpoint correctly treats the 760-customer scenario as conditional."
+    },
+    {
+      "evidence_id": "R01-09",
+      "filename": "Screenshot 2026-11-15 at 9.59.32 PM.png",
+      "bytes": 847811,
+      "sha256": "3b45d2c82935c76083457ee82540aab8aa8c4497861608cc002a295c61004bbd",
+      "observation": "Hosted Site v2 with source/version labels and brief link visible; assistant reports owner access, filters and scenarios checked."
+    },
+    {
+      "evidence_id": "R01-10",
+      "filename": "Screenshot 2026-11-15 at 10.02.52 PM.png",
+      "bytes": 741414,
+      "sha256": "259a0823e59b21d0bcd0104a0c52b8ec50dd3882afe7499c50c45b27badc89f0",
+      "observation": "Hosted dashboard open in external browser with source scope, dates and brief link."
+    },
+    {
+      "evidence_id": "R01-11",
+      "filename": "Screenshot 2026-11-15 at 10.03.52 PM.png",
+      "bytes": 968549,
+      "sha256": "cefc4faf4f13b2f12dd361f4e5aaa5ecb33edc48aa519f792679d6a2d08e4e1b",
+      "observation": "Native Pages brief open with June/All scope, source version, citations and dashboard link."
+    },
+    {
+      "evidence_id": "R01-12",
+      "filename": "Screenshot 2026-11-15 at 10.05.36 PM.png",
+      "bytes": 341717,
+      "sha256": "e4cae964297e51b44f9eb18b409710f07860eb1528683e3a82ad740de5a9bf1d",
+      "observation": "Self-check 8/10: source 2, numerical 2, dashboard operation 1, decision quality 1, publication 2."
+    }
+  ],
+  "owner_confirmation": {
+    "account": "ChatGPT Plus",
+    "recovery_build_used": false,
+    "approximate_duration_minutes": 40,
+    "duration_basis": "Owner report; exact post-preflight start/finish not recorded",
+    "other_assistance": "Not documented"
+  }
+}

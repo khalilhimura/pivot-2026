@@ -1,12 +1,14 @@
 # Facilitator handover verification
 
-Prepared and reviewed 14 November 2026 at the owner's request. The handover is ready to give to a facilitator; the course itself remains a teaching draft.
+Updated 15 November 2026 after the owner supplied rehearsal evidence. The handover is ready for facilitator review; the course remains a teaching draft.
 
-- Native private Page: `page_a1c72e45615081919a45d04a7eda2dde`. A complete read returned 40 blocks; whitespace-normalized text matched the local runbook exactly. The owner browser rendered its title, opening, numbered steps, eight content headings and three native tables. The Page tab was retained. No invitation or sharing grant was sent.
-- Archive: `downloads/pivot-2026-facilitator-handover-v1.zip`, 14,654,755 bytes, SHA-256 `ce5084b8c11c76bfa1b40b645d1da83855fe081cc91211059fee94731e2e0d95`.
-- Fifteen explicit files include the runbook, answer key, pending rehearsal/media/pilot forms, learner materials, reviewed course overlay and manifest. Every archived byte matched its allowlisted source; ZIP CRC validation passed.
-- Nested Aura ZIP retains its reviewed SHA-256 and exactly six unique source names/formats. The nested course preview retains its reviewed SHA-256 and 53 assets.
-- All five observation rows retain pending outcomes, empty elapsed times and empty pass fields. The packaging check does not evaluate a pilot or fabricate results.
-- The runbook retains the original 5/8/10/17/10/8/2 lesson allocation, rubric gates, at-least-four-of-five independent timing threshold, all-five verification/scenario understanding requirement and separate recovery classification. It assigns the remaining actual Plus build/recording, human listening, manual accessibility and release checks.
+- The owner confirms ChatGPT Plus, approximately 40 minutes and no recovery build. The supplied self-check is 8/10. Twelve screenshot hashes and supported milestones are recorded; exact timing, app version, waits/repairs and other assistance remain undocumented.
+- Native private Page `page_a1c72e45615081919a45d04a7eda2dde` was updated in one guarded five-operation edit. A complete 41-block readback matches the local runbook after heading-level and whitespace normalization. Evidence: `qa/facilitator-page-readback.json`. Access was not modified.
+- The Page's existing layout was rendered and reviewed on 14 November. This update changes paragraphs and adds a rehearsal paragraph; the new wording has been read back, with no new rendered-layout claim.
+- Archive: `downloads/pivot-2026-facilitator-handover-v1.zip`, 14,661,330 bytes, SHA-256 `0ca903b9438d605fc92b6f2ce176dc44ff15aa8a643def36721662dc61db3ca4`.
+- Seventeen explicit files include the updated runbook and rehearsal record, screenshot hash index, producer narration plan, answer key, media/pilot forms, learner materials, reviewed course overlay and manifest. Every archived byte matched its allowlisted source; ZIP CRC validation passed. Original screenshots remain outside the public repository and archive.
+- The nested Aura ZIP retains SHA-256 `84e5e449c57b9d73fa8b4f8f37d9de7f8d7c4d3a910c1cd3caf180cdb19a9751` and six unique source formats. The nested course ZIP retains SHA-256 `2d111a15a7e6e061477cd900ca4325fca7e230df83b7572dafc54a9880abbf2a` and 53 assets.
+- All five pilot rows remain pending, with empty elapsed times and pass fields. The owner rehearsal has not been counted as a novice pilot.
+- The runbook preserves the 5/8/10/17/10/8/2 lesson allocation, rubric rules, at-least-four-of-five independent timing threshold, all-five verification/scenario understanding requirement and separate recovery classification.
 
-No course application source changed in this handover step. The existing TFIS draft branch remains available for evidence-driven revisions. Next required input is a facilitator's actual rehearsal and review evidence, followed by the executive pilot observations.
+The existing seven videos and deployed course previews are unchanged. Natural OpenAI narration remains pending secure key access, sample comparison, regeneration and listening review. No extra learner purchase is introduced.

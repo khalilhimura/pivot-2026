@@ -1,6 +1,8 @@
 # TFIS Pivot 2026 acceptance checklist
 
-Current state as of 14 November 2026. Checked items have direct evidence in this workspace or native connector responses; unchecked items remain required work.
+Current state as of 15 November 2026. Checked items have direct evidence in this workspace or native connector responses; unchecked items remain required work.
+
+- [x] Owner reports completed rehearsal with 12 screenshot milestones and an 8/10 self-check; native readback confirms the new Site and brief. Evidence: `production/rehearsal-log.md` and `rehearsal-2026-11-15-evidence.json`. This does not close the remaining account, timing, extraction and assistance confirmations below.
 
 ## Dataset
 
@@ -43,4 +45,4 @@ Current state as of 14 November 2026. Checked items have direct evidence in this
 - [ ] Final release record and requirement-by-requirement completion audit.
 - [x] Facilitator handover prepared at the owner's request with a private editable Page, portable materials, blank rehearsal/pilot/media forms and the original release thresholds. No observations are implied.
 
-The local and native checks do not constitute a novice pilot, a timed Plus AI build or a completed public course release.
+The owner rehearsal is recorded separately from producer checks. The remaining timing/account confirmations and five-person novice pilot are still required before a public release claim.

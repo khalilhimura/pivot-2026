@@ -2,14 +2,14 @@
 
 Prepare and observe the final validation of a free guided course for C-Suite and Board members who build their own dashboard. Aura is a fictional Malaysian consumer payments company with web and mobile distribution. Learners use the ChatGPT desktop app, their own Plus subscription and the six synthetic source files. The planned session is 60 minutes after preflight.
 
-The course remains a teaching draft. Your first task is one complete technical rehearsal, followed by five executive-beginner observations. Release requires the evidence below; the reference dashboard and seven narrated example videos are available for preparation.
+The course remains a teaching draft. The owner completed a ChatGPT Plus rehearsal on 15 November 2026, reporting about 40 minutes without a recovery build and an 8/10 self-check. Review that evidence, close the remaining metadata and media/accessibility checks, then observe five executive beginners. The reference dashboard and seven narrated example videos are available for preparation.
 
 ## Start here
 
 1. Ask the course owner to open an authorized preview. Review the setup instructions, seven lessons, source download, prompts, checkpoints, dashboard and brief before the rehearsal.
 2. Download the Aura source ZIP from the preview and extract it. Keep its six files together. Keep the publisher answer key and observer forms outside that learner folder.
 3. Use a fresh Work chat in a learner-equivalent Plus desktop account. Follow the published instructions and prompts; do not start from the completed example.
-4. Record the actual build and its failures in the rehearsal form. Correct blocking teaching problems before inviting the five pilot learners.
+4. Review the completed owner rehearsal and record missing metadata, repairs or checks in the rehearsal log. Repeat affected steps where evidence is missing. Correct blocking teaching problems before inviting the five pilot learners.
 5. Return the completed evidence bundle to the course owner for revision and release review.
 
 ## Preview access
@@ -25,13 +25,15 @@ The owner also has an editable [Pages workbook](https://chatgpt.com/space/page_c
 
 ## Materials and version
 
-The downloadable facilitator bundle contains this runbook; the original learner ZIP; workbook, prompts and checkpoints; the publisher answer key; a rehearsal form; a pilot protocol, blank observation CSV and run-notes form; a media review form; and the complete static course preview ZIP. The last ZIP is a publishing handoff, not an additional learner input. Its interactive reader needs HTTP hosting; use the hosted preview for the normal session.
+The downloadable facilitator bundle contains this runbook; the original learner ZIP; workbook, prompts and checkpoints; the publisher answer key; the owner rehearsal log and screenshot evidence index; a pilot protocol, blank observation CSV and run-notes form; a media review form; the producer narration replacement plan; and the complete static course preview ZIP. The last ZIP is a publishing handoff, not an additional learner input. Its interactive reader needs HTTP hosting; use the hosted preview for the normal session.
 
 Record the test date and the preview/course version before every run. The current TFIS course commit is `154836ab3701c2de30ba30d223d7e5965bcc886c`, in [draft PR 125](https://github.com/khalilhimura/tfis-website/pull/125). The equivalent private ChatGPT course preview is version 1. Keep the version constant within a pilot cohort; record any revision and repeat affected checks.
 
 The original Aura ZIP SHA-256 is `84e5e449c57b9d73fa8b4f8f37d9de7f8d7c4d3a910c1cd3caf180cdb19a9751`. It contains DOCX, PDF, XLSX, PPTX, CSV and JSON, with no real customer information. No API, separate BI tool or additional service purchase is part of the core exercise. Optional GitHub and Cloudflare hosting is after the hour.
 
 ## Run the technical rehearsal
+
+Review the [owner rehearsal record](https://github.com/khalilhimura/pivot-2026/blob/main/production/rehearsal-log.md) and its [12-image evidence index](https://github.com/khalilhimura/pivot-2026/blob/main/qa/rehearsal-2026-11-15-evidence.json) first. Native readback confirms a separate [rehearsal Site](https://aura-board-snapshot-2026.khalilnooh.chatgpt.site) at version 2 and its linked [Board brief](https://chatgpt.com/space/page_614d7839cae4819191ff1f72558e1aea). The 40-minute duration is approximate and owner-reported. App version, exact waits/repairs, full extraction coverage and any other assistance remain undocumented. Collect missing evidence or repeat affected steps; do not count this owner rehearsal as one of the five beginner pilots.
 
 Before the clock, record the operating system, ChatGPT desktop version, Plus status, selected model/mode, available usage and Sites/Pages availability. Confirm actual folder access or attach all six files. A project name or a filename list alone does not prove content extraction. Stop and record a preflight gap if the required features are unavailable.
 
@@ -81,7 +83,7 @@ Score source judgment, numerical verification, dashboard operation, decision qua
 
 ## Review media and access
 
-Listen to every reference clip while following its transcript. Use the media review form to record timecodes for pronunciation, intelligibility, captions, timing or slide errors. Review the actual-build recording separately. Confirm names, financial terms, numbers and acronyms are understandable.
+The owner reports awkward narration as the only usability issue from the rehearsal. OpenAI voice replacement is planned, but no new audio has been generated or deployed. After replacement, listen to every reference clip while following its transcript. Use the media review form to record pronunciation, intelligibility, caption, timing or slide issues by timecode. Review the actual-build recording separately. Confirm names, financial terms, numbers and acronyms are understandable.
 
 Hosted lesson 4 was visually reviewed at 390px and 1280px in light and dark themes, including captions, prompt wrapping and recovery text. Keyboard activation of lesson navigation, prompt copying and checkpoint disclosure worked with visible focus. Complete the remaining manual accessibility checks on the facilitator's supported browser, including native score selection with the keyboard, skip-link behavior, zoom/reflow, and screen-reader reading order. The current checks do not certify WCAG conformance.
 
