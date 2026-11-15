@@ -17,3 +17,22 @@ Temporary viewport settings were reset; normal 1280px layout was restored. Recov
 In the local in-app browser, Tab reached the skip link. Enter moved to #main, and the next Tab reached Prepare your workspace, bypassing header controls. Native rubric controls worked using Alt+Down, End and Enter, followed by Tab to the next control. Five scores of 2 displayed 10/10; changing publication to 0 displayed 8/10 with the required incomplete-dimension message. These are synthetic UI checks, not learner results or screen-reader announcements. The previous unresolved native-selector finding is resolved for this browser sequence.
 
 The hosted version-2 Marin lesson 1 played with duration 93.2 seconds, readyState 4, observed currentTime 3.91 seconds, paused false during observation and English captions in showing mode. Playback was paused afterwards. Screenshot: marin-hosted-player.jpg. This representative check does not establish all-clip listening or perceptual caption synchronization. Screen-reader reading order/status announcements and browser text zoom remain open.
+
+## Zoom, reflow and dashboard follow-up, 15 November
+
+Brave browser zoom was explicitly observed at 200% in the native toolbar. Its viewport changed from 1430 CSS pixels / device-pixel ratio 2 to 715 / ratio 4; document width stayed 715. The course's Lesson 4 heading, player, transcript/download links and navigation remained readable without page overflow. The long prompt wrapped within its 401px container. Evidence: `course-200-percent-zoom.jpg`. This was browser page zoom, not a simulated font-size change or a screen-reader test.
+
+In the in-app browser at 320x800 CSS pixels, course document width stayed 320, the visible prompt was 276px wide without horizontal overflow, and each native assessment selector fit within 274px. Lesson 4 media and prose were visually checked. Evidence: `course-320-reflow.jpg`.
+
+The embedded Aura demo initially measured 324px page width at a 320px viewport. Its two-column KPI layout overflowed through minimum card content width. The static course builder now gives this demo a single KPI column at widths up to 380px. Published ChatGPT preview version 3, source `54367c659a90c6c166f98ec1afd4de0b753a7f33`, was reloaded and retested: document width 320, KPI column width 276, all six card bounds left 22 / right 298. Evidence: `dashboard-320-reflow.jpg`. The separate native Aura reference Site and the owner's rehearsal outputs were not changed.
+
+Keyboard checks in the hosted demo:
+
+- Alt+Down, Home and Enter on Reporting month selected January. Its cards changed to MYR440,000 revenue, 30,000 transacting customers, unavailable prior-month comparisons and no matching June targets.
+- End/Enter returned to June; Tab reached Customer origin and End/Enter selected Mobile-acquired. Cards showed MYR420,000, 28,000, 35% activation, MYR70 CAC, 30% contribution margin and 95.79% success, without company target badges.
+- Home and ArrowRight on the spending range advanced in five-point steps. At 20%, June/Mobile showed MYR112,000 additional spend, 1,600 hypothetical verified and 560 hypothetical activated customers.
+- Enter opened the six-month trend disclosure. Tab reached its horizontally scrollable table container; Right moved scrollLeft from 0 to 40. The accessibility tree exposed a caption, column headers, month row headers and exact data values. Actual spoken screen-reader output remains untested.
+
+Restored demo defaults to June / All / 0%, reset the temporary viewport override, restored Brave to 100% (1430 CSS pixels / ratio 2), and closed only the agent-created Brave test tab. The owner's saved 7/7 lesson completion and scores 2,2,1,1,2 were verified unchanged, with Lesson 7 selected. No localStorage reset was used. The retained in-app course tab returned to Lesson 1.
+
+Remaining human checks: complete listening and perceptual caption review for all seven clips, review the actual-build recording, and test reading order/status announcements with actual assistive technology. Repeat relevant browser checks on the facilitator's setup. These observations do not constitute WCAG certification or five learner-pilot results.

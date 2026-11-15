@@ -44,17 +44,17 @@
     "project_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90",
     "url": "https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site",
     "status": "succeeded",
-    "version_number": 2,
-    "version_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90~appgver_6ad86dba9dc481918312b9b78da8b9fa",
-    "deployment_id": "appgdep_6af9c3616e70819188ef3233e02e9055",
-    "commit_sha": "9b5aebe1d33566b4f08a75d7d01d56206b6142c7",
+    "version_number": 3,
+    "version_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90~appgver_d4114c122cec819189ea234c83e08928",
+    "deployment_id": "appgdep_6af9c903aeb081918a515da7c1a34562",
+    "commit_sha": "54367c659a90c6c166f98ec1afd4de0b753a7f33",
     "audience": "owner-only",
     "owner_email": "khalil@mesolitica.com",
-    "equivalent_cloudflare_preview": "https://6a29c662.tfis.pages.dev/pivot-2026/",
+    "equivalent_cloudflare_preview": "https://ab7797c0.tfis.pages.dev/pivot-2026/",
     "cloudflare_identity": "khalil.himura@gmail.com",
-    "verification": "qa/marin-narration-review.md",
-    "cloudflare_deployment_id": "6a29c662-4db1-428f-837a-a024bf5dd4d7",
-    "tfis_source_commit": "67fddd4712e449d3b7d0105b20d74c9f6f22fde4"
+    "verification": "qa/responsive-keyboard-review.md",
+    "cloudflare_deployment_id": "ab7797c0-67fa-41d0-9a71-bfd161101e1c",
+    "tfis_source_commit": "d1b05616e1eaa62f3a291ab2fbcbef4a680bebee"
   },
   "facilitator_handover": {
     "page_id": "page_a1c72e45615081919a45d04a7eda2dde",
@@ -81,6 +81,22 @@
       "equivalent_cloudflare_preview": "https://9a3eda9a.tfis.pages.dev/pivot-2026/",
       "cloudflare_identity": "khalil.himura@gmail.com",
       "verification": "qa/admin-preview-review.md"
+    },
+    {
+      "project_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90",
+      "url": "https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site",
+      "status": "succeeded",
+      "version_number": 2,
+      "version_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90~appgver_6ad86dba9dc481918312b9b78da8b9fa",
+      "deployment_id": "appgdep_6af9c3616e70819188ef3233e02e9055",
+      "commit_sha": "9b5aebe1d33566b4f08a75d7d01d56206b6142c7",
+      "audience": "owner-only",
+      "owner_email": "khalil@mesolitica.com",
+      "equivalent_cloudflare_preview": "https://6a29c662.tfis.pages.dev/pivot-2026/",
+      "cloudflare_identity": "khalil.himura@gmail.com",
+      "verification": "qa/marin-narration-review.md",
+      "cloudflare_deployment_id": "6a29c662-4db1-428f-837a-a024bf5dd4d7",
+      "tfis_source_commit": "67fddd4712e449d3b7d0105b20d74c9f6f22fde4"
     }
   ]
 }

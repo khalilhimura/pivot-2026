@@ -2,8 +2,8 @@
   "status": "teaching-draft-review-bundle",
   "target_url": "https://thefutureissolo.com/pivot-2026/",
   "archive": "pivot-2026-course-preview-v1.zip",
-  "archive_bytes": 14588321,
-  "archive_sha256": "3d6b8fbca2d0ab863d1673e27b5b28e8c033b685af571ac37a436e36629bd95b",
+  "archive_bytes": 14588372,
+  "archive_sha256": "c78d71128229fef5f7bc93f61ab2b0f623fc19f980c65320313cb0761ec22394",
   "files": [
     {
       "path": "public/pivot-2026/assets/fonts/Atkinson-Bold.woff2",
@@ -92,8 +92,8 @@
     },
     {
       "path": "public/pivot-2026/demo/style.css",
-      "bytes": 6917,
-      "sha256": "04d83388710a9e28b9f6cbe80e355f29ce881336b5baee0378a45b7027a96f33"
+      "bytes": 7042,
+      "sha256": "f74597f63101cd86c1db6316c5c9dc2462a6405c342b93329ef6d1bb1319b7bf"
     },
     {
       "path": "public/pivot-2026/files/aura-course-data-v1.zip",
@@ -102,8 +102,8 @@
     },
     {
       "path": "public/pivot-2026/files/aura-static-dashboard-v1.zip",
-      "bytes": 167392,
-      "sha256": "7ebfbd9cfb696482070b954a93fba17b7916b2872369ae5680c29bfd43d6e29c"
+      "bytes": 167416,
+      "sha256": "504bf33c86bfd4b99f6517f180e74ba0f25bcce7101924e68937d14f2f806219"
     },
     {
       "path": "public/pivot-2026/files/checkpoints.md",

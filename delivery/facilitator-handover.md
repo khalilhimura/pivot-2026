@@ -16,7 +16,7 @@ The course remains a teaching draft. The owner completed a ChatGPT Plus rehearsa
 
 | Admin route | Owner identity | Link |
 | --- | --- | --- |
-| Cloudflare Access | khalil.himura@gmail.com | [TFIS draft preview](https://6a29c662.tfis.pages.dev/pivot-2026/) |
+| Cloudflare Access | khalil.himura@gmail.com | [TFIS draft preview](https://feat-pivot-2026-course.tfis.pages.dev/pivot-2026/) |
 | Sign in with ChatGPT | khalil@mesolitica.com | [Private ChatGPT course preview](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site) |
 
 These links are private owner review routes. A facilitator using another identity needs the owner's explicit access arrangement; this handover does not grant access. Never share the owner's credentials. Participant course access is intended to be free and ungated at release; participants sign into their own ChatGPT account to build.
@@ -27,7 +27,7 @@ The owner also has an editable [Pages workbook](https://chatgpt.com/space/page_c
 
 The downloadable facilitator bundle contains this runbook; the original learner ZIP; workbook, prompts and checkpoints; the publisher answer key; the owner rehearsal log and screenshot evidence index; a pilot protocol, blank observation CSV and run-notes form; a media review form; the producer narration replacement plan; and the complete static course preview ZIP. The last ZIP is a publishing handoff, not an additional learner input. Its interactive reader needs HTTP hosting; use the hosted preview for the normal session.
 
-Record the test date and the preview/course version before every run. The TFIS course source commit is `67fddd4712e449d3b7d0105b20d74c9f6f22fde4`, in [draft PR 125](https://github.com/khalilhimura/tfis-website/pull/125). The private ChatGPT course preview is version 2, with OpenAI Marin narration. Keep the version constant within a pilot cohort; record any revision and repeat affected checks.
+Record the test date and the preview/course version before every run. The TFIS course source commit is `d1b05616e1eaa62f3a291ab2fbcbef4a680bebee`, in [draft PR 125](https://github.com/khalilhimura/tfis-website/pull/125). The private ChatGPT course preview is version 3, with OpenAI Marin narration. Keep the version constant within a pilot cohort; record any revision and repeat affected checks.
 
 The original Aura ZIP SHA-256 is `84e5e449c57b9d73fa8b4f8f37d9de7f8d7c4d3a910c1cd3caf180cdb19a9751`. It contains DOCX, PDF, XLSX, PPTX, CSV and JSON, with no real customer information. No API, separate BI tool or additional service purchase is part of the core exercise. Optional GitHub and Cloudflare hosting is after the hour.
 
@@ -85,7 +85,7 @@ Score source judgment, numerical verification, dashboard operation, decision qua
 
 The owner selected Marin after comparing two OpenAI voice samples. All seven reference clips have been rebuilt and published to the private ChatGPT course preview. Listen to every complete clip while following its transcript. Use the media review form to record pronunciation, intelligibility, caption, timing or slide issues by timecode. Review the actual-build recording separately. Confirm names, financial terms, numbers and acronyms are understandable. Sample approval does not substitute for this full listening review.
 
-Hosted lesson 4 was visually reviewed at 390px and 1280px in light and dark themes, including captions, prompt wrapping and recovery text. Keyboard activation of lesson navigation, prompt copying and checkpoint disclosure worked with visible focus. Complete the remaining manual accessibility checks on the facilitator's supported browser, including native score selection with the keyboard, skip-link behavior, zoom/reflow, and screen-reader reading order. The current checks do not certify WCAG conformance.
+Hosted lesson 4 was visually reviewed at 390px and 1280px in light and dark themes. Follow-up checks verified course reflow at 320 CSS pixels, browser zoom at 200%, skip-link navigation and native rubric keyboard selection. Dashboard month/origin filters, spending-range arrows and horizontal trend-table keyboard scrolling worked. A narrow KPI-card overflow was fixed and retested in preview version 3. Complete the full media listening, actual-build recording and screen-reader reading-order/status review on the facilitator's supported setup. Repeat affected checks if that setup differs. These checks do not certify WCAG conformance.
 
 ## Return evidence and decide release
 

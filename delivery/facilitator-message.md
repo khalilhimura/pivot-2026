@@ -1,6 +1,6 @@
 Hi, please validate the TFIS Pivot 2026 guided dashboard course for C-Suite and Board members.
 
-Preview: [ChatGPT course](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site) or [Cloudflare preview](https://6a29c662.tfis.pages.dev/pivot-2026/). Both currently need owner-arranged access.
+Preview: [ChatGPT course](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site) or [Cloudflare preview](https://ab7797c0.tfis.pages.dev/pivot-2026/). Both currently need owner-arranged access.
 
 Handover: [GitHub README](https://github.com/khalilhimura/pivot-2026#readme), [editable facilitator Page](https://chatgpt.com/space/page_a1c72e45615081919a45d04a7eda2dde), and [direct handover ZIP download](https://github.com/khalilhimura/pivot-2026/raw/refs/heads/main/downloads/pivot-2026-facilitator-handover-v1.zip).
 

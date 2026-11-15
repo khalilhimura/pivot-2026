@@ -81,8 +81,8 @@ manifest = {
                         'recovery_build_used': False, 'self_check': 8,
                         'duration_basis': 'owner report'},
     'editable_page': PAGE,
-    'course_commit': '67fddd4712e449d3b7d0105b20d74c9f6f22fde4',
-    'chatgpt_course_preview_version': 2,
+    'course_commit': 'd1b05616e1eaa62f3a291ab2fbcbef4a680bebee',
+    'chatgpt_course_preview_version': 3,
     'files': [{'path': p, 'bytes': len(b), 'sha256': sha(b)} for p, b in sorted(data.items())],
 }
 data['manifest.json'] = (json.dumps(manifest, indent=2) + '\n').encode()

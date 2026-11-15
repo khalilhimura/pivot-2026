@@ -12,7 +12,7 @@ The course is a teaching draft. The detailed plan, six-file synthetic dataset, p
 
 | Preview | Admin sign-in |
 | --- | --- |
-| [Cloudflare course preview](https://6a29c662.tfis.pages.dev/pivot-2026/) | Cloudflare Access: `khalil.himura@gmail.com` |
+| [Cloudflare course preview](https://ab7797c0.tfis.pages.dev/pivot-2026/) | Cloudflare Access: `khalil.himura@gmail.com` |
 | [Private ChatGPT course preview](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site) | Sign in with ChatGPT: `khalil@mesolitica.com` |
 
 Both hosted previews are private admin review routes. A facilitator using another account needs the owner's access arrangement. The participant course is intended to be free and ungated at release; learners use their own ChatGPT Plus accounts for the build.
@@ -47,7 +47,7 @@ The facilitator should review the [completed owner rehearsal and remaining confi
 
 The source folder contains exactly six files: DOCX, PDF, XLSX, PPTX, CSV and JSON. The derived reference dashboard snapshot is not an additional learner input.
 
-The owner requested more natural narration after the rehearsal. The owner selected Marin after comparing OpenAI samples. All seven lessons now use Marin in [ChatGPT preview version 2](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site). [Media verification and remaining listening review](qa/marin-narration-review.md) are recorded. The facilitator ZIP and Page include the rehearsal result and updated media instructions.
+The owner requested more natural narration after the rehearsal. The owner selected Marin after comparing OpenAI samples. All seven lessons now use Marin in [ChatGPT preview version 3](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site). [Media verification and remaining listening review](qa/marin-narration-review.md) are recorded. The facilitator ZIP and Page include the rehearsal result and updated media instructions.
 
 ## Publisher workflow
 

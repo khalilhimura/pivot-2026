@@ -71,6 +71,8 @@ for(const name of ['Atkinson-Regular.woff2','Atkinson-Bold.woff2','JetBrainsMono
 for(const name of ['workbook.md','prompts.md','checkpoints.md'])await fs.copyFile(path.join(source,name),path.join(out,'files',name));
 await fs.copyFile(path.join(root,'downloads/aura-course-data-v1.zip'),path.join(out,'files/aura-course-data-v1.zip'));
 await fs.cp(path.join(root,'sites/aura-dashboard/dist'),path.join(out,'demo'),{recursive:true});
+// Keep executive cards legible at the course's 320 CSS-pixel reflow checkpoint.
+await fs.appendFile(path.join(out,'demo/style.css'),'\n@media(max-width:380px){.metrics{grid-template-columns:minmax(0,1fr)}.metric:nth-child(even){border-left:0;padding-left:0}}\n');
 const publicBrief=path.join(out,'demo/brief.html');
 await fs.writeFile(publicBrief,(await fs.readFile(publicBrief,'utf8')).replace(/<p><a href="https:\/\/chatgpt\.com\/space\/[^\"]+">Open this brief in ChatGPT Pages<\/a> \(owner access\)\.<\/p>/g,''));
 const optional=await fs.readFile(path.join(source,'optional-github-cloudflare.md'),'utf8');
