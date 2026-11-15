@@ -8,23 +8,41 @@ Local dependency folders, narration caches, temporary deployment archives and ne
 
 The course is a teaching draft. The detailed plan, six-file synthetic dataset, private reference Site/Pages, integrated course reader and seven captioned narrated reference lessons exist. Draft TFIS PR #125 is open. A fresh Plus desktop build recording, production release and executive pilot remain open.
 
-## Review the current outputs
+## Course previews
+
+| Preview | Admin sign-in |
+| --- | --- |
+| [Cloudflare course preview](https://9a3eda9a.tfis.pages.dev/pivot-2026/) | Cloudflare Access: `khalil.himura@gmail.com` |
+| [Private ChatGPT course preview](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site) | Sign in with ChatGPT: `khalil@mesolitica.com` |
+
+Both hosted previews are private admin review routes. A facilitator using another account needs the owner's access arrangement. The participant course is intended to be free and ungated at release; learners use their own ChatGPT Plus accounts for the build.
+
+- [Course preview ZIP](downloads/pivot-2026-course-preview-v1.zip) — complete review bundle with the additive `public/pivot-2026/` route
+- [Staged course reader](delivery/public/pivot-2026/index.html) — source entry point; serve over HTTP to use the interactive preview
+
+## Reference dashboard and Pages
+
+- [Aura executive dashboard](https://aura-executive-dashboard-pivot-2026.khalilnooh.chatgpt.site) — private reference Site
+- [Executive workbook](https://chatgpt.com/space/page_c6909a9af4188191bae984bb16e6f475) — private editable Page
+- [Example Board decision brief](https://chatgpt.com/space/page_1ccf47eaac688191b47f4e26d0019a76) — private editable Page
+
+## Facilitator handover
+
+- [Editable facilitator handover Page](https://chatgpt.com/space/page_a1c72e45615081919a45d04a7eda2dde) — private owner access
+- [Complete facilitator handover ZIP](downloads/pivot-2026-facilitator-handover-v1.zip) — runbook, rehearsal/pilot/media forms, answer key, learner materials and reviewed course assets
+- [Facilitator runbook in this repository](delivery/facilitator-handover.md) — rehearsal, pilot, evidence return and release procedure
+
+The facilitator must validate a fresh Plus desktop build, review media and accessibility, then observe five executive beginners. Return the completed forms, actual timings/waits/repairs/assistance, permitted recordings or screenshots, learner Site/Page links and reproducible issues. Independent, assisted, walkthrough and incomplete outcomes are recorded separately. The course remains a teaching draft pending those results and production release.
+
+## Course materials and production status
 
 - [Detailed plan](docs/superpowers/plans/2026-11-14-aura-executive-dashboard-course.md)
 - [Learner data ZIP](downloads/aura-course-data-v1.zip)
 - [Text workbook](course-content/workbook.md)
 - [Six prompts](course-content/prompts.md)
-- [Staged course reader](delivery/public/pivot-2026/index.html) — serve over HTTP for the complete interactive preview
-- [Course preview ZIP](downloads/pivot-2026-course-preview-v1.zip) — review bundle with the additive `public/pivot-2026/` route
 - [Publisher production guide](course-content/01-production-guide.md)
-- [Reference dashboard](https://aura-executive-dashboard-pivot-2026.khalilnooh.chatgpt.site) — privately deployed
-- [Pages workbook](https://chatgpt.com/space/page_c6909a9af4188191bae984bb16e6f475) — private
-- [Pages board brief](https://chatgpt.com/space/page_1ccf47eaac688191b47f4e26d0019a76) — private
 - [Acceptance checklist](qa/acceptance-checklist.md)
 - [TFIS draft PR #125](https://github.com/khalilhimura/tfis-website/pull/125)
-- [Facilitator handover](delivery/facilitator-handover.md) — rehearsal, pilot, review and release procedure
-- [Editable facilitator Page](https://chatgpt.com/space/page_a1c72e45615081919a45d04a7eda2dde) — private owner access
-- [Facilitator bundle](downloads/pivot-2026-facilitator-handover-v1.zip) — runbook, forms, answer key and reviewed course assets
 
 The source folder contains exactly six files: DOCX, PDF, XLSX, PPTX, CSV and JSON. The derived reference dashboard snapshot is not an additional learner input.
 
