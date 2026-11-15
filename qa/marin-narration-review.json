@@ -36,5 +36,28 @@
     "Screen-reader reading order and status announcements",
     "Browser text zoom and remaining accessibility checks",
     "Five executive beginner pilot observations and final public release review"
-  ]
+  ],
+  "tfis_remote_checks": [
+    {
+      "name": "Cloudflare Pages",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://dash.cloudflare.com/?to=/9f6d389d3207d55276c726b09e2f8aed/pages/view/tfis/6a29c662-4db1-428f-837a-a024bf5dd4d7"
+    },
+    {
+      "name": "test-and-build",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/khalilhimura/tfis-website/actions/runs/43725429119/job/132846211329"
+    },
+    {
+      "name": "GitGuardian Security Checks",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://dashboard.gitguardian.com"
+    }
+  ],
+  "verification_without_private_pcm_cache": "passed; seven videos and 187 receipts",
+  "media_budget_regression_tests": 2,
+  "independent_code_review": "No blocking findings; aggregate duration guard added and tested after review"
 }

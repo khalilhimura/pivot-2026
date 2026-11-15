@@ -12,6 +12,7 @@
     "file-size limits",
     "video hashes",
     "scripts and slide specs",
+    "aggregate explanation duration budget",
     "completed OpenAI response receipts",
     "returned speech transcripts match approved text",
     "measured sentence boundaries",

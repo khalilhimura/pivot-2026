@@ -6,6 +6,11 @@ MEDIA=ROOT/'course-content/media'
 def seconds(t):
     h,m,s=t.split(':');return int(h)*3600+int(m)*60+float(s)
 
+def verify_duration_budget(lessons,source):
+    total=sum(item['duration_seconds'] for item in lessons)
+    assert total<=sum(item['instruction_minutes'] for item in source)*60,'Combined lesson videos exceed the explanation budget'
+    return total
+
 def main():
     global MEDIA
     parser=argparse.ArgumentParser();parser.add_argument('--media-dir',type=Path,default=MEDIA)
@@ -14,6 +19,7 @@ def main():
     manifest=json.loads((MEDIA/'manifest.json').read_text())
     source=json.loads((ROOT/'course-content/lessons.json').read_text())
     assert [v['id'] for v in manifest['lessons']]==list(range(7))
+    verify_duration_budget(manifest['lessons'],source)
     cached_pcm_verified=0
     for item,lesson in zip(manifest['lessons'],source):
         video=MEDIA/item['video']
@@ -56,6 +62,7 @@ def main():
         assert all(s['narration'] in transcript for s in lesson['slides'])
         for folder in ['scripts','slides']:assert (ROOT/f"course-content/{folder}/lesson-{item['id']}.md").exists()
     report={'status':'passed','lessons':7,'slides':sum(v['slide_count'] for v in manifest['lessons']),'total_video_seconds':sum(v['duration_seconds'] for v in manifest['lessons']),'checks':['H264/AAC 1280x720','audio/video durations','monotonic caption cues','caption words match source narration','source narration coverage','file-size limits','video hashes','scripts and slide specs'],'limitations':['No fresh Plus-account build or novice timing pilot is implied','Visual and listening reviews are separate from codec/timing checks']}
+    report['checks'].append('aggregate explanation duration budget')
     if all(item.get('provider')=='openai' for item in manifest['lessons']):
         report.update({'provider':'OpenAI','voice':'Marin','model':'gpt-realtime-2.1-mini','verified_speech_segments':sum(len(item['audio_segments']) for item in manifest['lessons'])})
         report['cached_pcm_files_verified']=cached_pcm_verified

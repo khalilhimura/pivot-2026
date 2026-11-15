@@ -4,7 +4,9 @@
 
 The 187 completed speech responses match the approved source words. All 187 local PCM hashes, sentence boundaries, rendered-video hashes, H264/AAC encoding, caption text/bounds and transcript coverage passed verification. FFmpeg fully decoded every video without errors. The clips total 914.383 seconds, about 15:14, within the 20-minute explanation budget. The 29 slides and approved scripts are unchanged.
 
-The 21 course/dashboard/speech tests pass. TFIS's local suite passes 337 tests and its build preserves all 53 course assets exactly. The original six-file data ZIP is unchanged. Rebuilding the portable dashboard ZIP changed its container bytes; every file inside it remains byte-identical.
+The 21 course/dashboard/speech tests pass, along with two aggregate media-budget regressions. The independent producer review found no blocking code issue; see `marin-code-review.md`. TFIS's local suite passes 337 tests and its build preserves all 53 course assets exactly. The original six-file data ZIP is unchanged. Rebuilding the portable dashboard ZIP changed its container bytes; every file inside it remains byte-identical.
+
+GitHub test-and-build, Cloudflare Pages and GitGuardian all passed for TFIS source `67fddd4712e449d3b7d0105b20d74c9f6f22fde4`. Evidence: `marin-tfis-ci.json`. A separate check with every raw-audio cache path absent verified the delivered videos/captions and all 187 stored receipts; see `marin-portability-verification.json`.
 
 ## Published previews
 
