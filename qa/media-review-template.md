@@ -1,6 +1,6 @@
 # Human media and accessibility review
 
-Current reference media: OpenAI Marin, seven clips totaling 15:14, ChatGPT course preview version 3. The owner selected the voice from samples. The full-clip review below remains pending.
+Current reference media: OpenAI Marin, seven clips totaling 15:14, ChatGPT course preview version 3. The owner selected the voice from samples. The owner accepted the new audio and screen-reader experience on 15 November 2026 and authorized release. The table below remains an optional detailed timecoded facilitator record; do not treat its blank cells as an unreported completed review.
 
 Reviewer and date:
 Course commit and Site version:
@@ -39,4 +39,8 @@ Producer follow-up on 15 November verified course 320px reflow, 200% browser zoo
 
 Browser, assistive technology, actual result and issue steps for each check:
 
-Release review decision: pending.
+Release review decision: owner approved on 15 November 2026. Detailed optional evidence fields remain unfilled.
+
+## Owner acceptance, 15 November 2026
+
+Owner-confirmed: new audio good, screen reader good, actual build good; verification complete for release. No new media file or detailed assistive-technology report accompanied the approval. Retain the blank per-clip and setup fields for later detail, and keep pilot outcomes separate.

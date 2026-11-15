@@ -1,0 +1,31 @@
+{
+  "source_commit": "4f2af52fc3a03b70563b80919dcbfb29806fe54d",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Cloudflare Pages",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://dash.cloudflare.com/"
+    },
+    {
+      "name": "CodeRabbit",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://app.coderabbit.ai/change-stack/khalilhimura/tfis-website/pull/125"
+    },
+    {
+      "name": "test-and-build",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/khalilhimura/tfis-website/actions/runs/43729323259/job/132858059403"
+    },
+    {
+      "name": "GitGuardian Security Checks",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://dashboard.gitguardian.com"
+    }
+  ],
+  "merge_authority": "Existing repository administrator. Main restricts updates to bypass actors; all checks and verified signatures satisfied; no rules changed."
+}

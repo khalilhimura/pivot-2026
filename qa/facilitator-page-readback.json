@@ -3,6 +3,6 @@
   "reviewed_date": "2026-11-15",
   "blocks": 41,
   "page_text_matches_local": true,
-  "local_runbook_sha256": "4727904faac93b4d11a5b9f84c42fba30b3046fba431c3313fcfeca92f4f1716",
-  "verification": "Complete 41-block native readback at sequence 4, normalized whitespace and heading levels; version 3, source commit and accessibility follow-up confirmed."
+  "local_runbook_sha256": "a0043306771880a96b3162ed4c68ca295f44ebdca3c43ae5e24d654eb103a2d3",
+  "verification": "Complete native readback at sequence 6; normalized whitespace/heading match. Owner approval, release source, public course route, private admin version 4 and scheduled pilots confirmed."
 }

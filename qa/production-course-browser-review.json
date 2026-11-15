@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-15",
+  "url": "https://thefutureissolo.com/pivot-2026/",
+  "entry": "Opened directly without login/enrollment",
+  "player": {
+    "lesson": 1,
+    "readyState": 4,
+    "duration_seconds": 93.2,
+    "observed_currentTime": 30.269495,
+    "paused_during_observation": false,
+    "captions": "English showing",
+    "paused_before_navigation": true
+  },
+  "transcript": "Lesson 1 transcript opened with expected five headings",
+  "dashboard": {
+    "june_all": [
+      "MYR600,000",
+      "40,000",
+      "38.00%",
+      "MYR66",
+      "36.00%",
+      "96.77%"
+    ],
+    "june_mobile": [
+      "MYR420,000",
+      "28,000",
+      "35.00%",
+      "MYR70",
+      "30.00%",
+      "95.79%"
+    ],
+    "mobile_target_scope": "No matching board target",
+    "all_plus20": [
+      "MYR132,000",
+      "2,000",
+      "760"
+    ],
+    "mobile_plus20": [
+      "MYR112,000",
+      "1,600",
+      "560"
+    ],
+    "january_prior_month": "Unavailable",
+    "restored": "June / All / 0%"
+  },
+  "brief": "Public fixed June/All decision brief opened; scope caveat retained",
+  "robots": "index,follow",
+  "canonical": "https://thefutureissolo.com/pivot-2026/",
+  "private_page_links_in_entry": 0,
+  "console_errors_warnings": [],
+  "final_state": "Returned to course entry, 0/7 test progress, scores untouched",
+  "screenshot": "qa/production-course-live.jpg",
+  "scope": "Producer browser smoke check, separate from owner acceptance and five pending executive pilots."
+}

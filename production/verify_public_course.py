@@ -43,6 +43,10 @@ def main():
         for link in re.findall(r'url\([\'"]?([^\)\'"\s]+)',css.read_text()):
             if not urlsplit(link).scheme:assert (css.parent/link).is_file(),f'Missing CSS asset {link}'
     course=pages[PUBLIC/'index.html']
+    entry=(PUBLIC/'index.html').read_text()
+    assert '<meta name="robots" content="index,follow">' in entry,'Released course must allow indexing'
+    assert 'Teaching draft:' not in entry,'Release entry must not retain the draft notice'
+    assert 'Planned 60-minute guided session' in entry,'Keep planned timing distinct from pilot results'
     assert len(course.videos)==7 and len(course.tracks)==7,'Seven captioned lessons required'
     assert all(v.get('preload')=='none' and 'controls' in v and 'autoplay' not in v for v in course.videos)
     assert all(t.get('kind')=='captions' and t.get('srclang')=='en' for t in course.tracks)

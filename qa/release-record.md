@@ -1,22 +1,31 @@
 # Release record
 
-Release decision: **hold as teaching draft**. Updated: 15 November 2026.
+Release decision: **deployed and verified** on 15 November 2026, Asia/Kuala_Lumpur, following the owner's explicit approval.
 
-The source pack, deterministic reference dashboard, private native Site/Page outputs and public-course staging assets exist. This is not yet a released, empirically validated executive course.
+## Owner acceptance
 
-## Outstanding gates
+The owner confirms the new Marin audio, screen-reader experience and actual build are good, states verification is done and instructs final deployment. This explicit approval supersedes the earlier requirement to wait for all five pilot outcomes before publishing. Evidence: `owner-release-approval-2026-11-15.json` and `production/rehearsal-log.md`.
 
-1. The owner reports a completed desktop rehearsal on 15 November 2026, supported by 12 screenshots and an 8/10 self-check. Native readback confirms an active version-2 Site and a substantive linked Board brief. See `production/rehearsal-log.md` and `qa/rehearsal-2026-11-15-evidence.json`. The owner confirms ChatGPT Plus, no recovery build and about 40 minutes. App version, source extraction coverage, exact post-preflight timing, waits, repairs and other assistance remain undocumented.
-2. Complete human pronunciation/listening, review the actual-build recording and test actual screen-reader reading order/status announcements. Representative responsive/media checks, native rubric keyboard selection, skip-link navigation, 200% browser zoom, 320px course reflow and dashboard filter/range/table keyboard checks are recorded in `responsive-keyboard-review.md`. A narrow demo-card overflow was fixed and retested in ChatGPT preview version 3. Repeat affected checks on the facilitator's supported setup.
-3. Review final production changes. The narrow-card fix is committed as `d1b05616e1eaa62f3a291ab2fbcbef4a680bebee` in draft PR #125. Sixteen course/dashboard checks and 114 local links passed. Cloudflare Pages, GitGuardian and the complete GitHub test-and-build job passed for this commit; evidence is in `qa/reflow-tfis-ci.json`. Earlier Marin CI evidence remains in `qa/marin-tfis-ci.json`. ChatGPT preview version 3 is deployed and its narrow-card fix was browser checked; version-2 Marin playback evidence remains valid because the seven media files are unchanged. No production merge or anonymous production course review has occurred.
-4. Verify the optional static export with a separate Cloudflare test deployment, or clearly keep provider deployment unverified in the guide.
-5. Conduct the five-person executive pilot and apply the published timing and rubric criteria.
-6. Audit all requirements and exact deployed versions before release. Remove draft/noindex status only when the final release decision supports the public promise.
+R01 used ChatGPT Plus, took about 40 minutes without a recovery build and scored 8/10 by owner self-check, supported by 12 screenshots and native Site/Page readback. These are owner-reported results. No new recording file, assistive-technology settings or timecoded media report accompanied final approval. Detailed unprovided metadata stays undocumented; it does not become an independently observed result.
 
-Reference native identities and versions are in `production/reference-output-register.json`. Numerical and behavior evidence is in `qa/acceptance-checklist.md` and the linked reports. Use actual observed results to update this record; no empty form counts as completed evidence.
+## Release source and deployment
 
-The owner requested a facilitator handover on 14 November 2026. `delivery/facilitator-handover.md` and its private native Page provide the rehearsal/pilot sequence, review access, control values, evidence return and release criteria. Observation forms remain pending. The handover does not grant an external facilitator access or authorize sending invitations.
+- Public learner URL: https://thefutureissolo.com/pivot-2026/.
+- Release source: `4f2af52fc3a03b70563b80919dcbfb29806fe54d` in PR #125. This GitHub-verified signed commit has the exact tested file tree `df541bb1eb6adc75d2e397a49c06784e5bb0a5e6`. Original local history is preserved in a backup ref; main's design-audit changes are included.
+- Local validation: 337 TFIS tests, production build, 16 publisher course/dashboard checks and 114 local links passed. All 53 release assets match TFIS source/build and the private admin Site source.
+- All four final checks passed: GitHub test-and-build, Cloudflare Pages, GitGuardian and CodeRabbit. PR #125 merged at 2026-11-15T15:31:13Z as `5556c4063e6ec09b7aa3335cdd61ebf555297ad0`, with the same verified tree. The existing maintainer merge path was required by the main update restriction; no branch rule was changed.
+- Cloudflare production deployment `f62107c1-0ce0-4981-b2c3-605dfd721152` succeeded for that exact commit. Public course URL opened without login or enrollment. All 53 files passed unauthenticated status/content checks. The 42 non-HTML files match exact bytes; 11 HTML pages match the approved bytes after removal of one known Cloudflare analytics injection and its newline. The source ZIP and all seven videos/captions passed hashes and media MIME checks.
+- Production browser smoke checks passed: lesson 1 playback and captions, transcript, June/All and June/Mobile metrics, 20% scenarios, January unavailable comparisons, fixed-scope brief, index/follow and canonical metadata. No console errors/warnings were observed. Evidence: `release-tfis-ci.json`, `tfis-release-merge.json`, `production-course-deployment.json`, `production-course-verification.json`, `production-course-browser-review.json` and `production-course-live.jpg`.
+- Private ChatGPT admin preview version 4 is deployed from `dd51ed6ca1d84dc810835a98471c979cecfb0114`, deployment `appgdep_6af9cd5c23a0819196be8bf5e66947f9`. Its owner-only access is retained. Facilitator and reference Pages also keep existing access.
 
-## Rehearsal follow-up
+The public release removes the teaching-draft notice and permits indexing on the entry and transcript pages. It keeps the planned 60-minute session wording. Videos total 15:14 and describe the reference example; no reference clip is represented as an actual ChatGPT build recording. Learners require no API key or extra service purchase.
 
-The owner reports awkward reference-video narration as the only usability issue. The owner selected OpenAI Marin after two comparison samples. All seven reference clips were rebuilt and published privately; 187 returned speech transcripts match the approved scripts, codec/timing/hash checks and full decoding pass, and representative hosted playback/captions work. Full human listening and perceptual caption review remain open. See `qa/marin-narration-review.md`. The screenshots establish progress through the course, not five pilot observations or a verified 60-minute novice result.
+The unchanged seven Marin videos passed complete decoding, codec/timing/hash checks and 187 returned speech-transcript/PCM receipt checks before owner acceptance. Representative hosted playback/captions, 320px reflow, 200% actual browser zoom, skip-link/rubric keyboard use and dashboard filter/range/table keyboard operation were checked. See `marin-narration-review.md`, `media-verification.json` and `responsive-keyboard-review.md`. Owner-confirmed screen-reader acceptance is distinct from producer automation; no formal WCAG certification is claimed.
+
+## Scheduled follow-up
+
+The five executive pilots are scheduled within the next 48 hours, by 17 November 2026 in Asia/Kuala_Lumpur. All five observation rows and elapsed-time/pass fields remain pending. The owner rehearsal is not counted among these pilots. The planned follow-up target remains four independent rubric passes within 60 minutes after preflight without extra purchases, with all five explaining verification and scenario limits. Revise and retest if actual observations do not support the plan.
+
+The optional separate GitHub/Cloudflare provider-setup exercise retains its unverified limitation. It is outside the ChatGPT-only core and does not block the owner's authorized course publication.
+
+The facilitator runbook, native Page and ZIP record this decision and the pilot evidence to return. Their presence grants no new access or invitations.

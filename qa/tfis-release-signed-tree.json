@@ -1,0 +1,14 @@
+{
+  "original_commit": "8a7fcaf34f5ed79eaeff184e346a18edb468717b",
+  "signed_commit": "4f2af52fc3a03b70563b80919dcbfb29806fe54d",
+  "tree": "df541bb1eb6adc75d2e397a49c06784e5bb0a5e6",
+  "temporary_branch": "codex/pivot-2026-release-signing",
+  "files": 61,
+  "signature": {
+    "isValid": true,
+    "state": "VALID",
+    "wasSignedByGitHub": true
+  },
+  "base": "2aa13c36e07bb8d0b8869baa55a8386b118b7634",
+  "previous_pr_head": "d1b05616e1eaa62f3a291ab2fbcbef4a680bebee"
+}

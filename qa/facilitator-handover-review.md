@@ -12,3 +12,9 @@ Updated 15 November 2026 after the owner supplied rehearsal evidence. The handov
 - The runbook preserves the 5/8/10/17/10/8/2 lesson allocation, rubric rules, at-least-four-of-five independent timing threshold, all-five verification/scenario understanding requirement and separate recovery classification.
 
 The seven videos now use the owner-selected Marin voice. Native ChatGPT preview version 2 and the Cloudflare preview carry the updated assets. Full human listening/perceptual caption review remains pending. No extra learner purchase is introduced.
+
+## Release update, 15 November 2026
+
+The owner has accepted the Marin audio, screen-reader experience and actual build, states verification is done and authorizes final deployment. The private admin preview is now version 4. The runbook and native facilitator Page record publication before the five scheduled pilots, with their outcomes still pending. Earlier draft gates above are historical. Current production evidence is in `qa/release-record.md`; the detailed Page text match and bundle manifest are regenerated for the release.
+
+Production publication is verified at https://thefutureissolo.com/pivot-2026/ from main 5556c4063e6ec09b7aa3335cdd61ebf555297ad0. All 53 unauthenticated asset checks and the production browser journey passed. The release handover contains 19 files, including owner acceptance and the current release record; native Page sequence 6 exactly matches the normalized local runbook. Five pilot rows remain pending.

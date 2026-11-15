@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-15",
+  "timezone": "Asia/Kuala_Lumpur",
+  "source": "Direct owner instruction in this chat",
+  "owner_statement": "New audio good. Screen reader good. Actual build good. 5 executive pilots in the next 48 hours. Verification done, proceed to final deployment steps",
+  "owner_confirmed": {
+    "marin_audio": true,
+    "screen_reader": true,
+    "actual_build": true,
+    "release_authorized": true
+  },
+  "pilot": {
+    "count": 5,
+    "status": "scheduled-results-pending",
+    "window": "within 48 hours of owner instruction, by 2026-11-17 Asia/Kuala_Lumpur",
+    "results_recorded": false
+  },
+  "decision": "Owner authorizes publication before the five pilot outcomes, superseding the earlier pre-release pilot gate. Planned timing remains distinct from observed novice performance.",
+  "evidence_limit": "No new recording, assistive-technology configuration or timecoded review was attached. Owner acceptance is not an independently instrumented test report."
+}

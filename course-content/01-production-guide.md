@@ -30,6 +30,6 @@ Do not claim that a local deterministic dashboard implementation proves that the
 
 ## Release sequence
 
-The course reader is staged under `delivery/public/pivot-2026/`, with a draft notice and noindex. It contains all essential learning text and downloadable materials without private Page access. Integrate this folder additively into the owning TFIS repository in an isolated checkout, check the site build and review the preview.
+The release reader is under `delivery/public/pivot-2026/`, without the draft notice and with indexing permitted. It contains all essential learning text and downloadable materials without private Page access. Integrate this folder additively into the owning TFIS repository in an isolated checkout, check the site build and review the preview.
 
-Complete the actual Plus rehearsal and the five-executive pilot before changing the draft/validation status. Record independent, assisted and walkthrough outcomes separately. A missed timing threshold requires a simpler build or a revised duration claim. Use `qa/acceptance-checklist.md` and `qa/release-record.md` for the final decision.
+On 15 November 2026, the owner confirmed the audio, screen-reader experience and actual build, stated verification is done and authorized release before the five executive pilots. This explicit decision supersedes the earlier pre-release pilot gate. The pilots are scheduled within 48 hours and their outcomes remain pending. Record independent, assisted and walkthrough outcomes separately. A missed timing threshold requires a simpler build or a revised duration claim. Use `qa/acceptance-checklist.md` and `qa/release-record.md` for the final decision.

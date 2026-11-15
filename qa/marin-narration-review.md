@@ -28,3 +28,7 @@ Keyboard checks in the local browser resolved native rubric selection using Alt+
 The API key is loaded directly from the ignored local `.env`; it is absent from course assets and manifests. Locked publisher dependencies are installed separately from learner inputs. Raw audio and temporary archives stay in the ignored production cache. Stored response receipts make the published-artifact checks portable without requiring that private cache.
 
 Structured results and recorded successful-response token usage are in `marin-narration-review.json`. Usage records are not a billing invoice. Learners need no API key or additional service purchase.
+
+## Owner acceptance and release instruction, 15 November 2026
+
+The owner confirms the new audio, screen-reader experience and actual build are good, states verification is done and authorizes final deployment. This closes the earlier owner-review gate by direct acceptance. No new timecoded media report or recording file accompanied the approval. Five executive pilots are scheduled within 48 hours; no pilot results are inferred. See `owner-release-approval-2026-11-15.json`.

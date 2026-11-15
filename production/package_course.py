@@ -20,6 +20,6 @@ with zipfile.ZipFile(TARGET,'w',zipfile.ZIP_DEFLATED) as z:
 with zipfile.ZipFile(TARGET) as z:
     assert z.testzip() is None
     assert len(z.namelist())==len(manifest)
-report={'status':'teaching-draft-review-bundle','target_url':'https://thefutureissolo.com/pivot-2026/','archive':TARGET.name,'archive_bytes':TARGET.stat().st_size,'archive_sha256':hashlib.sha256(TARGET.read_bytes()).hexdigest(),'files':manifest,'not_included':['Private author Page metadata','Producer source and internal media manifest','Actual fresh Plus build recording or pilot evidence'],'integration_status':'Staged only; no TFIS production deployment'}
+report={'status':'owner-approved-release-bundle','target_url':'https://thefutureissolo.com/pivot-2026/','archive':TARGET.name,'archive_bytes':TARGET.stat().st_size,'archive_sha256':hashlib.sha256(TARGET.read_bytes()).hexdigest(),'files':manifest,'not_included':['Private author Page metadata','Producer source and internal media manifest','Actual fresh Plus build recording or pilot evidence'],'integration_status':'Owner-authorized release; exact production deployment is recorded in qa/release-record.md'}
 (ROOT/'delivery/course-preview-manifest.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items() if k!='files'}|{'file_count':len(files)},indent=2))

@@ -55,3 +55,7 @@ The owner has confirmed Plus, no recovery build and about 40 minutes. App versio
 The owner identified awkward narration as the only reported usability issue. The owner subsequently selected Marin after comparing two OpenAI samples. All seven reference clips were rebuilt and privately published with Marin; full listening review remains assigned to the facilitator. Learners require no API key. See [narration replacement plan](narration-replacement-plan.md).
 
 Five real executive beginners still supply novice timing and independent-completion evidence. Their P01–P05 observation rows remain pending.
+
+## Owner verification and release approval, 15 November 2026
+
+The owner reports: "New audio good. Screen reader good. Actual build good." The owner states verification is done and instructs final deployment. These checks are accepted as owner-confirmed. No new recording file, assistive-technology configuration, timecoded review or independent pilot result was attached to this approval. Preserve those limits in the evidence record. The five executive pilots are scheduled in the next 48 hours; their outcomes remain pending.

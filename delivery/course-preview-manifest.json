@@ -1,9 +1,9 @@
 {
-  "status": "teaching-draft-review-bundle",
+  "status": "owner-approved-release-bundle",
   "target_url": "https://thefutureissolo.com/pivot-2026/",
   "archive": "pivot-2026-course-preview-v1.zip",
-  "archive_bytes": 14588372,
-  "archive_sha256": "c78d71128229fef5f7bc93f61ab2b0f623fc19f980c65320313cb0761ec22394",
+  "archive_bytes": 14588287,
+  "archive_sha256": "9dfe58181a40a13e88ab9ef021302430b7171c16cff30422c0769240e261b796",
   "files": [
     {
       "path": "public/pivot-2026/assets/fonts/Atkinson-Bold.woff2",
@@ -103,7 +103,7 @@
     {
       "path": "public/pivot-2026/files/aura-static-dashboard-v1.zip",
       "bytes": 167416,
-      "sha256": "504bf33c86bfd4b99f6517f180e74ba0f25bcce7101924e68937d14f2f806219"
+      "sha256": "2660e981236a448da5f0abefff6eae564d873aa8b17b8480c7e744030938d8c6"
     },
     {
       "path": "public/pivot-2026/files/checkpoints.md",
@@ -122,8 +122,8 @@
     },
     {
       "path": "public/pivot-2026/index.html",
-      "bytes": 39415,
-      "sha256": "beff6cd2c4d8572494b9174d442a6af55f9fb301a3af653c9240e60cdb71727a"
+      "bytes": 39209,
+      "sha256": "f47934e74f54b12b20e153a2c94821db1435971c00dae9b599392081566f0f5e"
     },
     {
       "path": "public/pivot-2026/media/lesson-0-poster.png",
@@ -232,43 +232,43 @@
     },
     {
       "path": "public/pivot-2026/optional-hosting.html",
-      "bytes": 5891,
-      "sha256": "a04e1ff4af0b816722869844ef04d453586f8a81c9008c7fdc09e69004ceff43"
+      "bytes": 5889,
+      "sha256": "97e19aa23b5db1f8b1adc8f99fd0ab468658266c6ed95a29f3ac6a0fcfa656d9"
     },
     {
       "path": "public/pivot-2026/transcripts/lesson-0.html",
-      "bytes": 2069,
-      "sha256": "10bfdce64c4800b218c201aff7ae7e9556fd5b835c01f6815b067e856c051da8"
+      "bytes": 2067,
+      "sha256": "c78157a620cc7b862089c774ba2432b5400449346e0927778b4e7856cc58a949"
     },
     {
       "path": "public/pivot-2026/transcripts/lesson-1.html",
-      "bytes": 2854,
-      "sha256": "8355bd56dae33172e2a2bc351cb8a38d02e1a5c551dd2302b0c2a75b664f9266"
+      "bytes": 2852,
+      "sha256": "22a18158e4c79b4845905692091abb998962103f6c631c5bfeaf5c996232008e"
     },
     {
       "path": "public/pivot-2026/transcripts/lesson-2.html",
-      "bytes": 3733,
-      "sha256": "3752cbfd26cf8ce26017b0dd606675c6bb86570c56239a54ef8667fa5663a506"
+      "bytes": 3731,
+      "sha256": "5a5c7a6206a7271f6e56396a7999ffa6b55d678dc2c450e07379dd88fc14502d"
     },
     {
       "path": "public/pivot-2026/transcripts/lesson-3.html",
-      "bytes": 4213,
-      "sha256": "2be2cb018fa13144564cb4712edc858a71945db97ab571ee36cfb24d1a3ed1b7"
+      "bytes": 4211,
+      "sha256": "94ac8bc872063f1797d971aebe4197b71c710f18ecf01974e3b2da4a1b0a6cd2"
     },
     {
       "path": "public/pivot-2026/transcripts/lesson-4.html",
-      "bytes": 2833,
-      "sha256": "22580b36224b893b95bb05e7fb13b25b864d7d58d916cb62cf068aee7b31a493"
+      "bytes": 2831,
+      "sha256": "e8cbecaa763c8abfda7c82d718ad8b96de7622ed5c385f69bdb7816c269f6a51"
     },
     {
       "path": "public/pivot-2026/transcripts/lesson-5.html",
-      "bytes": 2046,
-      "sha256": "d33cb83ef588c88e455215744889c688319effbf31d10563e4be65fbdb73b7d8"
+      "bytes": 2044,
+      "sha256": "04be2c034afed4fb36cf31bec57ab9f737862f7de55709f33d9c35daafcc77df"
     },
     {
       "path": "public/pivot-2026/transcripts/lesson-6.html",
-      "bytes": 1304,
-      "sha256": "82fd092c5e7f199ac19026c8b7bdd4a3efe38172130c97b5dd718b30dde69d67"
+      "bytes": 1302,
+      "sha256": "e09c3ce0b71460e811f69d0d879d9dbd723abf7616e81465fed6f7a02a9e4ce0"
     }
   ],
   "not_included": [
@@ -276,5 +276,5 @@
     "Producer source and internal media manifest",
     "Actual fresh Plus build recording or pilot evidence"
   ],
-  "integration_status": "Staged only; no TFIS production deployment"
+  "integration_status": "Owner-authorized release; exact production deployment is recorded in qa/release-record.md"
 }

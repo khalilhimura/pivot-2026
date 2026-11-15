@@ -44,17 +44,17 @@
     "project_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90",
     "url": "https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site",
     "status": "succeeded",
-    "version_number": 3,
-    "version_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90~appgver_d4114c122cec819189ea234c83e08928",
-    "deployment_id": "appgdep_6af9c903aeb081918a515da7c1a34562",
-    "commit_sha": "54367c659a90c6c166f98ec1afd4de0b753a7f33",
+    "version_number": 4,
+    "version_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90~appgver_bdf4db5002cc8191823a0025f2fa6bf9",
+    "deployment_id": "appgdep_6af9cd5c23a0819196be8bf5e66947f9",
+    "commit_sha": "dd51ed6ca1d84dc810835a98471c979cecfb0114",
     "audience": "owner-only",
     "owner_email": "khalil@mesolitica.com",
-    "equivalent_cloudflare_preview": "https://ab7797c0.tfis.pages.dev/pivot-2026/",
+    "equivalent_cloudflare_preview": "https://feat-pivot-2026-course.tfis.pages.dev/pivot-2026/",
     "cloudflare_identity": "khalil.himura@gmail.com",
-    "verification": "qa/responsive-keyboard-review.md",
-    "cloudflare_deployment_id": "ab7797c0-67fa-41d0-9a71-bfd161101e1c",
-    "tfis_source_commit": "d1b05616e1eaa62f3a291ab2fbcbef4a680bebee"
+    "verification": "qa/owner-release-approval-2026-11-15.json",
+    "tfis_source_commit": "4f2af52fc3a03b70563b80919dcbfb29806fe54d",
+    "cloudflare_deployment_id": "fe2c0b9f-5f6b-4151-9da1-19cdd0160777"
   },
   "facilitator_handover": {
     "page_id": "page_a1c72e45615081919a45d04a7eda2dde",
@@ -97,6 +97,35 @@
       "verification": "qa/marin-narration-review.md",
       "cloudflare_deployment_id": "6a29c662-4db1-428f-837a-a024bf5dd4d7",
       "tfis_source_commit": "67fddd4712e449d3b7d0105b20d74c9f6f22fde4"
+    },
+    {
+      "project_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90",
+      "url": "https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site",
+      "status": "succeeded",
+      "version_number": 3,
+      "version_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90~appgver_d4114c122cec819189ea234c83e08928",
+      "deployment_id": "appgdep_6af9c903aeb081918a515da7c1a34562",
+      "commit_sha": "54367c659a90c6c166f98ec1afd4de0b753a7f33",
+      "audience": "owner-only",
+      "owner_email": "khalil@mesolitica.com",
+      "equivalent_cloudflare_preview": "https://ab7797c0.tfis.pages.dev/pivot-2026/",
+      "cloudflare_identity": "khalil.himura@gmail.com",
+      "verification": "qa/responsive-keyboard-review.md",
+      "cloudflare_deployment_id": "ab7797c0-67fa-41d0-9a71-bfd161101e1c",
+      "tfis_source_commit": "d1b05616e1eaa62f3a291ab2fbcbef4a680bebee"
     }
-  ]
+  ],
+  "production_course": {
+    "url": "https://thefutureissolo.com/pivot-2026/",
+    "status": "deployed-and-verified",
+    "release_source_commit": "4f2af52fc3a03b70563b80919dcbfb29806fe54d",
+    "pr": "https://github.com/khalilhimura/tfis-website/pull/125",
+    "pilot_status": "scheduled-results-pending",
+    "production_commit": "5556c4063e6ec09b7aa3335cdd61ebf555297ad0",
+    "deployment_id": "f62107c1-0ce0-4981-b2c3-605dfd721152",
+    "deployment_url": "https://f62107c1.tfis.pages.dev",
+    "verification": "qa/production-course-verification.json",
+    "browser_verification": "qa/production-course-browser-review.json",
+    "anonymous_files_passed": 53
+  }
 }

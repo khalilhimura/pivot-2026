@@ -14,6 +14,8 @@ SOURCES = {
     'facilitator/answer-key.md': 'production/answer-key.md',
     'facilitator/rehearsal-log.md': 'production/rehearsal-log.md',
     'facilitator/rehearsal-evidence.json': 'qa/rehearsal-2026-11-15-evidence.json',
+    'facilitator/owner-release-approval.json': 'qa/owner-release-approval-2026-11-15.json',
+    'facilitator/release-record.md': 'qa/release-record.md',
     'facilitator/media-review.md': 'qa/media-review-template.md',
     'facilitator/pilot/observer-guide.md': 'qa/pilot/observer-guide.md',
     'facilitator/pilot/observations.csv': 'qa/pilot/observations.csv',
@@ -32,20 +34,21 @@ def sha(data):
 
 data = {dest: (ROOT / source).read_bytes() for dest, source in SOURCES.items()}
 data['START-HERE.txt'] = f'''TFIS Pivot 2026 facilitator handover
-Status: teaching draft; owner Plus rehearsal completed, executive pilot pending.
+Status: owner-approved release; executive pilots scheduled, results pending.
 Owner report: about 40 minutes, no recovery build, self-check 8/10.
 
 Read facilitator/runbook.md or the private editable Page:
 {PAGE}
 
-The owner must arrange authorized preview access for the facilitator.
+Public course: https://thefutureissolo.com/pivot-2026/
+Admin previews and the facilitator Page keep their existing private access.
 Do not share owner credentials. No invitations or new access grants are included.
 
 1. Review facilitator/rehearsal-log.md and rehearsal-evidence.json; close evidence gaps.
-2. Listen/review every clip and complete facilitator/media-review.md.
+2. Read owner-release-approval.json and release-record.md; record any new media issues.
 3. Observe five executive beginners using facilitator/pilot/observer-guide.md.
 4. Copy the run-notes template for each run; complete observations.csv and pilot-results.md.
-5. Return actual evidence to the owner for revision and release review.
+5. Return actual evidence to the owner for follow-up revisions.
 
 Learner inputs: extract ONLY learner/aura-course-data-v1.zip into the Aura folder.
 It contains exactly six original synthetic files. Keep facilitator answers outside it.
@@ -55,7 +58,7 @@ publisher/pivot-2026-course-preview-v1.zip contains the reviewed 53-file static
 course overlay for an HTTP host. It is not a runnable desktop app or a prerequisite
 for learners. Use the owner-authorized hosted preview during the normal session.
 
-The native Page and both previews remain private. Public course release is pending.
+The native Page and admin previews remain private. Use the public course for pilots.
 manifest.json records all included file hashes; it contains no credentials.
 '''.encode()
 
@@ -72,17 +75,22 @@ rows = list(csv.DictReader(io.StringIO(data['facilitator/pilot/observations.csv'
 assert len(rows) == 5 and all(r['outcome'] == 'pending' for r in rows)
 assert all(r['total_minutes'] == '' and r['independent_60min_pass'] == '' for r in rows)
 
+reference = json.loads((ROOT / 'production/reference-output-register.json').read_text())
+release = reference['production_course']
+assert release['status'] == 'deployed-and-verified'
 manifest = {
     'title': 'TFIS Pivot 2026 facilitator handover',
-    'status': 'teaching-draft-human-validation-pending',
+    'status': 'owner-approved-release-pilot-results-pending',
     'prepared_date': '2026-11-14',
     'updated_date': '2026-11-15',
     'owner_rehearsal': {'account': 'ChatGPT Plus', 'approximate_minutes': 40,
                         'recovery_build_used': False, 'self_check': 8,
                         'duration_basis': 'owner report'},
     'editable_page': PAGE,
-    'course_commit': 'd1b05616e1eaa62f3a291ab2fbcbef4a680bebee',
-    'chatgpt_course_preview_version': 3,
+    'course_commit': release['release_source_commit'],
+    'production_commit': release['production_commit'],
+    'production_url': release['url'],
+    'chatgpt_course_preview_version': reference['admin_course_preview']['version_number'],
     'files': [{'path': p, 'bytes': len(b), 'sha256': sha(b)} for p, b in sorted(data.items())],
 }
 data['manifest.json'] = (json.dumps(manifest, indent=2) + '\n').encode()
@@ -104,7 +112,7 @@ report = {
     'archive': TARGET.name, 'archive_bytes': TARGET.stat().st_size,
     'archive_sha256': sha(TARGET.read_bytes()), 'file_count': len(data),
     'exact_source_bytes': True, 'learner_source_count': 6,
-    'public_course_asset_count': 53, 'pilot_rows': 5, 'pilot_status': 'pending',
+    'public_course_asset_count': 53, 'pilot_rows': 5, 'pilot_status': 'scheduled-results-pending',
     'page_id': 'page_a1c72e45615081919a45d04a7eda2dde',
     'page_readback_blocks': page_review['blocks'],
     'page_text_matches_local': page_review['page_text_matches_local'],
