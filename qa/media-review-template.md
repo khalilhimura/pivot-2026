@@ -1,5 +1,7 @@
 # Human media and accessibility review
 
+Current reference media: OpenAI Marin, seven clips totaling 15:14, ChatGPT course preview version 2. The owner selected the voice from samples. The full-clip review below remains pending.
+
 Reviewer and date:
 Course commit and Site version:
 Desktop browser and operating system:

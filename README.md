@@ -12,7 +12,7 @@ The course is a teaching draft. The detailed plan, six-file synthetic dataset, p
 
 | Preview | Admin sign-in |
 | --- | --- |
-| [Cloudflare course preview](https://9a3eda9a.tfis.pages.dev/pivot-2026/) | Cloudflare Access: `khalil.himura@gmail.com` |
+| [Cloudflare course preview](https://6a29c662.tfis.pages.dev/pivot-2026/) | Cloudflare Access: `khalil.himura@gmail.com` |
 | [Private ChatGPT course preview](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site) | Sign in with ChatGPT: `khalil@mesolitica.com` |
 
 Both hosted previews are private admin review routes. A facilitator using another account needs the owner's access arrangement. The participant course is intended to be free and ungated at release; learners use their own ChatGPT Plus accounts for the build.
@@ -47,7 +47,7 @@ The facilitator should review the [completed owner rehearsal and remaining confi
 
 The source folder contains exactly six files: DOCX, PDF, XLSX, PPTX, CSV and JSON. The derived reference dashboard snapshot is not an additional learner input.
 
-The owner requested more natural narration after the rehearsal. The [OpenAI narration replacement plan](production/narration-replacement-plan.md) is prepared; no replacement audio has been generated or deployed yet. The facilitator ZIP and native Page now include the completed owner rehearsal and remaining checks. The videos themselves are unchanged.
+The owner requested more natural narration after the rehearsal. The owner selected Marin after comparing OpenAI samples. All seven lessons now use Marin in [ChatGPT preview version 2](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site). [Media verification and remaining listening review](qa/marin-narration-review.md) are recorded. The facilitator ZIP and Page include the rehearsal result and updated media instructions.
 
 ## Publisher workflow
 
@@ -61,7 +61,7 @@ Use the Codex bundled Node/Python runtimes returned by `load_workspace_dependenc
 6. Build reference slides with `production/build_lesson_slides.mjs`, then narration with `production/build_course_media.py`; inspect the slides and verify with `production/verify_course_media.py`.
 7. Build the staged reader with `production/build_course.mjs`; run `production/verify_public_course.py` and bundled Node with `--test production/course-ui.test.mjs`.
 
-The seven reference videos total about 14 minutes 44 seconds. They use synthetic narration and explain the supplied example; they do not substitute for a recorded fresh ChatGPT build. Human listening review and the real executive timing pilot remain required. The course still carries a draft notice and noindex.
+The seven reference videos total about 15 minutes 14 seconds. They use synthetic narration and explain the supplied example; they do not substitute for a recorded fresh ChatGPT build. Human listening review and the real executive timing pilot remain required. The course still carries a draft notice and noindex.
 
 Render and visually inspect regenerated Office/PDF assets before updating the public ZIP. Refresh the dashboard's derived data/source copies explicitly; changes in the original folder do not change the deployed Site automatically.
 

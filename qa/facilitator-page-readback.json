@@ -3,6 +3,6 @@
   "reviewed_date": "2026-11-15",
   "blocks": 41,
   "page_text_matches_local": true,
-  "local_runbook_sha256": "c3205e6251758d9663aec99ccf12f75eb1d70f4912461fdf8039d22abe1dd31a",
-  "verification": "Complete native Page readback; whitespace and heading levels normalized; rendered review remains the prior unchanged layout review."
+  "local_runbook_sha256": "64eae722f6694ab9f21533b6b13c5d58e165fa80bcbfe97fddbaab020c0a84e2",
+  "verification": "Complete native Page readback with whitespace and heading-level normalization; Marin version, duration and new Cloudflare preview link confirmed."
 }

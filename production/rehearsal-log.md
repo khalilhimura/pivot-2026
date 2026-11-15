@@ -52,6 +52,6 @@ A complete 16-block Page readback confirmed June/All scope, dates, source versio
 
 The owner has confirmed Plus, no recovery build and about 40 minutes. App version, exact post-preflight start/finish, cumulative waits, repair prompts and any other assistance remain undocumented. Retain extraction evidence for all six originals, including all workbook tabs and PowerPoint slides; listing filenames alone is insufficient. A recording with reviewed captions/transcript and remaining manual accessibility checks are still open.
 
-The owner identified awkward narration as the only reported usability issue. Replace the current macOS Samantha reference narration through a producer-only OpenAI speech workflow after a voice sample can be generated and assessed. Learners require no API key. See [narration replacement plan](narration-replacement-plan.md).
+The owner identified awkward narration as the only reported usability issue. The owner subsequently selected Marin after comparing two OpenAI samples. All seven reference clips were rebuilt and privately published with Marin; full listening review remains assigned to the facilitator. Learners require no API key. See [narration replacement plan](narration-replacement-plan.md).
 
 Five real executive beginners still supply novice timing and independent-completion evidence. Their P01–P05 observation rows remain pending.

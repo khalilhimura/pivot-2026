@@ -1,277 +1,277 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:01.294
+00:00:00.000 --> 00:00:01.350
 Run Prompt two.
 
 2
-00:00:01.294 --> 00:00:08.021
+00:00:01.350 --> 00:00:07.125
 Ask ChatGPT to prepare a metric contract
 for revenue, transacting customers,
 
 3
-00:00:08.021 --> 00:00:12.914
+00:00:07.125 --> 00:00:11.325
 thirty-day activation, acquisition cost,
 contribution margin and transaction
 
 4
-00:00:12.914 --> 00:00:13.525
+00:00:11.325 --> 00:00:11.850
 success.
 
 5
-00:00:13.525 --> 00:00:19.365
+00:00:11.850 --> 00:00:17.619
 For each one, inspect the formula, unit,
 source location, reporting date and
 
 6
-00:00:19.365 --> 00:00:19.852
+00:00:17.619 --> 00:00:18.100
 owner.
 
 7
-00:00:19.852 --> 00:00:23.306
+00:00:18.100 --> 00:00:22.350
 A convincing card can still use the wrong
 denominator.
 
 8
-00:00:23.306 --> 00:00:26.629
+00:00:22.350 --> 00:00:25.300
 You approve the contract before building
 the interface.
 
 9
-00:00:26.629 --> 00:00:31.186
+00:00:25.300 --> 00:00:30.180
 Treat missing inputs as missing; do not
 let a plausible zero hide
 
 10
-00:00:31.186 --> 00:00:32.326
+00:00:30.180 --> 00:00:31.400
 an extraction problem.
 
 11
-00:00:32.326 --> 00:00:36.528
+00:00:31.400 --> 00:00:35.400
 When a required denominator is zero, the
 rate is unavailable.
 
 12
-00:00:36.528 --> 00:00:38.259
+00:00:35.400 --> 00:00:36.900
 Start with June revenue.
 
 13
-00:00:38.259 --> 00:00:42.866
+00:00:36.900 --> 00:00:41.625
 The finance workbook records one hundred
 and eighty thousand ringgit for
 
 14
-00:00:42.866 --> 00:00:47.055
+00:00:41.625 --> 00:00:45.920
 web-acquired customers and four hundred
 and twenty thousand for mobile-acquired
 
 15
-00:00:47.055 --> 00:00:47.474
+00:00:45.920 --> 00:00:46.350
 customers.
 
 16
-00:00:47.474 --> 00:00:50.477
+00:00:46.350 --> 00:00:49.550
 Together they produce six hundred thousand
 ringgit.
 
 17
-00:00:50.477 --> 00:00:54.962
+00:00:49.550 --> 00:00:53.783
 Revenue is Aura's company fee income, not
 money held in customer wallets
 
 18
-00:00:54.962 --> 00:00:57.205
+00:00:53.783 --> 00:00:55.900
 or the total value of payments.
 
 19
-00:00:57.205 --> 00:01:01.247
+00:00:55.900 --> 00:01:00.250
 Variable costs total three hundred and
 eighty-four thousand ringgit.
 
 20
-00:01:01.247 --> 00:01:06.121
+00:01:00.250 --> 00:01:04.760
 Revenue less those costs leaves two
 hundred and sixteen thousand in
 
 21
-00:01:06.121 --> 00:01:07.893
+00:01:04.760 --> 00:01:06.400
 contribution, or thirty-six percent.
 
 22
-00:01:07.893 --> 00:01:12.745
+00:01:06.400 --> 00:01:10.686
 Acquisition spending and fixed overhead
 are excluded, so this margin is not
 
 23
-00:01:12.745 --> 00:01:13.553
+00:01:10.686 --> 00:01:11.400
 net profit.
 
 24
-00:01:13.553 --> 00:01:16.863
+00:01:11.400 --> 00:01:14.800
 June has ten thousand newly verified
 customers.
 
 25
-00:01:16.863 --> 00:01:21.088
+00:01:14.800 --> 00:01:19.433
 Three thousand eight hundred of that
 acquisition-month cohort complete their
 
 26
-00:01:21.088 --> 00:01:23.201
+00:01:19.433 --> 00:01:21.750
 first transaction within thirty days.
 
 27
-00:01:23.201 --> 00:01:25.913
+00:01:21.750 --> 00:01:24.950
 Activation is therefore thirty-eight
 percent.
 
 28
-00:01:25.913 --> 00:01:30.293
+00:01:24.950 --> 00:01:30.027
 The acquisition budget spent in June is
 six hundred and sixty thousand
 
 29
-00:01:30.293 --> 00:01:30.658
+00:01:30.027 --> 00:01:30.450
 ringgit.
 
 30
-00:01:30.658 --> 00:01:35.885
+00:01:30.450 --> 00:01:35.507
 Dividing by new verified customers gives a
 cost of sixty-six ringgit per
 
 31
-00:01:35.885 --> 00:01:36.756
+00:01:35.507 --> 00:01:36.350
 verified customer.
 
 32
-00:01:36.756 --> 00:01:41.849
+00:01:36.350 --> 00:01:41.104
 Dividing by activated customers gives
 about one hundred and seventy-four ringgit
 
 33
-00:01:41.849 --> 00:01:43.238
+00:01:41.104 --> 00:01:42.400
 per activated customer.
 
 34
-00:01:43.238 --> 00:01:47.634
+00:01:42.400 --> 00:01:46.900
 These measures use different denominators
 and must retain their own labels.
 
 35
-00:01:47.634 --> 00:01:52.413
+00:01:46.900 --> 00:01:51.523
 Monthly transacting customers include
 older acquisition cohorts and answer
 
 36
-00:01:52.413 --> 00:01:53.475
+00:01:51.523 --> 00:01:52.550
 another question.
 
 37
-00:01:53.475 --> 00:01:55.268
+00:01:52.550 --> 00:01:54.150
 Now check reliability.
 
 38
-00:01:55.268 --> 00:01:59.887
+00:01:54.150 --> 00:01:58.659
 Web-origin customers account for
 ninety-five thousand completions from
 
 39
-00:01:59.887 --> 00:02:01.619
+00:01:58.659 --> 00:02:00.350
 ninety-six thousand attempts.
 
 40
-00:02:01.619 --> 00:02:06.510
+00:02:00.350 --> 00:02:04.556
 Mobile-origin customers account for two
 hundred and five thousand completions from
 
 41
-00:02:06.510 --> 00:02:09.179
+00:02:04.556 --> 00:02:06.850
 two hundred and fourteen thousand
 attempts.
 
 42
-00:02:09.179 --> 00:02:12.215
+00:02:06.850 --> 00:02:10.700
 Add the completions and attempts before
 dividing.
 
 43
-00:02:12.215 --> 00:02:17.126
+00:02:10.700 --> 00:02:15.725
 Three hundred thousand divided by three
 hundred and ten thousand gives ninety-six
 
 44
-00:02:17.126 --> 00:02:18.763
+00:02:15.725 --> 00:02:17.400
 point seven seven percent.
 
 45
-00:02:18.763 --> 00:02:22.755
+00:02:17.400 --> 00:02:21.225
 A simple average of the two origin
 percentages would give the smaller
 
 46
-00:02:22.755 --> 00:02:24.086
+00:02:21.225 --> 00:02:22.500
 group too much weight.
 
 47
-00:02:24.086 --> 00:02:29.359
+00:02:22.500 --> 00:02:27.500
 Incident duration in minutes is context;
 it is not the denominator for
 
 48
-00:02:29.359 --> 00:02:30.677
+00:02:27.500 --> 00:02:28.750
 this transaction-success measure.
 
 49
-00:02:30.677 --> 00:02:32.309
+00:02:28.750 --> 00:02:30.550
 Compare June with May.
 
 50
-00:02:32.309 --> 00:02:37.453
+00:02:30.550 --> 00:02:35.669
 Activation falls from forty-two to
 thirty-eight percent, a decline of four
 
 51
-00:02:37.453 --> 00:02:38.388
+00:02:35.669 --> 00:02:36.600
 percentage points.
 
 52
-00:02:38.388 --> 00:02:41.704
+00:02:36.600 --> 00:02:39.800
 That is different from a four percent
 relative decline.
 
 53
-00:02:41.704 --> 00:02:47.056
+00:02:39.800 --> 00:02:44.788
 Cost per verified customer rises from
 fifty-four to sixty-six ringgit, a rise
 
 54
-00:02:47.056 --> 00:02:48.840
+00:02:44.788 --> 00:02:46.450
 of about twenty-two percent.
 
 55
-00:02:48.840 --> 00:02:53.616
+00:02:46.450 --> 00:02:51.204
 Pause the lesson and compare revenue,
 activation and success with the control
 
 56
-00:02:53.616 --> 00:02:54.014
+00:02:51.204 --> 00:02:51.600
 card.
 
 57
-00:02:54.014 --> 00:02:58.266
+00:02:51.600 --> 00:02:55.886
 Open at least one original source location
 in the app and explain
 
 58
-00:02:58.266 --> 00:02:58.975
+00:02:55.886 --> 00:02:56.600
 its arithmetic.
 
 59
-00:02:58.975 --> 00:03:04.299
+00:02:56.600 --> 00:03:02.200
 If a result differs, trace the source,
 formula and scope before proceeding.
 
 60
-00:03:04.299 --> 00:03:08.033
+00:03:02.200 --> 00:03:06.000
 Approve the contract only after those
 checks reconcile.

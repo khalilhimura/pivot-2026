@@ -1,29 +1,26 @@
-# OpenAI narration replacement
+# OpenAI narration replacement record
 
-Prepared 15 November 2026. Status: proposed production change; no replacement audio generated. Existing seven videos and deployed previews remain unchanged.
+Updated 15 November 2026. The owner selected Marin after comparing Marin and Cedar samples. All seven reference videos have been rebuilt and published to the existing private ChatGPT course preview, version 2. Full-clip human listening review remains pending.
 
-## Intended result
+## Result and constraints
 
-Replace the macOS Samantha voice with natural AI narration for the seven reference lessons. Retain the approved scripts, 29 slides, captions, transcripts, synthetic-voice disclosure and the course explanation budget. Learners still use only ChatGPT desktop and Plus. API usage is a publisher task.
+The new media uses OpenAI `gpt-realtime-2.1-mini`, Marin and the calm teaching instructions used in the selected sample. The approved scripts, 29 slides and business definitions are unchanged. The seven clips total 15 minutes 14 seconds, within the 20-minute explanation budget. Learners still use ChatGPT desktop and Plus; speech generation is a publisher task.
 
-## Proposed approach
+The current OpenAI guide recommends Realtime for new speech integrations. The older `gpt-4o-mini-tts` Speech API workflow shuts down on 6 January 2027; the replacement model cannot be passed to `/v1/audio/speech`.
 
-Generate the same short sample in Marin and Cedar, using a calm, conversational teaching delivery with pauses around financial figures. Choose the voice after listening to an actual sample. OpenAI recommends these voices for quality in its speech guide. The owner's request selects OpenAI; a new voice provider or custom cloned voice is unnecessary.
+## Publisher workflow
 
-The current OpenAI guide recommends `gpt-realtime-2.1-mini` through the Realtime API for new integrations. The old `gpt-4o-mini-tts` Speech API workflow is deprecated, with shutdown scheduled for 6 January 2027. The replacement model cannot be passed to `/v1/audio/speech`.
+Use Node 24 and the bundled Python runtime. Install the locked publisher dependencies with `npm ci --prefix qa/runtime`. Run `production/build_course_media.py --provider openai --env-file /private/path/.env --node /path/to/node24`. The local ignored file supplies `OPENAI_API_KEY`; no credential enters a video, browser asset or generated manifest. Both repository ignore rules cover `.env` and `.env.*`.
 
-Use the existing Vault credential through a supported binding or command, once available. This session exposes no Vault inventory/read tool, its shell has no `OPENAI_API_KEY`, and desktop computer control cannot open the ChatGPT app. No Vault entry name, key value, billing entitlement or API access has been verified. Do not infer that Vault is empty. Do not include credentials in source, browser assets, generated manifests or logs.
+Generation caches exact text/model/voice/instruction combinations and writes successful WAV files atomically. Each sentence must have a completed response, valid PCM and a returned transcript matching the approved words. Incomplete, empty, added/omitted-word and changed-figure responses fail before publication, with no automatic paid retry. Sentences are generated with bounded concurrency and assembled in script order. Receipts remain in the internal media manifest so delivered artifacts can be verified without requiring a private raw-audio cache.
 
-## Sample and production sequence
+Captions use measured sentence boundaries and short word groups. Full human review still checks pronunciation, cadence and perceptual caption timing; transcript matching alone does not establish those qualities.
 
-1. Make one short comparison sample per voice using approved narration, including Aura, ringgit, a percentage and a scenario caveat. Review pronunciation and pace.
-2. Generate cached audio in script order. Keep model, voice, delivery instructions, script hash and usage metadata with the cache. Write completed files atomically and preserve them across retries.
-3. Check the generated spoken transcript against the approved script. Realtime generation must not add an introduction, omit a caveat or change a number. Reject altered content before using it in a video.
-4. Rebuild slide durations and caption cues from the new audio. Review caption alignment by listening; proportional word timing alone is insufficient evidence of accurate alignment.
-5. Verify all seven clips for audio/video duration, full decoding, transcript coverage, caption bounds, hashes and explanation budget. Listen to every clip and record timecodes for any defect.
-6. Refresh the static course, duration labels, manifests, course ZIP and facilitator ZIP together. Update the handover and native Page with the rehearsal result. Keep access unchanged and update the existing private preview identity.
+## Verification and remaining work
 
-The sample comparison and all-video listening review are not yet done. No API charge or cost estimate is claimed. Record actual usage and consult the current rate card before the full render.
+All seven clips pass encoding, duration, caption text/bounds, source coverage, hash checks and full decoding. All 187 returned speech transcripts match the scripts and all local PCM hashes were verified. Five speech safeguards and the existing 16 course/dashboard tests pass. TFIS's local suite passes 337 tests and its build preserves all 53 assets. See [media review](https://github.com/khalilhimura/pivot-2026/blob/main/qa/marin-narration-review.md).
+
+Representative hosted playback and English captions work. Owner access is unchanged. The facilitator Page and portable handover carry the new media version and the owner's separate Plus rehearsal result. Five executive pilot observations, full human listening, remaining accessibility checks and final public release review remain open.
 
 ## Sources checked
 

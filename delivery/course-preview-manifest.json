@@ -2,8 +2,8 @@
   "status": "teaching-draft-review-bundle",
   "target_url": "https://thefutureissolo.com/pivot-2026/",
   "archive": "pivot-2026-course-preview-v1.zip",
-  "archive_bytes": 14555560,
-  "archive_sha256": "2d111a15a7e6e061477cd900ca4325fca7e230df83b7572dafc54a9880abbf2a",
+  "archive_bytes": 14588321,
+  "archive_sha256": "3d6b8fbca2d0ab863d1673e27b5b28e8c033b685af571ac37a436e36629bd95b",
   "files": [
     {
       "path": "public/pivot-2026/assets/fonts/Atkinson-Bold.woff2",
@@ -103,7 +103,7 @@
     {
       "path": "public/pivot-2026/files/aura-static-dashboard-v1.zip",
       "bytes": 167392,
-      "sha256": "2db0d7f7ad640a51fb17a945157e2157c0ad2d51a1bf2af586df86bb0cbbc75d"
+      "sha256": "7ebfbd9cfb696482070b954a93fba17b7916b2872369ae5680c29bfd43d6e29c"
     },
     {
       "path": "public/pivot-2026/files/checkpoints.md",
@@ -122,8 +122,8 @@
     },
     {
       "path": "public/pivot-2026/index.html",
-      "bytes": 39342,
-      "sha256": "aa8fc97edb29182bf88ab58a3161a017353d5e78ca179fea203395ee84d8a6bd"
+      "bytes": 39415,
+      "sha256": "beff6cd2c4d8572494b9174d442a6af55f9fb301a3af653c9240e60cdb71727a"
     },
     {
       "path": "public/pivot-2026/media/lesson-0-poster.png",
@@ -133,12 +133,12 @@
     {
       "path": "public/pivot-2026/media/lesson-0.en.vtt",
       "bytes": 2279,
-      "sha256": "f4cf5d2c2815acf24b5cdc214dd19eb5a74902bb893cb02b034dbab6ec3809b4"
+      "sha256": "c6997497d5068990b68a2057f1a662d5d777cecd7971f07cac32f2916d4a843e"
     },
     {
       "path": "public/pivot-2026/media/lesson-0.mp4",
-      "bytes": 1459831,
-      "sha256": "e8f4522eb119a367fbc3b2485c33d2c5958ce2c84f9265960aacb4d31634e63a"
+      "bytes": 1463958,
+      "sha256": "b4792e05bb1b347579c11361ab92409ed4abec68f31743dea062a9914a708b6e"
     },
     {
       "path": "public/pivot-2026/media/lesson-1-poster.png",
@@ -148,12 +148,12 @@
     {
       "path": "public/pivot-2026/media/lesson-1.en.vtt",
       "bytes": 3517,
-      "sha256": "12c27f8956dfc916c037bf3f8e15197d05da9c0e6cea5dbd22e202ac7f9e3125"
+      "sha256": "19dafc0b09f1a4886ab8a2260ff193267e6ccffb744d41b591411e2d8fba9ee7"
     },
     {
       "path": "public/pivot-2026/media/lesson-1.mp4",
-      "bytes": 2204111,
-      "sha256": "b4133e7688a8e2f45e0e262e3b7f47cd374edf479230f87a81cbee504b1f7290"
+      "bytes": 2175405,
+      "sha256": "122deaa781845504b88b23d356bb4ccbdc826ab4eb9f86f700c30d3b42e9ee24"
     },
     {
       "path": "public/pivot-2026/media/lesson-2-poster.png",
@@ -163,12 +163,12 @@
     {
       "path": "public/pivot-2026/media/lesson-2.en.vtt",
       "bytes": 5012,
-      "sha256": "47f61093f53dbbb511fcd8966fda099401a6d846326fc7fc806b8efe9044d34a"
+      "sha256": "08c0e3f209cbed5a2612a40be223af074bd8668b0d631f50dde36a8ff2f02fdb"
     },
     {
       "path": "public/pivot-2026/media/lesson-2.mp4",
-      "bytes": 3068412,
-      "sha256": "70bd352288a18259b64bcaca7abacce7fb9ff010dc2de6c91987f7ba04ef58f6"
+      "bytes": 2948534,
+      "sha256": "ada1ad04c878a5a4aa0eb6e2af2d6a693ffb142db240a37923617add5234f93e"
     },
     {
       "path": "public/pivot-2026/media/lesson-3-poster.png",
@@ -178,12 +178,12 @@
     {
       "path": "public/pivot-2026/media/lesson-3.en.vtt",
       "bytes": 5679,
-      "sha256": "831fc592030ce701e2bde162431aedfb0ea9e71e7ba8b0dcd792ce73a4336ee3"
+      "sha256": "fae9a366ed99110d096cebc2c45e1167f5c54fdd0ffdd8c82d56867aa5885e4d"
     },
     {
       "path": "public/pivot-2026/media/lesson-3.mp4",
-      "bytes": 3436544,
-      "sha256": "7879aa54a22f143edcbefc8917c5b2f95e89df93e236dc15db2b7bac86169206"
+      "bytes": 3484318,
+      "sha256": "3cb71fba5fc00022315af820f901d0e4cb7b582b82141d6b50ae762bea617879"
     },
     {
       "path": "public/pivot-2026/media/lesson-4-poster.png",
@@ -193,12 +193,12 @@
     {
       "path": "public/pivot-2026/media/lesson-4.en.vtt",
       "bytes": 3500,
-      "sha256": "49d2d515fed0862fa7fe7c07ac4cce43154b6aaa04dc62b09fa6d442adb5cd85"
+      "sha256": "b73270904dcaba43b7698230b4957e24499af6700d84ccd64abef34b1b563fbd"
     },
     {
       "path": "public/pivot-2026/media/lesson-4.mp4",
-      "bytes": 2125991,
-      "sha256": "ddb0639c11aaeaf60f976516908cc15d489ef042e039f1a8c2e9f6c5e9705eec"
+      "bytes": 2229411,
+      "sha256": "ce73b594a1f0e25573e2506081c812ded336cb494dc0eac36c132a8d81bcee12"
     },
     {
       "path": "public/pivot-2026/media/lesson-5-poster.png",
@@ -208,12 +208,12 @@
     {
       "path": "public/pivot-2026/media/lesson-5.en.vtt",
       "bytes": 2169,
-      "sha256": "30717d35b8f46f781f6cd9df5f425224d6d112fbda230bc463736365106ec254"
+      "sha256": "073c3a6a16c9956c68d39ede871a35e6746ddfd44f0d52c44fe650678ad1012d"
     },
     {
       "path": "public/pivot-2026/media/lesson-5.mp4",
-      "bytes": 1368916,
-      "sha256": "2e306c56e110568d244a0f3c44b13df237ffcbb1962e1d097fcc9b924f7551ab"
+      "bytes": 1397910,
+      "sha256": "dd40827be5c2205aabd5055eea983c56bbc805c8cc14136f7462d524312359f7"
     },
     {
       "path": "public/pivot-2026/media/lesson-6-poster.png",
@@ -223,12 +223,12 @@
     {
       "path": "public/pivot-2026/media/lesson-6.en.vtt",
       "bytes": 1193,
-      "sha256": "9594983d97af3e98c6eb67a866974a3a3a421fa4a998ad941407fe380f862ee7"
+      "sha256": "d72505ab2c6693de6bfc3a8cecaa0118fd219661d8f71fdb6be4f4cf686c4cc9"
     },
     {
       "path": "public/pivot-2026/media/lesson-6.mp4",
-      "bytes": 653652,
-      "sha256": "f4fc10fae07e46dc2ee2cb4a38b155bc3858f70899582a3332e48d8badd1bd5d"
+      "bytes": 671381,
+      "sha256": "411321995ac13d5dfc9c7caaf8004453889a46fa2f03523d042918f62e686285"
     },
     {
       "path": "public/pivot-2026/optional-hosting.html",

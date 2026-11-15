@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-15",
+  "owner_voice_choice": "Marin",
+  "model": "gpt-realtime-2.1-mini",
+  "lessons": 7,
+  "slides": 29,
+  "speech_segments": 187,
+  "unique_successful_speech_outputs": 187,
+  "total_video_seconds": 914.383333,
+  "successful_response_usage": {
+    "input_tokens": 24568,
+    "output_tokens": 28825,
+    "total_tokens": 53393
+  },
+  "full_decode": "all seven H264/AAC clips passed",
+  "source_scripts_changed": false,
+  "returned_transcripts_match_scripts": true,
+  "public_asset_count": 53,
+  "local_course_dashboard_speech_tests": 21,
+  "local_tfis_tests": 337,
+  "local_tfis_build": "passed",
+  "hosted_observation": {
+    "site_version": 2,
+    "lesson": 1,
+    "duration_seconds": 93.2,
+    "observed_elapsed_seconds": 3.911177,
+    "ready_state": 4,
+    "playing_during_observation": true,
+    "english_captions": "showing",
+    "paused_afterwards": true,
+    "browser_console_errors": 0,
+    "screenshot": "qa/marin-hosted-player.jpg"
+  },
+  "remaining": [
+    "Complete human listening and perceptual caption timing review",
+    "Screen-reader reading order and status announcements",
+    "Browser text zoom and remaining accessibility checks",
+    "Five executive beginner pilot observations and final public release review"
+  ]
+}

@@ -33,7 +33,7 @@ Current state as of 15 November 2026. Checked items have direct evidence in this
 
 - [x] Detailed 60-minute plan and numerical fixture contract.
 - [x] Seven-lesson text workbook, six copyable prompts and example brief.
-- [x] Seven scripts/slide specifications, 29 visually reviewed slides and seven actual narrated reference videos with matching captions/transcripts. Evidence: media-verification.json. Total media duration 14:44 within the 20-minute explanation budget; remaining explanation time is reading/checking.
+- [x] Seven scripts/slide specifications, 29 visually reviewed slides and seven actual OpenAI Marin reference videos with matching captions/transcripts. Evidence: media-verification.json. Total media duration 15:14 within the 20-minute explanation budget; remaining explanation time is reading/checking.
 - [ ] Actual fresh Plus build recording with app/version evidence, real waits, matching captions/transcript and human media listening review. Reference narration does not substitute for this recording.
 - [ ] Public TFIS /pivot-2026 route, complete without private Page access or enrollment.
 - [x] Route integrated in isolated TFIS branch and draft PR #125; complete suite 337/337, build passes, 53 reviewed assets preserved through the build. Production release remains pending.

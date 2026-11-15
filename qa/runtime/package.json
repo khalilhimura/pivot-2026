@@ -1,1 +1,8 @@
-{"private":true,"description":"Publisher-only course interaction checks","devDependencies":{"jsdom":"26.1.0"}}
+{
+  "private": true,
+  "description": "Publisher-only course verification and speech generation",
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "ws": "8.23.0"
+  }
+}

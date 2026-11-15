@@ -16,7 +16,7 @@ The course remains a teaching draft. The owner completed a ChatGPT Plus rehearsa
 
 | Admin route | Owner identity | Link |
 | --- | --- | --- |
-| Cloudflare Access | khalil.himura@gmail.com | [TFIS draft preview](https://9a3eda9a.tfis.pages.dev/pivot-2026/) |
+| Cloudflare Access | khalil.himura@gmail.com | [TFIS draft preview](https://6a29c662.tfis.pages.dev/pivot-2026/) |
 | Sign in with ChatGPT | khalil@mesolitica.com | [Private ChatGPT course preview](https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site) |
 
 These links are private owner review routes. A facilitator using another identity needs the owner's explicit access arrangement; this handover does not grant access. Never share the owner's credentials. Participant course access is intended to be free and ungated at release; participants sign into their own ChatGPT account to build.
@@ -27,7 +27,7 @@ The owner also has an editable [Pages workbook](https://chatgpt.com/space/page_c
 
 The downloadable facilitator bundle contains this runbook; the original learner ZIP; workbook, prompts and checkpoints; the publisher answer key; the owner rehearsal log and screenshot evidence index; a pilot protocol, blank observation CSV and run-notes form; a media review form; the producer narration replacement plan; and the complete static course preview ZIP. The last ZIP is a publishing handoff, not an additional learner input. Its interactive reader needs HTTP hosting; use the hosted preview for the normal session.
 
-Record the test date and the preview/course version before every run. The current TFIS course commit is `154836ab3701c2de30ba30d223d7e5965bcc886c`, in [draft PR 125](https://github.com/khalilhimura/tfis-website/pull/125). The equivalent private ChatGPT course preview is version 1. Keep the version constant within a pilot cohort; record any revision and repeat affected checks.
+Record the test date and the preview/course version before every run. The TFIS course source commit is `67fddd4712e449d3b7d0105b20d74c9f6f22fde4`, in [draft PR 125](https://github.com/khalilhimura/tfis-website/pull/125). The private ChatGPT course preview is version 2, with OpenAI Marin narration. Keep the version constant within a pilot cohort; record any revision and repeat affected checks.
 
 The original Aura ZIP SHA-256 is `84e5e449c57b9d73fa8b4f8f37d9de7f8d7c4d3a910c1cd3caf180cdb19a9751`. It contains DOCX, PDF, XLSX, PPTX, CSV and JSON, with no real customer information. No API, separate BI tool or additional service purchase is part of the core exercise. Optional GitHub and Cloudflare hosting is after the hour.
 
@@ -51,7 +51,7 @@ Start the clock after preflight. Include generation, deployment, repairs and wai
 | 6 Write the brief and publish | 50–58 | 8 | Learner-owned Site and Pages brief open with intended access |
 | 7 Defend the decision | 58–60 | 2 | Evidence, counterargument and review condition explained |
 
-Record the actual app build, including real waits and repairs, with permission. Keep unrelated windows, credentials and notifications out of the capture. Retain an app-version screenshot and test date. The existing seven clips total about 14:44 and use synthetic narration of the reference example; they do not record ChatGPT building the result. The final actual-build recording needs its own reviewed captions and transcript.
+Record the actual app build, including real waits and repairs, with permission. Keep unrelated windows, credentials and notifications out of the capture. Retain an app-version screenshot and test date. The seven reference clips total about 15:14 and use AI-generated Marin narration; they do not record ChatGPT building the result. The final actual-build recording needs its own reviewed captions and transcript.
 
 The rehearsal must demonstrate June/All, June/Web, June/Mobile, May/All, January's unavailable prior month and the 0/20/30% spending controls. Verify source disclosures and selected-month details. Open the learner's deployed Site and Page, test links in both directions and inspect owner access. Test a chosen viewer only if sharing is deliberately enabled. Keep the brief's decision scope fixed when dashboard filters change.
 
@@ -83,7 +83,7 @@ Score source judgment, numerical verification, dashboard operation, decision qua
 
 ## Review media and access
 
-The owner reports awkward narration as the only usability issue from the rehearsal. OpenAI voice replacement is planned, but no new audio has been generated or deployed. After replacement, listen to every reference clip while following its transcript. Use the media review form to record pronunciation, intelligibility, caption, timing or slide issues by timecode. Review the actual-build recording separately. Confirm names, financial terms, numbers and acronyms are understandable.
+The owner selected Marin after comparing two OpenAI voice samples. All seven reference clips have been rebuilt and published to the private ChatGPT course preview. Listen to every complete clip while following its transcript. Use the media review form to record pronunciation, intelligibility, caption, timing or slide issues by timecode. Review the actual-build recording separately. Confirm names, financial terms, numbers and acronyms are understandable. Sample approval does not substitute for this full listening review.
 
 Hosted lesson 4 was visually reviewed at 390px and 1280px in light and dark themes, including captions, prompt wrapping and recovery text. Keyboard activation of lesson navigation, prompt copying and checkpoint disclosure worked with visible focus. Complete the remaining manual accessibility checks on the facilitator's supported browser, including native score selection with the keyboard, skip-link behavior, zoom/reflow, and screen-reader reading order. The current checks do not certify WCAG conformance.
 

@@ -2,7 +2,7 @@
   "status": "passed",
   "lessons": 7,
   "slides": 29,
-  "total_video_seconds": 884.1308399999999,
+  "total_video_seconds": 914.383333,
   "checks": [
     "H264/AAC 1280x720",
     "audio/video durations",
@@ -11,10 +11,19 @@
     "source narration coverage",
     "file-size limits",
     "video hashes",
-    "scripts and slide specs"
+    "scripts and slide specs",
+    "completed OpenAI response receipts",
+    "returned speech transcripts match approved text",
+    "measured sentence boundaries",
+    "all cached PCM hashes"
   ],
   "limitations": [
     "No fresh Plus-account build or novice timing pilot is implied",
     "Visual and listening reviews are separate from codec/timing checks"
-  ]
+  ],
+  "provider": "OpenAI",
+  "voice": "Marin",
+  "model": "gpt-realtime-2.1-mini",
+  "verified_speech_segments": 187,
+  "cached_pcm_files_verified": 187
 }

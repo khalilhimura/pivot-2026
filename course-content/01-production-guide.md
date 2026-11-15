@@ -10,10 +10,10 @@ The seven lesson budgets are 5, 8, 10, 17, 10, 8 and 2 minutes. Together they al
 
 ## Media and accessibility
 
-The current videos are narrated reference lessons: native rendered slides, a local synthetic English voice, English WebVTT captions and HTML/text transcripts. They explain the supplied example. They do not show ChatGPT generating the dashboard, and are not a learner rehearsal. The player labels this distinction explicitly and never autoplays.
+The current videos are narrated reference lessons: native rendered slides, AI-generated OpenAI Marin narration, English WebVTT captions and HTML/text transcripts. They explain the supplied example. They do not show ChatGPT generating the dashboard, and are not a learner rehearsal. The player labels this distinction explicitly and never autoplays.
 
 1. Run `production/build_lesson_slides.mjs` with the bundled Node runtime; inspect all exported PNGs and the presentation finalization report.
-2. Run `production/build_course_media.py` with the bundled Python runtime. Speech audio is cached by exact text/voice/rate. A changed sentence requires new audio and captions. Preserve sentence order and source narration.
+2. Install publisher dependencies with `npm ci --prefix qa/runtime`. Run `production/build_course_media.py --provider openai --env-file /private/path/.env --node /path/to/node24` with the bundled Python runtime. The ignored environment file supplies `OPENAI_API_KEY`. Speech is cached by exact text, model, voice and delivery instructions, with measured sentence boundaries and returned transcript checks. A changed sentence requires new audio and captions. `--provider local` retains the old offline fallback; released preview media uses Marin.
 3. Run `production/verify_course_media.py`; confirm all seven clips, encoding, durations, caption bounds, hashes and transcript coverage.
 4. Play the clips to review pronunciation, intelligibility and caption timing. Automated timing checks do not prove word-level alignment or replace listening.
 5. Run `production/build_course.mjs`, then check the actual browser video controls, captions, transcripts, keyboard focus and responsive layout.

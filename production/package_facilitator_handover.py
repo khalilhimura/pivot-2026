@@ -60,7 +60,8 @@ manifest.json records all included file hashes; it contains no credentials.
 '''.encode()
 
 assert sha(data['learner/aura-course-data-v1.zip']) == '84e5e449c57b9d73fa8b4f8f37d9de7f8d7c4d3a910c1cd3caf180cdb19a9751'
-assert sha(data['publisher/pivot-2026-course-preview-v1.zip']) == '2d111a15a7e6e061477cd900ca4325fca7e230df83b7572dafc54a9880abbf2a'
+course_review = json.loads((ROOT / 'delivery/course-preview-manifest.json').read_text())
+assert sha(data['publisher/pivot-2026-course-preview-v1.zip']) == course_review['archive_sha256']
 with zipfile.ZipFile(io.BytesIO(data['learner/aura-course-data-v1.zip'])) as source:
     names = source.namelist()
     assert len(names) == 6 and len(set(names)) == 6
@@ -80,8 +81,8 @@ manifest = {
                         'recovery_build_used': False, 'self_check': 8,
                         'duration_basis': 'owner report'},
     'editable_page': PAGE,
-    'course_commit': '154836ab3701c2de30ba30d223d7e5965bcc886c',
-    'chatgpt_course_preview_version': 1,
+    'course_commit': '67fddd4712e449d3b7d0105b20d74c9f6f22fde4',
+    'chatgpt_course_preview_version': 2,
     'files': [{'path': p, 'bytes': len(b), 'sha256': sha(b)} for p, b in sorted(data.items())],
 }
 data['manifest.json'] = (json.dumps(manifest, indent=2) + '\n').encode()
