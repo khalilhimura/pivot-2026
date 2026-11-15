@@ -1,0 +1,225 @@
+[
+  {
+    "id": 0,
+    "title": "Start with the decision",
+    "instruction_minutes": 2,
+    "slides": [
+      {
+        "title": "The Board question",
+        "headline": "Where should Aura invest next?",
+        "points": ["Increase acquisition spending?", "Improve activation and reliability first?", "Decision owner: CEO"],
+        "narration": "Welcome to the Aura guided build. You decide whether to increase acquisition spending next quarter or first improve activation and transaction reliability. Aura is a fictional Malaysian consumer payments company distributed through web and mobile apps. Every supplied figure is synthetic. Your goal is a dashboard you can inspect and a recommendation you can defend."
+      },
+      {
+        "title": "Your working environment",
+        "headline": "One app. One source folder.",
+        "points": ["ChatGPT desktop with your own Plus plan", "Work for analysis and creation", "Sites for the dashboard; Pages for the brief"],
+        "narration": "Before starting, sign in to ChatGPT desktop, check Plus usage, and confirm Work, Sites and Pages are available. Download and extract the six Aura files. Attach the folder to a local project when supported, or attach all six files to the same Work chat. You need no spreadsheet editor or separate business intelligence application."
+      },
+      {
+        "title": "An executive information system",
+        "headline": "Overview, evidence, decision",
+        "points": ["Read business health at a glance", "Follow each metric to its definition", "Record a separate decision and review condition"],
+        "narration": "Your executive information system connects headline metrics to definitions and source inputs. Filters let you investigate. A spending control exposes an assumption. A separate Pages brief records your decision; changing a filter must not rewrite that record. The reporting period ends in June twenty twenty-six. The snapshot was finalized on the thirty-first of July."
+      },
+      {
+        "title": "Your first checkpoint",
+        "headline": "Frame the decision before building",
+        "points": ["Confirm all six filenames", "Name the planning horizon", "Keep judgment with the executive"],
+        "narration": "Pause and open the folder or attach its files. Confirm that ChatGPT can list the six actual filenames. Write the Board question, the next-quarter horizon and the CEO decision owner. A filename does not prove the contents were read. Next, you check extraction and meaning before asking for charts."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Make the files intelligible",
+    "instruction_minutes": 3,
+    "slides": [
+      {
+        "title": "Six formats with different jobs",
+        "headline": "Context and numbers work together",
+        "points": ["Company brief: definitions and ownership", "Risk report: targets and operational context", "Finance, customer and service tables: inputs"],
+        "narration": "Run Prompt one in the same Work chat. Ask for an inventory that says what was actually read, who owns it, the reporting period and any extraction problems. The company brief supplies the glossary and source-owner register. The risk PDF supplies the Board targets and context. The workbook supplies finance inputs. The customer CSV supplies counts. The service JSON supplies attempts, completions and incidents. The growth presentation contributes a management perspective that you will test."
+      },
+      {
+        "title": "Source authority",
+        "headline": "Ownership governs the measure",
+        "points": ["CFO owns finance inputs", "Product analytics owns customer counts", "CTO owns transaction counts", "A file format is not a source of authority"],
+        "narration": "Authority comes from the approved definition and the person responsible for the source, not from whether a file is a spreadsheet or a polished presentation. The CFO owns revenue, variable costs and acquisition spending. Product analytics owns customer counts. The CTO owns transaction counts. A repeated total in a document corroborates the underlying record; it is not another observation to add. If a file cannot be read, name the problem and reattach it rather than quietly dropping that format."
+      },
+      {
+        "title": "The active-customer distinction",
+        "headline": "52,000 and 40,000 answer different questions",
+        "points": ["52,000 customers logged in during June", "40,000 customers completed a transaction", "Preserve both definitions; do not average them"],
+        "narration": "The growth presentation reports fifty-two thousand login-active customers in June. The customer data also records forty thousand transacting customers. This is the planned discrepancy. Login-active includes people who never completed a transaction. The executive card uses monthly transacting customers under the company glossary. Keep both labels. Do not average the totals, and do not call the presentation mathematically false simply because it answers a different question. In the course checkpoint, forty thousand belongs on the transacting-customer card."
+      },
+      {
+        "title": "Attribution and reporting dates",
+        "headline": "Origin is fixed; app use can change",
+        "points": ["Web-acquired and mobile-acquired are disjoint", "Origin is not the current app surface", "July finalization lets the June cohort mature"],
+        "narration": "Customer origin means where the person joined: web or mobile. Each person and their attributed business activity belongs once to that origin even if they later use both apps. Incident surface is a separate dimension. An incident in the mobile app does not establish the experience of every mobile-acquired customer. Also check the two dates. June is the reporting month, while July finalization allows the full thirty-day activation window to mature. Pause and review your inventory. Continue when all six sources are accounted for and the engagement distinction is clear."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Approve the numbers",
+    "instruction_minutes": 4,
+    "slides": [
+      {
+        "title": "The metric contract",
+        "headline": "Approve meaning before appearance",
+        "points": ["Formula and source location", "Numerator, denominator and unit", "Reporting period, origin and owner"],
+        "narration": "Run Prompt two. Ask ChatGPT to prepare a metric contract for revenue, transacting customers, thirty-day activation, acquisition cost, contribution margin and transaction success. For each one, inspect the formula, unit, source location, reporting date and owner. A convincing card can still use the wrong denominator. You approve the contract before building the interface. Treat missing inputs as missing; do not let a plausible zero hide an extraction problem. When a required denominator is zero, the rate is unavailable."
+      },
+      {
+        "title": "Revenue and commercial definitions",
+        "headline": "MYR600,000 in company fee income",
+        "points": ["MYR180,000 web + MYR420,000 mobile", "Revenue excludes customer funds and payment volume", "36% contribution margin excludes acquisition costs"],
+        "narration": "Start with June revenue. The finance workbook records one hundred and eighty thousand ringgit for web-acquired customers and four hundred and twenty thousand for mobile-acquired customers. Together they produce six hundred thousand ringgit. Revenue is Aura's company fee income, not money held in customer wallets or the total value of payments. Variable costs total three hundred and eighty-four thousand ringgit. Revenue less those costs leaves two hundred and sixteen thousand in contribution, or thirty-six percent. Acquisition spending and fixed overhead are excluded, so this margin is not net profit."
+      },
+      {
+        "title": "Acquisition and activation",
+        "headline": "3,800 activated from 10,000 verified",
+        "points": ["30-day activation: 38%", "CAC per verified customer: MYR66", "Cost per activated customer: MYR173.68"],
+        "narration": "June has ten thousand newly verified customers. Three thousand eight hundred of that acquisition-month cohort complete their first transaction within thirty days. Activation is therefore thirty-eight percent. The acquisition budget spent in June is six hundred and sixty thousand ringgit. Dividing by new verified customers gives a cost of sixty-six ringgit per verified customer. Dividing by activated customers gives about one hundred and seventy-four ringgit per activated customer. These measures use different denominators and must retain their own labels. Monthly transacting customers include older acquisition cohorts and answer another question."
+      },
+      {
+        "title": "Weighted transaction success",
+        "headline": "300,000 completed ÷ 310,000 attempts",
+        "points": ["Company-wide success: 96.77%", "Add counts before calculating the rate", "Do not average the two origin percentages"],
+        "narration": "Now check reliability. Web-origin customers account for ninety-five thousand completions from ninety-six thousand attempts. Mobile-origin customers account for two hundred and five thousand completions from two hundred and fourteen thousand attempts. Add the completions and attempts before dividing. Three hundred thousand divided by three hundred and ten thousand gives ninety-six point seven seven percent. A simple average of the two origin percentages would give the smaller group too much weight. Incident duration in minutes is context; it is not the denominator for this transaction-success measure."
+      },
+      {
+        "title": "Comparison and verification",
+        "headline": "Check the arithmetic yourself",
+        "points": ["Revenue: MYR600,000", "Activation: 38%; success: 96.77%", "Activation changed by −4 percentage points"],
+        "narration": "Compare June with May. Activation falls from forty-two to thirty-eight percent, a decline of four percentage points. That is different from a four percent relative decline. Cost per verified customer rises from fifty-four to sixty-six ringgit, a rise of about twenty-two percent. Pause the lesson and compare revenue, activation and success with the control card. Open at least one original source location in the app and explain its arithmetic. If a result differs, trace the source, formula and scope before proceeding. Approve the contract only after those checks reconcile."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Build the executive view",
+    "instruction_minutes": 5,
+    "slides": [
+      {
+        "title": "A focused Sites brief",
+        "headline": "Build from the approved contract",
+        "points": ["Six KPI cards with source disclosures", "Month and customer-origin controls", "A dated synthetic snapshot"],
+        "narration": "Run Prompt three after approving the numbers. Ask Sites for the focused executive dashboard website. Give it the metric contract and the reconciled source context from the same chat. Start on June, All origins. The prompt specifies six cards, filters, trends, source details and a spending illustration. It also specifies the reporting month, the finalization date and the synthetic-data label. Let the first build finish before changing the design. Use the reserved generation time rather than turning the lesson into an open-ended layout exercise."
+      },
+      {
+        "title": "Overview and evidence",
+        "headline": "Make each headline inspectable",
+        "points": ["Definition and formula", "Filename and field location", "Owner, reporting date and caveat"],
+        "narration": "The dashboard should provide a clear overview, with the underlying evidence one action away. Open a metric definition. You should be able to identify its source filename and field, its numerator and denominator where relevant, its owner and its reporting date. Revenue should show the addition of the two origin amounts. Transaction success should show the combined completed and attempted counts. A viewer needs enough information to understand the number even without downloading an Office file. Good typography helps reading; it cannot replace those source checks."
+      },
+      {
+        "title": "Month selection",
+        "headline": "Cards and history have different scopes",
+        "points": ["Cards show the selected month", "Trends retain January–June history", "January has no prior month in the pack"],
+        "narration": "Select another reporting month. The cards and detail rows should use that month. The trend charts retain the six-month history for the selected customer origin and highlight your chosen month. This lets an executive compare the current observation with its context. Read the scope note rather than assume every chart has identical time coverage. Select January. Because December is absent from the source pack, the prior-month comparison must say unavailable. Inventing a December baseline or showing a zero change would conceal what the source does not contain."
+      },
+      {
+        "title": "Customer-origin selection",
+        "headline": "Inspect Mobile-acquired",
+        "points": ["CAC: MYR70", "30-day activation: 35%", "Contribution margin: 30%"],
+        "narration": "Now select June and Mobile-acquired. The reference checks are seventy ringgit per verified customer, thirty-five percent activation and thirty percent contribution margin. Revenue is four hundred and twenty thousand ringgit. These are the business metrics attributed to customers who originally joined through mobile. They are not a direct measurement of traffic using the mobile app at this moment. Check that the cards, funnel, trends and detail table all respect the chosen origin. Returning to All should restore six hundred thousand ringgit of revenue."
+      },
+      {
+        "title": "Aggregation and target scope",
+        "headline": "The business rules must survive a filter",
+        "points": ["Recompute rates from filtered counts", "Never sum monthly unique people across months", "June company targets apply only to June / All"],
+        "narration": "Filtering should change the underlying inputs before the formula is evaluated. Do not keep a company-wide percentage while displaying a cohort count. Do not add monthly unique people across January to June and label the result unique customers for the whole period. The same people may appear in several months. Also inspect target verdicts. The supplied Board targets apply only to June at company-wide scope. A mobile-only card can show its measurement, but it should not inherit that company target as though a cohort target had been approved."
+      },
+      {
+        "title": "One bounded repair",
+        "headline": "Correct the specific issue",
+        "points": ["Name the differing value or behavior", "Trace source inputs, formula and scope", "Recheck All and Mobile; preserve the contract"],
+        "narration": "If a value or interaction fails, describe the exact issue. State the expected result, ask ChatGPT to trace the source inputs, formula and filter scope, and recheck June All and June Mobile after the correction. Preserve the reviewed definitions and layout. Avoid replacing the whole dashboard to repair one calculation. Keep visual refinement to one specific request during this hour. Save the reviewed version before deployment or wider sharing. Pause now to run the prompt, operate the controls and complete the three Mobile checks. If generation exceeds its allowance, use the reference as an assisted recovery and record that assistance honestly."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Challenge the finding and decide",
+    "instruction_minutes": 3,
+    "slides": [
+      {
+        "title": "A mixed business picture",
+        "headline": "Growth can coexist with weaker efficiency",
+        "points": ["Revenue grew from MYR570,000 to MYR600,000", "CAC rose from MYR54 to MYR66", "Activation fell from 42% to 38%"],
+        "narration": "Run Prompt four. Ask ChatGPT to challenge the conclusion rather than simply endorse an increase in spending. Revenue and transacting customers grew between May and June. Acquisition cost rose, activation fell and contribution margin weakened. Those observations can coexist. Separate the facts you verified from your explanation of them. The incident narrative offers context, but it does not prove that an incident caused activation to fall or that more spending caused reliability to worsen."
+      },
+      {
+        "title": "The spending illustration",
+        "headline": "+20% is an assumption to inspect",
+        "points": ["MYR132,000 additional monthly spend", "2,000 hypothetical verified customers", "760 hypothetical activated customers"],
+        "narration": "Set June, All origins, and move the spending control to twenty percent. Twenty percent of the six hundred and sixty thousand ringgit baseline adds one hundred and thirty-two thousand ringgit per month. With acquisition cost fixed at sixty-six ringgit, that buys two thousand hypothetical additional verified customers. With activation fixed at thirty-eight percent, seven hundred and sixty activate. Check the zero-change position as well. When the baseline inputs are valid, it should show zero incremental spending and zero additional customers."
+      },
+      {
+        "title": "What the illustration omits",
+        "headline": "An input assumption is not a forecast",
+        "points": ["No retention or lifetime-value model", "No saturation, capacity or intervention cost", "No demonstrated ROI or causal result"],
+        "narration": "The arithmetic does not know whether acquisition efficiency will remain constant at a higher budget. It does not model retention, lifetime value, fraud, capacity or the cost and benefit of improving the product. It is an incremental monthly illustration used to inform a quarterly discussion, not a forecast of quarterly earnings. The purpose is to expose the assumption so you can ask what evidence would support it. Do not treat a precise-looking number as greater certainty than the input assumptions justify."
+      },
+      {
+        "title": "Your recommendation",
+        "headline": "Choose an action and its conditions",
+        "points": ["Two verified observations", "A strong counterargument", "Missing evidence and a review trigger"],
+        "narration": "A defensible recommendation might hold the broad increase, approve a capped experiment or stage an increase after defined improvements. Choose the action yourself. Cite two observations, state the strongest counterargument and identify missing evidence. For example, a hold could miss an acquisition opportunity while revenue is growing. A controlled experiment might address that concern. Name a condition that would change your mind, and make its owner explicit. Pause now and prepare those elements before asking ChatGPT to write the decision brief."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Write the brief and publish",
+    "instruction_minutes": 2,
+    "slides": [
+      {
+        "title": "The Pages decision brief",
+        "headline": "Record the decision you chose",
+        "points": ["Question, reporting month and origin", "Evidence and recommendation", "Counterargument, owner and review condition"],
+        "narration": "Run Prompt five to create your Pages brief. Keep it to about four hundred to five hundred words. It should reflect the recommendation you chose, with the reporting month, customer origin and source version stated explicitly. Include the verified observations, counterargument, missing evidence, scenario assumptions, accountable executive role and review condition."
+      },
+      {
+        "title": "Review before publishing",
+        "headline": "Check the brief against the evidence",
+        "points": ["Facts stay separate from assumptions", "The snapshot dates remain visible", "Changing a filter does not rewrite the record"],
+        "narration": "Read the brief before publishing. Confirm that observed facts are separate from scenario outputs and that an AI proposal has not become an invented Board agreement. The example brief is one supported position, not the required answer. Your own brief remains a fixed decision record when someone explores different dashboard filters."
+      },
+      {
+        "title": "Two outputs with separate access",
+        "headline": "Save the Page and deploy the Site",
+        "points": ["Start with owner-only access", "Check both links in the app", "A link does not grant access"],
+        "narration": "Run Prompt six for the reviewed Site version. Keep owner-only access initially. Open the hosted dashboard and the saved Page in the app. Check their cross-links and audience separately. A Page link does not grant access to its target, and deployment does not automatically mean public access. No email or message is required to finish."
+      },
+      {
+        "title": "The publishing checkpoint",
+        "headline": "Verify what actually opened",
+        "points": ["June / All controls reconcile", "The scenario and filters work", "Record any unavailable capability"],
+        "narration": "Confirm June All values, the spending control, the source dates and the Page link. If a capability is unavailable, preserve the work and record the limitation. Do not claim a sharing check passed when it could not be performed. Pause now to create, review and publish your two outputs."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Defend the decision",
+    "instruction_minutes": 1,
+    "slides": [
+      {
+        "title": "Explain your judgment",
+        "headline": "I recommend… because…",
+        "points": ["The action I recommend", "The evidence I checked", "What would change my decision"],
+        "narration": "Complete three sentences. I recommend. The evidence I checked was. I would change my decision if. Explain one denominator and the difference between login-active and transacting customers. Your dashboard is useful when you can connect a number to its meaning and a decision to its evidence. Record whether you used a recovery build."
+      },
+      {
+        "title": "Keep the snapshot honest",
+        "headline": "Review, rebuild, verify, republish",
+        "points": ["Keep the previous data version", "Reconcile new definitions and control totals", "Update the decision brief and review condition"],
+        "narration": "Use the self-check rubric. Numerical verification needs full marks, with no empty dimension. To refresh later, preserve the old pack, compare the replacement, recompute controls, check the rebuilt dashboard and publish the reviewed version. Update the brief's dates and assumptions. Replacing a local file does not refresh a hosted Site automatically."
+      }
+    ]
+  }
+]

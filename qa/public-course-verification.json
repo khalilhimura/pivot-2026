@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "html_pages": 11,
+  "local_links_checked": 114,
+  "captioned_lessons": 7,
+  "dataset_sha256": "84e5e449c57b9d73fa8b4f8f37d9de7f8d7c4d3a910c1cd3caf180cdb19a9751",
+  "scope": "Local staged static reader and portable download; external login, provider deployment and human usability remain separate."
+}

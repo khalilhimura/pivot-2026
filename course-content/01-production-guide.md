@@ -1,0 +1,35 @@
+# Publisher production guide
+
+This is the production record for the free Pivot 2026 executive course. Learners use ChatGPT desktop and their own Plus subscription. Local Python, Node, Artifact Tool, speech synthesis and FFmpeg are publisher tools only.
+
+## Lesson contract
+
+The seven lesson budgets are 5, 8, 10, 17, 10, 8 and 2 minutes. Together they allocate 20 minutes to explanation, 26 to learner activity and 14 to system waiting. Actual narrated clips are shorter than the explanation allowance; reading, demonstrations and the result checks occupy the remaining allowance. Do not stretch clips or omit actual generation waits to manufacture a 60-minute result.
+
+`lessons.json` owns slide headlines, teaching points and spoken narration. `scripts/` and `slides/` are generated specifications. `workbook.md` owns the learner's step-by-step text. `prompts.json` owns the six copyable prompts. Keep definitions and control values aligned with `production/aura-data-spec.md` and the independently checked exports.
+
+## Media and accessibility
+
+The current videos are narrated reference lessons: native rendered slides, a local synthetic English voice, English WebVTT captions and HTML/text transcripts. They explain the supplied example. They do not show ChatGPT generating the dashboard, and are not a learner rehearsal. The player labels this distinction explicitly and never autoplays.
+
+1. Run `production/build_lesson_slides.mjs` with the bundled Node runtime; inspect all exported PNGs and the presentation finalization report.
+2. Run `production/build_course_media.py` with the bundled Python runtime. Speech audio is cached by exact text/voice/rate. A changed sentence requires new audio and captions. Preserve sentence order and source narration.
+3. Run `production/verify_course_media.py`; confirm all seven clips, encoding, durations, caption bounds, hashes and transcript coverage.
+4. Play the clips to review pronunciation, intelligibility and caption timing. Automated timing checks do not prove word-level alignment or replace listening.
+5. Run `production/build_course.mjs`, then check the actual browser video controls, captions, transcripts, keyboard focus and responsive layout.
+
+The builder publishes only relative media paths and transcript HTML. The internal media manifest contains producer filesystem locations and must not be copied to the public directory.
+
+## Required actual build recording
+
+Record one fresh learner-equivalent Plus desktop build using the original six files and published prompts. Record app version, account capabilities, model selection, file extraction results, actual waits, repairs, saved versions and owner access. Use `production/rehearsal-log.md` as the evidence sheet.
+
+Capture the Board question, source inventory, definition discrepancy, metric reconciliation, generated dashboard, selected scenario, learner-chosen recommendation and native Site/Page save and access checks. Show the real generation waits or state their actual durations. Provide captions and a text transcript for this recording. Keep this walkthrough distinct from the seven reference clips.
+
+Do not claim that a local deterministic dashboard implementation proves that the published AI prompts work for Plus learners. If Sites or Pages is unavailable in the test account, record that capability gap and revise the delivery promise before release.
+
+## Release sequence
+
+The course reader is staged under `delivery/public/pivot-2026/`, with a draft notice and noindex. It contains all essential learning text and downloadable materials without private Page access. Integrate this folder additively into the owning TFIS repository in an isolated checkout, check the site build and review the preview.
+
+Complete the actual Plus rehearsal and the five-executive pilot before changing the draft/validation status. Record independent, assisted and walkthrough outcomes separately. A missed timing threshold requires a simpler build or a revised duration claim. Use `qa/acceptance-checklist.md` and `qa/release-record.md` for the final decision.

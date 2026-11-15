@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "lessons": 7,
+  "slides": 29,
+  "total_video_seconds": 884.1308399999999,
+  "checks": [
+    "H264/AAC 1280x720",
+    "audio/video durations",
+    "monotonic caption cues",
+    "caption words match source narration",
+    "source narration coverage",
+    "file-size limits",
+    "video hashes",
+    "scripts and slide specs"
+  ],
+  "limitations": [
+    "No fresh Plus-account build or novice timing pilot is implied",
+    "Visual and listening reviews are separate from codec/timing checks"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "checks": [
+    "six formats and ZIP integrity",
+    "typed workbook inputs",
+    "12 matching unique keys",
+    "count invariants",
+    "June and May controls",
+    "scenario arithmetic",
+    "PPTX engagement definitions",
+    "DOCX glossary",
+    "four searchable PDF pages"
+  ],
+  "results": {
+    "2026-06/all": {
+      "revenue_myr": 600000.0,
+      "active": 40000,
+      "activation_pct": 38.0,
+      "cac_myr": 66.0,
+      "margin_pct": 36.0,
+      "success_pct": 96.7741935483871,
+      "extra_spend_20pct": 132000.0,
+      "extra_verified_20pct": 2000.0,
+      "extra_activated_20pct": 760.0
+    },
+    "2026-06/web": {
+      "revenue_myr": 180000.0,
+      "active": 12000,
+      "activation_pct": 50.0,
+      "cac_myr": 50.0,
+      "margin_pct": 50.0,
+      "success_pct": 98.95833333333333,
+      "extra_spend_20pct": 20000.0,
+      "extra_verified_20pct": 400.0,
+      "extra_activated_20pct": 200.0
+    },
+    "2026-06/mobile": {
+      "revenue_myr": 420000.0,
+      "active": 28000,
+      "activation_pct": 35.0,
+      "cac_myr": 70.0,
+      "margin_pct": 30.0,
+      "success_pct": 95.79439252336448,
+      "extra_spend_20pct": 112000.0,
+      "extra_verified_20pct": 1600.0,
+      "extra_activated_20pct": 560.0
+    },
+    "2026-05/all": {
+      "revenue_myr": 570000.0,
+      "active": 38000,
+      "activation_pct": 42.0,
+      "cac_myr": 54.0,
+      "margin_pct": 40.0,
+      "success_pct": 98.0,
+      "extra_spend_20pct": 108000.0,
+      "extra_verified_20pct": 2000.0,
+      "extra_activated_20pct": 840.0
+    }
+  }
+}

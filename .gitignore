@@ -1,0 +1,19 @@
+.DS_Store
+node_modules
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Reproducible narration cache, temporary archives and experiments.
+/production/build/media/
+/production/build/*.tar.gz
+/production/build/*candidate*
+/qa/media-duration-test.mp4
+/qa/voice-sample.aiff
+
+# Preserve the separately managed Sites checkouts locally.
+**/.git/

@@ -1,0 +1,305 @@
+{
+  "description": "Synthetic narration over verified reference slides; not a recording of a learner or of ChatGPT generating a dashboard.",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Start with the decision",
+      "kind": "narrated_reference",
+      "voice": "Local synthetic Samantha English US",
+      "requested_rate": 110,
+      "video": "lesson-0.mp4",
+      "captions": "lesson-0.en.vtt",
+      "transcript": "lesson-0.md",
+      "duration_seconds": 88.466667,
+      "audio_duration_seconds": 88.40453400000001,
+      "caption_cues": 27,
+      "slide_count": 4,
+      "slides": [
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-0-slide-0.png",
+          "start": 0.0,
+          "end": 22.070023000000003,
+          "title": "The Board question"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-0-slide-1.png",
+          "start": 22.070023000000003,
+          "end": 44.955737000000006,
+          "title": "Your working environment"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-0-slide-2.png",
+          "start": 44.955737000000006,
+          "end": 68.55483000000001,
+          "title": "An executive information system"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-0-slide-3.png",
+          "start": 68.55483000000001,
+          "end": 88.40453400000001,
+          "title": "Your first checkpoint"
+        }
+      ],
+      "sha256": "e8f4522eb119a367fbc3b2485c33d2c5958ce2c84f9265960aacb4d31634e63a",
+      "bytes": 1459831
+    },
+    {
+      "id": 1,
+      "title": "Make the files intelligible",
+      "kind": "narrated_reference",
+      "voice": "Local synthetic Samantha English US",
+      "requested_rate": 110,
+      "video": "lesson-1.mp4",
+      "captions": "lesson-1.en.vtt",
+      "transcript": "lesson-1.md",
+      "duration_seconds": 134.74263,
+      "audio_duration_seconds": 134.742632,
+      "caption_cues": 41,
+      "slide_count": 4,
+      "slides": [
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-1-slide-0.png",
+          "start": 0.0,
+          "end": 32.141497,
+          "title": "Six formats with different jobs"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-1-slide-1.png",
+          "start": 32.141497,
+          "end": 64.089979,
+          "title": "Source authority"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-1-slide-2.png",
+          "start": 64.089979,
+          "end": 99.878913,
+          "title": "The active-customer distinction"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-1-slide-3.png",
+          "start": 99.878913,
+          "end": 134.742632,
+          "title": "Attribution and reporting dates"
+        }
+      ],
+      "sha256": "b4133e7688a8e2f45e0e262e3b7f47cd374edf479230f87a81cbee504b1f7290",
+      "bytes": 2204111
+    },
+    {
+      "id": 2,
+      "title": "Approve the numbers",
+      "kind": "narrated_reference",
+      "voice": "Local synthetic Samantha English US",
+      "requested_rate": 110,
+      "video": "lesson-2.mp4",
+      "captions": "lesson-2.en.vtt",
+      "transcript": "lesson-2.md",
+      "duration_seconds": 188.033243,
+      "audio_duration_seconds": 188.03324500000002,
+      "caption_cues": 60,
+      "slide_count": 5,
+      "slides": [
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-2-slide-0.png",
+          "start": 0.0,
+          "end": 36.528346,
+          "title": "The metric contract"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-2-slide-1.png",
+          "start": 36.528346,
+          "end": 73.55338,
+          "title": "Revenue and commercial definitions"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-2-slide-2.png",
+          "start": 73.55338,
+          "end": 113.475375,
+          "title": "Acquisition and activation"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-2-slide-3.png",
+          "start": 113.475375,
+          "end": 150.676646,
+          "title": "Weighted transaction success"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-2-slide-4.png",
+          "start": 150.676646,
+          "end": 188.03324500000002,
+          "title": "Comparison and verification"
+        }
+      ],
+      "sha256": "70bd352288a18259b64bcaca7abacce7fb9ff010dc2de6c91987f7ba04ef58f6",
+      "bytes": 3068412
+    },
+    {
+      "id": 3,
+      "title": "Build the executive view",
+      "kind": "narrated_reference",
+      "voice": "Local synthetic Samantha English US",
+      "requested_rate": 110,
+      "video": "lesson-3.mp4",
+      "captions": "lesson-3.en.vtt",
+      "transcript": "lesson-3.md",
+      "duration_seconds": 213.540227,
+      "audio_duration_seconds": 213.540224,
+      "caption_cues": 66,
+      "slide_count": 6,
+      "slides": [
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-3-slide-0.png",
+          "start": 0.0,
+          "end": 36.014967,
+          "title": "A focused Sites brief"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-3-slide-1.png",
+          "start": 36.014967,
+          "end": 70.69047699999999,
+          "title": "Overview and evidence"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-3-slide-2.png",
+          "start": 70.69047699999999,
+          "end": 105.15392299999999,
+          "title": "Month selection"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-3-slide-3.png",
+          "start": 105.15392299999999,
+          "end": 138.30154199999998,
+          "title": "Customer-origin selection"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-3-slide-4.png",
+          "start": 138.30154199999998,
+          "end": 171.81632399999995,
+          "title": "Aggregation and target scope"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-3-slide-5.png",
+          "start": 171.81632399999995,
+          "end": 213.540224,
+          "title": "One bounded repair"
+        }
+      ],
+      "sha256": "7879aa54a22f143edcbefc8917c5b2f95e89df93e236dc15db2b7bac86169206",
+      "bytes": 3436544
+    },
+    {
+      "id": 4,
+      "title": "Challenge the finding and decide",
+      "kind": "narrated_reference",
+      "voice": "Local synthetic Samantha English US",
+      "requested_rate": 110,
+      "video": "lesson-4.mp4",
+      "captions": "lesson-4.en.vtt",
+      "transcript": "lesson-4.md",
+      "duration_seconds": 131.96263,
+      "audio_duration_seconds": 131.96263100000002,
+      "caption_cues": 41,
+      "slide_count": 4,
+      "slides": [
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-4-slide-0.png",
+          "start": 0.0,
+          "end": 31.244626,
+          "title": "A mixed business picture"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-4-slide-1.png",
+          "start": 31.244626,
+          "end": 65.707076,
+          "title": "The spending illustration"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-4-slide-2.png",
+          "start": 65.707076,
+          "end": 97.00793700000001,
+          "title": "What the illustration omits"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-4-slide-3.png",
+          "start": 97.00793700000001,
+          "end": 131.96263100000002,
+          "title": "Your recommendation"
+        }
+      ],
+      "sha256": "ddb0639c11aaeaf60f976516908cc15d489ef042e039f1a8c2e9f6c5e9705eec",
+      "bytes": 2125991
+    },
+    {
+      "id": 5,
+      "title": "Write the brief and publish",
+      "kind": "narrated_reference",
+      "voice": "Local synthetic Samantha English US",
+      "requested_rate": 110,
+      "video": "lesson-5.mp4",
+      "captions": "lesson-5.en.vtt",
+      "transcript": "lesson-5.md",
+      "duration_seconds": 83.466667,
+      "audio_duration_seconds": 83.43074999999999,
+      "caption_cues": 25,
+      "slide_count": 4,
+      "slides": [
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-5-slide-0.png",
+          "start": 0.0,
+          "end": 24.257007,
+          "title": "The Pages decision brief"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-5-slide-1.png",
+          "start": 24.257007,
+          "end": 44.513197999999996,
+          "title": "Review before publishing"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-5-slide-2.png",
+          "start": 44.513197999999996,
+          "end": 65.32793799999999,
+          "title": "Two outputs with separate access"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-5-slide-3.png",
+          "start": 65.32793799999999,
+          "end": 83.43074999999999,
+          "title": "The publishing checkpoint"
+        }
+      ],
+      "sha256": "2e306c56e110568d244a0f3c44b13df237ffcbb1962e1d097fcc9b924f7551ab",
+      "bytes": 1368916
+    },
+    {
+      "id": 6,
+      "title": "Defend the decision",
+      "kind": "narrated_reference",
+      "voice": "Local synthetic Samantha English US",
+      "requested_rate": 110,
+      "video": "lesson-6.mp4",
+      "captions": "lesson-6.en.vtt",
+      "transcript": "lesson-6.md",
+      "duration_seconds": 43.918776,
+      "audio_duration_seconds": 43.918774,
+      "caption_cues": 15,
+      "slide_count": 2,
+      "slides": [
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-6-slide-0.png",
+          "start": 0.0,
+          "end": 20.824126,
+          "title": "Explain your judgment"
+        },
+        {
+          "image": "/Users/khalilhimura/Projects/pivot-2026/production/build/lesson-slides/lesson-6-slide-1.png",
+          "start": 20.824126,
+          "end": 43.918774,
+          "title": "Keep the snapshot honest"
+        }
+      ],
+      "sha256": "f4fc10fae07e46dc2ee2cb4a38b155bc3858f70899582a3332e48d8badd1bd5d",
+      "bytes": 653652
+    }
+  ]
+}

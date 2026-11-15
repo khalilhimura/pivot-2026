@@ -1,0 +1,309 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.722
+Run Prompt three after approving the
+numbers.
+
+2
+00:00:02.722 --> 00:00:06.478
+Ask Sites for the focused executive
+dashboard website.
+
+3
+00:00:06.478 --> 00:00:10.710
+Give it the metric contract and the
+reconciled source context from the
+
+4
+00:00:10.710 --> 00:00:11.416
+same chat.
+
+5
+00:00:11.416 --> 00:00:13.796
+Start on June, All origins.
+
+6
+00:00:13.796 --> 00:00:20.288
+The prompt specifies six cards, filters,
+trends, source details and a spending
+
+7
+00:00:20.288 --> 00:00:20.829
+illustration.
+
+8
+00:00:20.829 --> 00:00:26.216
+It also specifies the reporting month, the
+finalization date and the synthetic-data
+
+9
+00:00:26.216 --> 00:00:26.664
+label.
+
+10
+00:00:26.664 --> 00:00:30.022
+Let the first build finish before changing
+the design.
+
+11
+00:00:30.022 --> 00:00:34.816
+Use the reserved generation time rather
+than turning the lesson into an
+
+12
+00:00:34.816 --> 00:00:36.015
+open-ended layout exercise.
+
+13
+00:00:36.015 --> 00:00:40.799
+The dashboard should provide a clear
+overview, with the underlying evidence one
+
+14
+00:00:40.799 --> 00:00:41.596
+action away.
+
+15
+00:00:41.596 --> 00:00:43.503
+Open a metric definition.
+
+16
+00:00:43.503 --> 00:00:48.156
+You should be able to identify its source
+filename and field, its
+
+17
+00:00:48.156 --> 00:00:52.422
+numerator and denominator where relevant,
+its owner and its reporting date.
+
+18
+00:00:52.422 --> 00:00:55.829
+Revenue should show the addition of the
+two origin amounts.
+
+19
+00:00:55.829 --> 00:01:00.353
+Transaction success should show the
+combined completed and attempted counts.
+
+20
+00:01:00.353 --> 00:01:04.640
+A viewer needs enough information to
+understand the number even without
+
+21
+00:01:04.640 --> 00:01:06.200
+downloading an Office file.
+
+22
+00:01:06.200 --> 00:01:10.690
+Good typography helps reading; it cannot
+replace those source checks.
+
+23
+00:01:10.690 --> 00:01:12.816
+Select another reporting month.
+
+24
+00:01:12.816 --> 00:01:15.657
+The cards and detail rows should use that
+month.
+
+25
+00:01:15.657 --> 00:01:20.228
+The trend charts retain the six-month
+history for the selected customer origin
+
+26
+00:01:20.228 --> 00:01:22.132
+and highlight your chosen month.
+
+27
+00:01:22.132 --> 00:01:26.749
+This lets an executive compare the current
+observation with its context.
+
+28
+00:01:26.749 --> 00:01:31.127
+Read the scope note rather than assume
+every chart has identical time
+
+29
+00:01:31.127 --> 00:01:31.491
+coverage.
+
+30
+00:01:31.491 --> 00:01:32.908
+Select January.
+
+31
+00:01:32.908 --> 00:01:38.154
+Because December is absent from the source
+pack, the prior-month comparison must
+
+32
+00:01:38.154 --> 00:01:39.028
+say unavailable.
+
+33
+00:01:39.028 --> 00:01:43.352
+Inventing a December baseline or showing a
+zero change would conceal what
+
+34
+00:01:43.352 --> 00:01:45.154
+the source does not contain.
+
+35
+00:01:45.154 --> 00:01:47.632
+Now select June and Mobile-acquired.
+
+36
+00:01:47.632 --> 00:01:52.956
+The reference checks are seventy ringgit
+per verified customer, thirty-five percent
+
+37
+00:01:52.956 --> 00:01:55.860
+activation and thirty percent contribution
+margin.
+
+38
+00:01:55.860 --> 00:01:58.826
+Revenue is four hundred and twenty
+thousand ringgit.
+
+39
+00:01:58.826 --> 00:02:03.548
+These are the business metrics attributed
+to customers who originally joined through
+
+40
+00:02:03.548 --> 00:02:03.942
+mobile.
+
+41
+00:02:03.942 --> 00:02:07.468
+They are not a direct measurement of
+traffic using the mobile app
+
+42
+00:02:07.468 --> 00:02:08.350
+at this moment.
+
+43
+00:02:08.350 --> 00:02:13.272
+Check that the cards, funnel, trends and
+detail table all respect the
+
+44
+00:02:13.272 --> 00:02:14.092
+chosen origin.
+
+45
+00:02:14.092 --> 00:02:18.302
+Returning to All should restore six
+hundred thousand ringgit of revenue.
+
+46
+00:02:18.302 --> 00:02:23.258
+Filtering should change the underlying
+inputs before the formula is evaluated.
+
+47
+00:02:23.258 --> 00:02:27.708
+Do not keep a company-wide percentage
+while displaying a cohort count.
+
+48
+00:02:27.708 --> 00:02:31.946
+Do not add monthly unique people across
+January to June and label
+
+49
+00:02:31.946 --> 00:02:34.771
+the result unique customers for the whole
+period.
+
+50
+00:02:34.771 --> 00:02:37.601
+The same people may appear in several
+months.
+
+51
+00:02:37.601 --> 00:02:39.866
+Also inspect target verdicts.
+
+52
+00:02:39.866 --> 00:02:44.135
+The supplied Board targets apply only to
+June at company-wide scope.
+
+53
+00:02:44.135 --> 00:02:48.143
+A mobile-only card can show its
+measurement, but it should not inherit
+
+54
+00:02:48.143 --> 00:02:51.816
+that company target as though a cohort
+target had been approved.
+
+55
+00:02:51.816 --> 00:02:56.096
+If a value or interaction fails, describe
+the exact issue.
+
+56
+00:02:56.096 --> 00:03:01.162
+State the expected result, ask ChatGPT to
+trace the source inputs, formula
+
+57
+00:03:01.162 --> 00:03:06.228
+and filter scope, and recheck June All and
+June Mobile after the
+
+58
+00:03:06.228 --> 00:03:06.650
+correction.
+
+59
+00:03:06.650 --> 00:03:09.246
+Preserve the reviewed definitions and
+layout.
+
+60
+00:03:09.246 --> 00:03:13.351
+Avoid replacing the whole dashboard to
+repair one calculation.
+
+61
+00:03:13.351 --> 00:03:17.503
+Keep visual refinement to one specific
+request during this hour.
+
+62
+00:03:17.503 --> 00:03:21.230
+Save the reviewed version before
+deployment or wider sharing.
+
+63
+00:03:21.230 --> 00:03:25.509
+Pause now to run the prompt, operate the
+controls and complete the
+
+64
+00:03:25.509 --> 00:03:26.578
+three Mobile checks.
+
+65
+00:03:26.578 --> 00:03:31.493
+If generation exceeds its allowance, use
+the reference as an assisted recovery
+
+66
+00:03:31.493 --> 00:03:33.540
+and record that assistance honestly.

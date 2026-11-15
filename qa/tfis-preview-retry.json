@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "id": "9a3eda9a-9b4d-46d9-9560-a6017849af59",
+  "url": "https://9a3eda9a.tfis.pages.dev",
+  "environment": "preview",
+  "latest_stage": {
+    "name": "queued",
+    "started_on": null,
+    "ended_on": null,
+    "status": "idle"
+  },
+  "commit": "154836ab3701c2de30ba30d223d7e5965bcc886c",
+  "aliases": null
+}

@@ -1,0 +1,280 @@
+{
+  "status": "teaching-draft-review-bundle",
+  "target_url": "https://thefutureissolo.com/pivot-2026/",
+  "archive": "pivot-2026-course-preview-v1.zip",
+  "archive_bytes": 14555560,
+  "archive_sha256": "2d111a15a7e6e061477cd900ca4325fca7e230df83b7572dafc54a9880abbf2a",
+  "files": [
+    {
+      "path": "public/pivot-2026/assets/fonts/Atkinson-Bold.woff2",
+      "bytes": 23248,
+      "sha256": "2bc573651ef88c3b06b0b7418fc88a34e765b8146edb999ab3213c08998ebe6e"
+    },
+    {
+      "path": "public/pivot-2026/assets/fonts/Atkinson-Regular.woff2",
+      "bytes": 22780,
+      "sha256": "d2f476aab6f9df58c2ee4a1c0343ea57f4d21bb533cc4198ad0d28aa4270f6f8"
+    },
+    {
+      "path": "public/pivot-2026/assets/fonts/JetBrainsMono-Medium.woff2",
+      "bytes": 38840,
+      "sha256": "1ff3bfa1f1d787f00f987e5296f8484e1cbfcb6d7f96ab4b9245c74dba0a4aa0"
+    },
+    {
+      "path": "public/pivot-2026/course.css",
+      "bytes": 10243,
+      "sha256": "aa391b8ccee11eccc2e51418518ecb201f3a8f9db6c44a4669a26d3dd8293573"
+    },
+    {
+      "path": "public/pivot-2026/course.js",
+      "bytes": 5204,
+      "sha256": "36950c9876441ae527472778bb0dd8e40dcede8b0d7515534c9e5be0a3c886d8"
+    },
+    {
+      "path": "public/pivot-2026/demo/app.mjs",
+      "bytes": 11662,
+      "sha256": "380b75f47fea20d93eec707a599114938ad0fa21d83f9097bfee2fd2d7683a85"
+    },
+    {
+      "path": "public/pivot-2026/demo/aura-course-data-v1.zip",
+      "bytes": 76739,
+      "sha256": "84e5e449c57b9d73fa8b4f8f37d9de7f8d7c4d3a910c1cd3caf180cdb19a9751"
+    },
+    {
+      "path": "public/pivot-2026/demo/aura-data.json",
+      "bytes": 9690,
+      "sha256": "b4c7d150931f197b0c8da0b7b249c91ecea10522f71e17e8bf15e498ae13b5ba"
+    },
+    {
+      "path": "public/pivot-2026/demo/brief.html",
+      "bytes": 3767,
+      "sha256": "fe90be9f34e5ef7c4408e5376bb11669ba0bc1305f0960c7c4149615e1aa6930"
+    },
+    {
+      "path": "public/pivot-2026/demo/index.html",
+      "bytes": 7136,
+      "sha256": "1a1c681ae7181e0dd140980c0210477c5b999dd694501ce0541fcc0ddf3af6d7"
+    },
+    {
+      "path": "public/pivot-2026/demo/model.mjs",
+      "bytes": 2899,
+      "sha256": "f7b976e37aa1117811d3e1138db553b610e98b4ee14197b3f2f4097ed10e0542"
+    },
+    {
+      "path": "public/pivot-2026/demo/sources/01-aura-company-brief.docx",
+      "bytes": 39655,
+      "sha256": "713e98ebcfdb4609e15ef71d602a06e48a2d19edcdb07aa288f9b08f89a13ace"
+    },
+    {
+      "path": "public/pivot-2026/demo/sources/02-aura-board-risk-report.pdf",
+      "bytes": 6890,
+      "sha256": "b3017e0b7c3146c89aaba631c3cc51556c2bd2bb150c016962728d7493cb39d5"
+    },
+    {
+      "path": "public/pivot-2026/demo/sources/03-aura-finance.xlsx",
+      "bytes": 9014,
+      "sha256": "1f79f3c9f7821f6002e3798d29588f2ddc5ea52c1c970227fe66192811a631d3"
+    },
+    {
+      "path": "public/pivot-2026/demo/sources/04-aura-growth-review.pptx",
+      "bytes": 35682,
+      "sha256": "bc7acb313b0e732a59813715af1aba96340333c5fcde9919df3bbd439230d5cd"
+    },
+    {
+      "path": "public/pivot-2026/demo/sources/05-aura-customer-metrics.csv",
+      "bytes": 633,
+      "sha256": "968783043a2e4d56b4c6b8379be2fcd6da73abfb5602a18900334459066c5c54"
+    },
+    {
+      "path": "public/pivot-2026/demo/sources/06-aura-service-metrics.json",
+      "bytes": 3225,
+      "sha256": "2b2c537398e953e6c3112e492398f78f7be4b370758bec866bd2293e90c6197d"
+    },
+    {
+      "path": "public/pivot-2026/demo/style.css",
+      "bytes": 6917,
+      "sha256": "04d83388710a9e28b9f6cbe80e355f29ce881336b5baee0378a45b7027a96f33"
+    },
+    {
+      "path": "public/pivot-2026/files/aura-course-data-v1.zip",
+      "bytes": 76739,
+      "sha256": "84e5e449c57b9d73fa8b4f8f37d9de7f8d7c4d3a910c1cd3caf180cdb19a9751"
+    },
+    {
+      "path": "public/pivot-2026/files/aura-static-dashboard-v1.zip",
+      "bytes": 167392,
+      "sha256": "2db0d7f7ad640a51fb17a945157e2157c0ad2d51a1bf2af586df86bb0cbbc75d"
+    },
+    {
+      "path": "public/pivot-2026/files/checkpoints.md",
+      "bytes": 1893,
+      "sha256": "c91701256808a0a5c46d135b7568f363686bad03bf005992a2e6f1e01b1c476f"
+    },
+    {
+      "path": "public/pivot-2026/files/prompts.md",
+      "bytes": 5093,
+      "sha256": "b90bc8223c678cb2a2e57ed85a14cfb517a07c3f91885070ea29c17e7bfa9791"
+    },
+    {
+      "path": "public/pivot-2026/files/workbook.md",
+      "bytes": 15813,
+      "sha256": "a2ebde533c52a2cdf741d9dc189595a5ea02fe8dbed1d9215af7f389406db73b"
+    },
+    {
+      "path": "public/pivot-2026/index.html",
+      "bytes": 39342,
+      "sha256": "aa8fc97edb29182bf88ab58a3161a017353d5e78ca179fea203395ee84d8a6bd"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-0-poster.png",
+      "bytes": 62009,
+      "sha256": "16c7366060615ddcda2481c8c2e3df950f5248913c315d761e01ae8220f2b1c8"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-0.en.vtt",
+      "bytes": 2279,
+      "sha256": "f4cf5d2c2815acf24b5cdc214dd19eb5a74902bb893cb02b034dbab6ec3809b4"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-0.mp4",
+      "bytes": 1459831,
+      "sha256": "e8f4522eb119a367fbc3b2485c33d2c5958ce2c84f9265960aacb4d31634e63a"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-1-poster.png",
+      "bytes": 67834,
+      "sha256": "bdee8fd49ec13c1d42634fe92b3febc5791c3157793df93d3603c56b749eef3c"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-1.en.vtt",
+      "bytes": 3517,
+      "sha256": "12c27f8956dfc916c037bf3f8e15197d05da9c0e6cea5dbd22e202ac7f9e3125"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-1.mp4",
+      "bytes": 2204111,
+      "sha256": "b4133e7688a8e2f45e0e262e3b7f47cd374edf479230f87a81cbee504b1f7290"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-2-poster.png",
+      "bytes": 59555,
+      "sha256": "3efe2c998d5b12c243b215696f9ef9a80cb8971093ee4e590514af988ba8e1dd"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-2.en.vtt",
+      "bytes": 5012,
+      "sha256": "47f61093f53dbbb511fcd8966fda099401a6d846326fc7fc806b8efe9044d34a"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-2.mp4",
+      "bytes": 3068412,
+      "sha256": "70bd352288a18259b64bcaca7abacce7fb9ff010dc2de6c91987f7ba04ef58f6"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-3-poster.png",
+      "bytes": 64746,
+      "sha256": "fbcdedb5c765677070de6f8c371201e98c997ce6fc41f59fce466a50d9ef17b0"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-3.en.vtt",
+      "bytes": 5679,
+      "sha256": "831fc592030ce701e2bde162431aedfb0ea9e71e7ba8b0dcd792ce73a4336ee3"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-3.mp4",
+      "bytes": 3436544,
+      "sha256": "7879aa54a22f143edcbefc8917c5b2f95e89df93e236dc15db2b7bac86169206"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-4-poster.png",
+      "bytes": 73310,
+      "sha256": "33aaf4ab73520d782052977e6bc50f132354d5cc4356d9f860daa05c267d5704"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-4.en.vtt",
+      "bytes": 3500,
+      "sha256": "49d2d515fed0862fa7fe7c07ac4cce43154b6aaa04dc62b09fa6d442adb5cd85"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-4.mp4",
+      "bytes": 2125991,
+      "sha256": "ddb0639c11aaeaf60f976516908cc15d489ef042e039f1a8c2e9f6c5e9705eec"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-5-poster.png",
+      "bytes": 66442,
+      "sha256": "e286b1e2aaad8b8b6f7a673592db4da683b3f38e4f0bc922609d1bd7e740583f"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-5.en.vtt",
+      "bytes": 2169,
+      "sha256": "30717d35b8f46f781f6cd9df5f425224d6d112fbda230bc463736365106ec254"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-5.mp4",
+      "bytes": 1368916,
+      "sha256": "2e306c56e110568d244a0f3c44b13df237ffcbb1962e1d097fcc9b924f7551ab"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-6-poster.png",
+      "bytes": 52573,
+      "sha256": "04628b48ac196574eb54452a053843c44914639cbf5a3fb643f576413b61da6b"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-6.en.vtt",
+      "bytes": 1193,
+      "sha256": "9594983d97af3e98c6eb67a866974a3a3a421fa4a998ad941407fe380f862ee7"
+    },
+    {
+      "path": "public/pivot-2026/media/lesson-6.mp4",
+      "bytes": 653652,
+      "sha256": "f4fc10fae07e46dc2ee2cb4a38b155bc3858f70899582a3332e48d8badd1bd5d"
+    },
+    {
+      "path": "public/pivot-2026/optional-hosting.html",
+      "bytes": 5891,
+      "sha256": "a04e1ff4af0b816722869844ef04d453586f8a81c9008c7fdc09e69004ceff43"
+    },
+    {
+      "path": "public/pivot-2026/transcripts/lesson-0.html",
+      "bytes": 2069,
+      "sha256": "10bfdce64c4800b218c201aff7ae7e9556fd5b835c01f6815b067e856c051da8"
+    },
+    {
+      "path": "public/pivot-2026/transcripts/lesson-1.html",
+      "bytes": 2854,
+      "sha256": "8355bd56dae33172e2a2bc351cb8a38d02e1a5c551dd2302b0c2a75b664f9266"
+    },
+    {
+      "path": "public/pivot-2026/transcripts/lesson-2.html",
+      "bytes": 3733,
+      "sha256": "3752cbfd26cf8ce26017b0dd606675c6bb86570c56239a54ef8667fa5663a506"
+    },
+    {
+      "path": "public/pivot-2026/transcripts/lesson-3.html",
+      "bytes": 4213,
+      "sha256": "2be2cb018fa13144564cb4712edc858a71945db97ab571ee36cfb24d1a3ed1b7"
+    },
+    {
+      "path": "public/pivot-2026/transcripts/lesson-4.html",
+      "bytes": 2833,
+      "sha256": "22580b36224b893b95bb05e7fb13b25b864d7d58d916cb62cf068aee7b31a493"
+    },
+    {
+      "path": "public/pivot-2026/transcripts/lesson-5.html",
+      "bytes": 2046,
+      "sha256": "d33cb83ef588c88e455215744889c688319effbf31d10563e4be65fbdb73b7d8"
+    },
+    {
+      "path": "public/pivot-2026/transcripts/lesson-6.html",
+      "bytes": 1304,
+      "sha256": "82fd092c5e7f199ac19026c8b7bdd4a3efe38172130c97b5dd718b30dde69d67"
+    }
+  ],
+  "not_included": [
+    "Private author Page metadata",
+    "Producer source and internal media manifest",
+    "Actual fresh Plus build recording or pilot evidence"
+  ],
+  "integration_status": "Staged only; no TFIS production deployment"
+}

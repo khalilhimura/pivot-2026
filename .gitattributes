@@ -1,0 +1,12 @@
+* text=auto
+*.csv -text whitespace=trailing-space,space-before-tab,cr-at-eol
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.zip binary
+*.mp4 binary
+*.png binary
+*.woff2 binary
+# Raw execution logs retain the original terminal output.
+/qa/*.log -whitespace

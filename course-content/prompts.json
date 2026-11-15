@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Inspect and reconcile",
+    "text": "I am a Board member reviewing Aura, the fictional consumer payments company in\nthis folder. Use only these six synthetic source files for business facts.\nOur question is whether to increase acquisition spending next quarter or first\nimprove activation and transaction reliability.\n\nRead the files and give me a concise source inventory: filename, content read,\nbusiness owner, reporting period, useful metrics and extraction problems.\nUse the company brief's glossary and source-owner register to resolve authority.\nCompare different definitions of active customers; retain their distinct labels.\nExplain conflicts and missing information. Do not invent values or build yet."
+  },
+  {
+    "id": 2,
+    "title": "Agree and verify the metrics",
+    "text": "Prepare Aura's executive metric contract for net revenue, monthly transacting\ncustomers, 30-day activation, CAC per verified customer, contribution margin and\ntransaction success. State each formula, numerator, denominator, unit, source\nlocation and reporting date. acquisition_channel means customer origin, not\nthe app a customer currently uses. Use disjoint origins when aggregating.\n\nCalculate June 2026 for All, Web-acquired and Mobile-acquired and compare with\nMay. Sum underlying inputs before calculating rates. Never sum monthly unique\ncustomer counts across months. Separate missing values from zero and percentage\npoints from percent change. Acquisition spending is excluded from this case's\ncontribution margin. Report discrepancies before proceeding.\nShow source arithmetic for revenue, activation and transaction success so I can\ncheck them against the course control card. Wait for my review before building."
+  },
+  {
+    "id": 3,
+    "title": "Build the dashboard",
+    "text": "@Sites Build a focused executive dashboard website using the approved Aura\nmetric contract and reconciled data from this chat. Bundle this dated synthetic\nsnapshot; use no external API, database, live AI feature or paid integration.\n\nOpen on June 2026 / All origins. Include six KPI cards, month selection and\nCustomer origin: All / Web-acquired / Mobile-acquired. Update the cards and\ndetail rows together; keep six-month trends for the chosen origin and highlight\nthe selected month. Show the board question, next-quarter planning horizon and\nCEO decision owner above the metrics. Show prior-month comparisons only where available.\nInclude the acquisition funnel, revenue/margin trend, transaction success trend\nand expandable metric definitions with filenames and source locations.\n\nAdd a 0\u201330% additional-spend control, default 0%, using the selected month's\nspend, CAC and activation rate as fixed assumptions. Label its outputs as\nadditional monthly spending and hypothetical additional customers. Show no ROI\nor causal claim. Handle missing inputs and zero denominators as unavailable.\nShow target status only where the risk report supplies a matching target scope.\n\nUse readable executive typography, accessible labels and a calm layout. Display\nthe reporting month, 31 July 2026 finalization date and Synthetic training data.\nKeep the data and formulas in this approved scope. Check the main interactions\nand save a version for review before deployment or wider sharing."
+  },
+  {
+    "id": 4,
+    "title": "Challenge the conclusion",
+    "text": "Using the verified Aura dashboard, compare increasing acquisition spending with\nholding spending while investigating activation and reliability. Separate facts,\ninterpretations and assumptions. Test June / All at +20% additional spending.\nExplain the fixed-CAC and fixed-activation assumptions and what they omit.\nDo not infer causation from the incident narrative or claim a return on investment.\nGive me two supported observations, the strongest counterargument, missing\nevidence and one decision condition. Ask me to choose the recommendation."
+  },
+  {
+    "id": 5,
+    "title": "Create the decision brief",
+    "text": "Create a ChatGPT Page titled Aura \u2014 Board Decision Brief. Keep it to about\n400\u2013500 words. Use the recommendation I chose, rather than choosing for me.\nInclude the board question; selected reporting month and customer origin;\nthree verified observations with source locations; my recommendation;\none counterargument; scenario assumptions; important missing evidence;\nan accountable executive role; and a review date or measurable review trigger.\nLabel the material synthetic and link the dashboard. Keep observed facts separate\nfrom scenario values. Save the Page for my review with owner-only access initially."
+  },
+  {
+    "id": 6,
+    "title": "Publish and verify",
+    "text": "Use the reviewed Aura dashboard version. Link the reviewed Board Decision Brief\nand ensure its selected month, origin and source version are stated explicitly.\nPublish the Site with owner-only access. Do not broaden the Site or Page audience.\nVerify the hosted Site opens, its June / All values match the checked figures,\nits filters and spending control work, and the Page link opens for its owner.\nReturn the Site and Page links, version, data dates and the explicit refresh steps.\nIf a capability is unavailable, tell me exactly which one; do not claim it passed."
+  }
+]

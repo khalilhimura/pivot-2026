@@ -1,0 +1,337 @@
+{
+  "metadata": {
+    "company": "Aura",
+    "synthetic": true,
+    "data_version": "v1",
+    "reporting_start": "2026-01-01",
+    "reporting_end": "2026-06-30",
+    "finalized_at": "2026-07-31",
+    "currency": "MYR",
+    "decision_owner": "CEO",
+    "planning_horizon": "next quarter"
+  },
+  "rows": [
+    {
+      "month": "2026-01",
+      "acquisition_channel": "web",
+      "revenue_myr": 140000,
+      "variable_costs_myr": 63000,
+      "acquisition_spend_myr": 72000,
+      "new_verified_customers": 1800,
+      "activated_30d_customers": 1080,
+      "monthly_transacting_customers": 9000,
+      "completed_transactions": 80000,
+      "transaction_attempts": 80500,
+      "login_active_customers": 11250
+    },
+    {
+      "month": "2026-01",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 300000,
+      "variable_costs_myr": 168000,
+      "acquisition_spend_myr": 300000,
+      "new_verified_customers": 6000,
+      "activated_30d_customers": 3000,
+      "monthly_transacting_customers": 21000,
+      "completed_transactions": 150000,
+      "transaction_attempts": 151000,
+      "login_active_customers": 27000
+    },
+    {
+      "month": "2026-02",
+      "acquisition_channel": "web",
+      "revenue_myr": 150000,
+      "variable_costs_myr": 67500,
+      "acquisition_spend_myr": 76000,
+      "new_verified_customers": 1900,
+      "activated_30d_customers": 1102,
+      "monthly_transacting_customers": 9500,
+      "completed_transactions": 84000,
+      "transaction_attempts": 84600,
+      "login_active_customers": 12000
+    },
+    {
+      "month": "2026-02",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 330000,
+      "variable_costs_myr": 188100,
+      "acquisition_spend_myr": 340000,
+      "new_verified_customers": 6800,
+      "activated_30d_customers": 3264,
+      "monthly_transacting_customers": 23000,
+      "completed_transactions": 165000,
+      "transaction_attempts": 167000,
+      "login_active_customers": 29500
+    },
+    {
+      "month": "2026-03",
+      "acquisition_channel": "web",
+      "revenue_myr": 155000,
+      "variable_costs_myr": 71300,
+      "acquisition_spend_myr": 80000,
+      "new_verified_customers": 2000,
+      "activated_30d_customers": 1120,
+      "monthly_transacting_customers": 10000,
+      "completed_transactions": 86000,
+      "transaction_attempts": 86600,
+      "login_active_customers": 12500
+    },
+    {
+      "month": "2026-03",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 350000,
+      "variable_costs_myr": 203000,
+      "acquisition_spend_myr": 380000,
+      "new_verified_customers": 7600,
+      "activated_30d_customers": 3496,
+      "monthly_transacting_customers": 25000,
+      "completed_transactions": 180000,
+      "transaction_attempts": 183000,
+      "login_active_customers": 32000
+    },
+    {
+      "month": "2026-04",
+      "acquisition_channel": "web",
+      "revenue_myr": 160000,
+      "variable_costs_myr": 76800,
+      "acquisition_spend_myr": 90000,
+      "new_verified_customers": 2000,
+      "activated_30d_customers": 1080,
+      "monthly_transacting_customers": 10500,
+      "completed_transactions": 90000,
+      "transaction_attempts": 90800,
+      "login_active_customers": 13000
+    },
+    {
+      "month": "2026-04",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 380000,
+      "variable_costs_myr": 228000,
+      "acquisition_spend_myr": 400000,
+      "new_verified_customers": 8000,
+      "activated_30d_customers": 3440,
+      "monthly_transacting_customers": 26000,
+      "completed_transactions": 190000,
+      "transaction_attempts": 194000,
+      "login_active_customers": 34000
+    },
+    {
+      "month": "2026-05",
+      "acquisition_channel": "web",
+      "revenue_myr": 170000,
+      "variable_costs_myr": 85000,
+      "acquisition_spend_myr": 100000,
+      "new_verified_customers": 2000,
+      "activated_30d_customers": 1000,
+      "monthly_transacting_customers": 11000,
+      "completed_transactions": 94000,
+      "transaction_attempts": 95000,
+      "login_active_customers": 14000
+    },
+    {
+      "month": "2026-05",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 400000,
+      "variable_costs_myr": 257000,
+      "acquisition_spend_myr": 440000,
+      "new_verified_customers": 8000,
+      "activated_30d_customers": 3200,
+      "monthly_transacting_customers": 27000,
+      "completed_transactions": 200000,
+      "transaction_attempts": 205000,
+      "login_active_customers": 35000
+    },
+    {
+      "month": "2026-06",
+      "acquisition_channel": "web",
+      "revenue_myr": 180000,
+      "variable_costs_myr": 90000,
+      "acquisition_spend_myr": 100000,
+      "new_verified_customers": 2000,
+      "activated_30d_customers": 1000,
+      "monthly_transacting_customers": 12000,
+      "completed_transactions": 95000,
+      "transaction_attempts": 96000,
+      "login_active_customers": 15000
+    },
+    {
+      "month": "2026-06",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 420000,
+      "variable_costs_myr": 294000,
+      "acquisition_spend_myr": 560000,
+      "new_verified_customers": 8000,
+      "activated_30d_customers": 2800,
+      "monthly_transacting_customers": 28000,
+      "completed_transactions": 205000,
+      "transaction_attempts": 214000,
+      "login_active_customers": 37000
+    }
+  ],
+  "budgets": [
+    {
+      "month": "2026-01",
+      "acquisition_channel": "web",
+      "revenue_myr": 147000,
+      "variable_costs_myr": 63000,
+      "acquisition_spend_myr": 72000
+    },
+    {
+      "month": "2026-01",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 315000,
+      "variable_costs_myr": 168000,
+      "acquisition_spend_myr": 300000
+    },
+    {
+      "month": "2026-02",
+      "acquisition_channel": "web",
+      "revenue_myr": 158000,
+      "variable_costs_myr": 67500,
+      "acquisition_spend_myr": 76000
+    },
+    {
+      "month": "2026-02",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 346000,
+      "variable_costs_myr": 188100,
+      "acquisition_spend_myr": 340000
+    },
+    {
+      "month": "2026-03",
+      "acquisition_channel": "web",
+      "revenue_myr": 163000,
+      "variable_costs_myr": 71300,
+      "acquisition_spend_myr": 80000
+    },
+    {
+      "month": "2026-03",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 368000,
+      "variable_costs_myr": 203000,
+      "acquisition_spend_myr": 380000
+    },
+    {
+      "month": "2026-04",
+      "acquisition_channel": "web",
+      "revenue_myr": 168000,
+      "variable_costs_myr": 76800,
+      "acquisition_spend_myr": 90000
+    },
+    {
+      "month": "2026-04",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 399000,
+      "variable_costs_myr": 228000,
+      "acquisition_spend_myr": 400000
+    },
+    {
+      "month": "2026-05",
+      "acquisition_channel": "web",
+      "revenue_myr": 178000,
+      "variable_costs_myr": 85000,
+      "acquisition_spend_myr": 100000
+    },
+    {
+      "month": "2026-05",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 420000,
+      "variable_costs_myr": 257000,
+      "acquisition_spend_myr": 440000
+    },
+    {
+      "month": "2026-06",
+      "acquisition_channel": "web",
+      "revenue_myr": 190000,
+      "variable_costs_myr": 90000,
+      "acquisition_spend_myr": 100000
+    },
+    {
+      "month": "2026-06",
+      "acquisition_channel": "mobile",
+      "revenue_myr": 430000,
+      "variable_costs_myr": 252000,
+      "acquisition_spend_myr": 500000
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-01",
+      "date": "2026-03-12",
+      "surface": "mobile_app",
+      "duration_minutes": 35,
+      "summary": "Release rollback after payment confirmation delays. No causal effect on cohort activation established."
+    },
+    {
+      "id": "INC-02",
+      "date": "2026-04-18",
+      "surface": "web_app",
+      "duration_minutes": 18,
+      "summary": "Gateway timeouts; retry guidance updated. Monthly attempt totals already include affected traffic."
+    },
+    {
+      "id": "INC-03",
+      "date": "2026-05-21",
+      "surface": "mobile_app",
+      "duration_minutes": 55,
+      "summary": "Payment provider latency increased retries. Incident duration is context, not an uptime denominator."
+    },
+    {
+      "id": "INC-04",
+      "date": "2026-06-17",
+      "surface": "mobile_app",
+      "duration_minutes": 90,
+      "summary": "Confirmation errors during peak traffic. Investigate device, provider and acquisition cohort independently."
+    }
+  ],
+  "targets": [
+    {
+      "metric": "revenue_myr",
+      "value": 620000,
+      "direction": "at_least",
+      "month": "2026-06",
+      "channel": "all",
+      "source": "02-aura-board-risk-report.pdf, page 2"
+    },
+    {
+      "metric": "active",
+      "value": 42000,
+      "direction": "at_least",
+      "month": "2026-06",
+      "channel": "all",
+      "source": "02-aura-board-risk-report.pdf, page 2"
+    },
+    {
+      "metric": "activation",
+      "value": 0.45,
+      "direction": "at_least",
+      "month": "2026-06",
+      "channel": "all",
+      "source": "02-aura-board-risk-report.pdf, page 2"
+    },
+    {
+      "metric": "cac",
+      "value": 60,
+      "direction": "at_most",
+      "month": "2026-06",
+      "channel": "all",
+      "source": "02-aura-board-risk-report.pdf, page 2"
+    },
+    {
+      "metric": "margin",
+      "value": 0.4,
+      "direction": "at_least",
+      "month": "2026-06",
+      "channel": "all",
+      "source": "02-aura-board-risk-report.pdf, page 2"
+    },
+    {
+      "metric": "success",
+      "value": 0.99,
+      "direction": "at_least",
+      "month": "2026-06",
+      "channel": "all",
+      "source": "02-aura-board-risk-report.pdf, page 2"
+    }
+  ]
+}

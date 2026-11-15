@@ -1,0 +1,116 @@
+{
+  "company": "Aura",
+  "synthetic": true,
+  "data_version": "v1",
+  "reporting_start": "2026-01-01",
+  "reporting_end": "2026-06-30",
+  "finalized_at": "2026-07-31",
+  "currency": "MYR",
+  "decision_owner": "CEO",
+  "planning_horizon": "next quarter",
+  "attribution": "Immutable acquisition_channel is customer origin; incident surface is a separate dimension.",
+  "monthly_metrics": [
+    {
+      "month": "2026-01",
+      "acquisition_channel": "web",
+      "completed_transactions": 80000,
+      "transaction_attempts": 80500
+    },
+    {
+      "month": "2026-01",
+      "acquisition_channel": "mobile",
+      "completed_transactions": 150000,
+      "transaction_attempts": 151000
+    },
+    {
+      "month": "2026-02",
+      "acquisition_channel": "web",
+      "completed_transactions": 84000,
+      "transaction_attempts": 84600
+    },
+    {
+      "month": "2026-02",
+      "acquisition_channel": "mobile",
+      "completed_transactions": 165000,
+      "transaction_attempts": 167000
+    },
+    {
+      "month": "2026-03",
+      "acquisition_channel": "web",
+      "completed_transactions": 86000,
+      "transaction_attempts": 86600
+    },
+    {
+      "month": "2026-03",
+      "acquisition_channel": "mobile",
+      "completed_transactions": 180000,
+      "transaction_attempts": 183000
+    },
+    {
+      "month": "2026-04",
+      "acquisition_channel": "web",
+      "completed_transactions": 90000,
+      "transaction_attempts": 90800
+    },
+    {
+      "month": "2026-04",
+      "acquisition_channel": "mobile",
+      "completed_transactions": 190000,
+      "transaction_attempts": 194000
+    },
+    {
+      "month": "2026-05",
+      "acquisition_channel": "web",
+      "completed_transactions": 94000,
+      "transaction_attempts": 95000
+    },
+    {
+      "month": "2026-05",
+      "acquisition_channel": "mobile",
+      "completed_transactions": 200000,
+      "transaction_attempts": 205000
+    },
+    {
+      "month": "2026-06",
+      "acquisition_channel": "web",
+      "completed_transactions": 95000,
+      "transaction_attempts": 96000
+    },
+    {
+      "month": "2026-06",
+      "acquisition_channel": "mobile",
+      "completed_transactions": 205000,
+      "transaction_attempts": 214000
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-01",
+      "date": "2026-03-12",
+      "surface": "mobile_app",
+      "duration_minutes": 35,
+      "summary": "Release rollback after payment confirmation delays. No causal effect on cohort activation established."
+    },
+    {
+      "id": "INC-02",
+      "date": "2026-04-18",
+      "surface": "web_app",
+      "duration_minutes": 18,
+      "summary": "Gateway timeouts; retry guidance updated. Monthly attempt totals already include affected traffic."
+    },
+    {
+      "id": "INC-03",
+      "date": "2026-05-21",
+      "surface": "mobile_app",
+      "duration_minutes": 55,
+      "summary": "Payment provider latency increased retries. Incident duration is context, not an uptime denominator."
+    },
+    {
+      "id": "INC-04",
+      "date": "2026-06-17",
+      "surface": "mobile_app",
+      "duration_minutes": 90,
+      "summary": "Confirmation errors during peak traffic. Investigate device, provider and acquisition cohort independently."
+    }
+  ]
+}

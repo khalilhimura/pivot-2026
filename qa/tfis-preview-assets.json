@@ -1,0 +1,491 @@
+{
+  "preview_url": "https://9a3eda9a.tfis.pages.dev/pivot-2026/",
+  "commit": "154836ab3701c2de30ba30d223d7e5965bcc886c",
+  "request_authentication": "No cookies or Authorization header",
+  "pretty_route": {
+    "status": 200,
+    "final_url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev"
+  },
+  "asset_count": 53,
+  "all_match": false,
+  "assets": [
+    {
+      "path": "assets/fonts/Atkinson-Bold.woff2",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60934,
+      "sha256": "fb184167f32b07ca69c258f6d3c0760e5a600e3a13ca59170746a928a8f76e7d",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "assets/fonts/Atkinson-Regular.woff2",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60941,
+      "sha256": "1dcd44539149c765c432af6a0576a6c6be69fb3548d2ec16a5cb448bdc2e5dc3",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "assets/fonts/JetBrainsMono-Medium.woff2",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60950,
+      "sha256": "c177f573d4f1b25f15b4ad8fd2f1d3f5ccd20b4b6203ac55cbda70f04bf20aa8",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "course.css",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60878,
+      "sha256": "ec32bd138a1f24b54cda1d3c14bdf7af6d81a797be83d1edf18de6360f9809d4",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "course.js",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60876,
+      "sha256": "e291b13a71196d3db8ed2bccd77b90f07cc7430cd5f3a01610a2adc96b616280",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/app.mjs",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60885,
+      "sha256": "c8b25a98cabe634390f0b91d6b7e7268b8821aeec5092606c6cc42a1bddedf28",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/aura-course-data-v1.zip",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60922,
+      "sha256": "c71409a2bb64e9f0e63985ce42e99f14a30ffc9161559e59e518511dfe104e53",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/aura-data.json",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60901,
+      "sha256": "fb7d1f8581e015c01c5cec370b782f576da6f5cc6df9a930f8501b70ef7ba24d",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/brief.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60892,
+      "sha256": "9bff89fe321ed367faa41ca4afebf1ef3081f5f022b5f536d7e7a64403b74849",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/index.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60892,
+      "sha256": "d112844f96acea2e878f0ece08c569312e592a9b9dccd094dcc8775f9f1608d4",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/model.mjs",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60890,
+      "sha256": "d35a86c8791199ea6a63dd443478e46376eba94632152ae2ff885cc42aa83a37",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/sources/01-aura-company-brief.docx",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60950,
+      "sha256": "1a27ae0327a022b0d31424de1cbcdaef8e0db1447a0e90783265d791e211178f",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/sources/02-aura-board-risk-report.pdf",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60957,
+      "sha256": "e6fcf8d8d2417f5f0c12b16d624a209ea5ec50e3873059f3c65448e792a636de",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/sources/03-aura-finance.xlsx",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60936,
+      "sha256": "865163c9f6c96bf58219a4d9fc5c6cfaaeded7dd4f7a9f554d06e586101a738b",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/sources/04-aura-growth-review.pptx",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60950,
+      "sha256": "e721ea199a206e399983c8706f4eb15cff27778b78d09658a977a294dc2a9b12",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/sources/05-aura-customer-metrics.csv",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60955,
+      "sha256": "b5512465763430a23d02c384bf6dd5c6c25f2b2d742ee7e35cda3a6b48106afd",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/sources/06-aura-service-metrics.json",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60955,
+      "sha256": "66f8370d2564290a8ed270986da80bbb5f1c986adecef9de94a34e6b0ce2eb06",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "demo/style.css",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60890,
+      "sha256": "9744f0e0bf276df1f4b50857cbf756450be7a64b9c6af10da2fed0d755287b61",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "files/aura-course-data-v1.zip",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60925,
+      "sha256": "d94f3260a07222c863412157c6ccc9a4caca342a8003768b23c6d0e61d48ecbc",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "files/aura-static-dashboard-v1.zip",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60936,
+      "sha256": "6d002e365b4f7430c65b8ac73556b1cb2412cb4e85d2f1d2a42ccd662aafe1bb",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "files/checkpoints.md",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60904,
+      "sha256": "8ec8678ff5450752247319717ed5df42fadb8c53fa8f0735027dd2cc5e612240",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "files/prompts.md",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60894,
+      "sha256": "9734d1f5f772f1c9276d6467d8c4214cfaeb582a8d97f607b35ee772ddd4b073",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "files/workbook.md",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60897,
+      "sha256": "0c7e3227a3845e0250d60629d44f3641293bf683160db644216564b9869f3985",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60878,
+      "sha256": "84467c337b9a1cc92b8a207468126ab69ec3fb8b1b893a1b4966058126652da1",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-0-poster.png",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "6e8624648f1fb4247fb44ad6f9cae71848475923b55b84efcfc78536c77e753a",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-0.en.vtt",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60906,
+      "sha256": "760e4b5fccb486a09a3584fae88d4bd6de9e806cac4ecd0d793595274e4c2d39",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-0.mp4",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60899,
+      "sha256": "7ee880da21db4676635232ff80eebc33b6f37f613e9d0a8af65987f8c2bdbf7e",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-1-poster.png",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "7e58e2eefb2a19954c3383eee07b23efdf91597663ae99ff3fb60b6ed709235d",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-1.en.vtt",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60906,
+      "sha256": "59010feecfd192d8dc559e032e9ddb6b289a389bd3d7bf3ea1575085f47a88e4",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-1.mp4",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60899,
+      "sha256": "4062487ef3bb80c1188585e977bc235d9fe6d24450f7752d8439cf07d6677673",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-2-poster.png",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "7b587c7507b095a359fc11dcc29f471fef5832537a78e712238302cafceaab8e",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-2.en.vtt",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60906,
+      "sha256": "50c412238fcf9d9bf8f58d2777cdc1b232dcfbc90efeee963b02f092912132e1",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-2.mp4",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60899,
+      "sha256": "5df98f7b970dbaa4ba87d898ce18ad282b8a047f41cf397a611314b5af72b0f9",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-3-poster.png",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "507fbfa5a99d1eaff3012aa6cb71e9009f88fc5ace1bd5fbbdb73321828c700e",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-3.en.vtt",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60906,
+      "sha256": "039009b304b1077e17ec17265ebb4c16a0e68cf17bf676f5b7d1e22ab7d22b56",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-3.mp4",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60899,
+      "sha256": "ac52dd0d1c3a977e9ef88894a8a9adfbf5a05b7906abdf37430002551e4de23a",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-4-poster.png",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "57f45978cdee4e76562bc76403dac57790f14413e181f635f8d091803a08a654",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-4.en.vtt",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60906,
+      "sha256": "60393ff8e2ebba1d8c0cca542b55df8eb5bb9674ab10b403398392c0039078f3",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-4.mp4",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60899,
+      "sha256": "4b410eb8c9e40c749e766ac83a7cdfaca9490ef07051dbaab6747da314b37fcd",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-5-poster.png",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "a4b70f8657b90474accfd345e7616fbde9c647583cafec2d7def9eb6f87bf73b",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-5.en.vtt",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60906,
+      "sha256": "d5bec355de50692c580b5e3f417cf606782162a34c008d96f7b1b20c131f8a03",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-5.mp4",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60899,
+      "sha256": "f5cc33fe35f49a395ecebe506c3fa6879c3cc7e6e9ef69268fb6ccd30c8c8b10",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-6-poster.png",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "367c14093d1f39837f60e6d75ff39c70c40970daa20dc296c5ce8bbdae9af6db",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-6.en.vtt",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60906,
+      "sha256": "6b6293a45af52f52e6b53b9c947853971ed6c51075f4c6ab6a54f98d7655855d",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "media/lesson-6.mp4",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60899,
+      "sha256": "b19d7d9035f1cf3fd6abd313744d5156d3c06c3f564e7f031e4aae53e39a0e19",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "optional-hosting.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60904,
+      "sha256": "160d8dc5c3e07d8db0c1f59a1cfd2997d96798e65fcc877d56f19cf7be4f8861",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "transcripts/lesson-0.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "4652ac5b07ac0f3bb96b1ead59f7c79c3950733a9a16b1b977deed0b47dc5453",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "transcripts/lesson-1.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "c88cc865257c4dedcede4553b4527157769f9770f68883b229c7a552b61a3b0f",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "transcripts/lesson-2.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "53034f002462d3ee67c38067fbd5b4496c0110a096e627583c23f3b10f63555a",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "transcripts/lesson-3.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "2fd5b220b1136af36f3aaf28b38352ab6e3606ca5ed235fd7cd3758b83fb67c7",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "transcripts/lesson-4.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "7afc1d783965c0e06e774374eef7a762f5b3d8d9fd59ab42c4e54a19f2116531",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "transcripts/lesson-5.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "62d1154f031fcacc901ccf223ef52659e5f2d70885fa5a5d51a3d96c6a9eddab",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    },
+    {
+      "path": "transcripts/lesson-6.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 60915,
+      "sha256": "72042a604098223fd8aa2010a738165ee09721278ad0f4352fe8d2b4a2a901b3",
+      "url": "https://tfis-pages.cloudflareaccess.com/cdn-cgi/access/login/9a3eda9a.tfis.pages.dev",
+      "matches_reviewed_source": false
+    }
+  ],
+  "outcome": "Blocked by existing Cloudflare Access preview policy; no anonymous asset verification passed."
+}

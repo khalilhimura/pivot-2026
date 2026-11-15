@@ -1,0 +1,14 @@
+{
+  "archive": "pivot-2026-facilitator-handover-v1.zip",
+  "archive_bytes": 14654755,
+  "archive_sha256": "ce5084b8c11c76bfa1b40b645d1da83855fe081cc91211059fee94731e2e0d95",
+  "file_count": 15,
+  "exact_source_bytes": true,
+  "learner_source_count": 6,
+  "public_course_asset_count": 53,
+  "pilot_rows": 5,
+  "pilot_status": "pending",
+  "page_id": "page_a1c72e45615081919a45d04a7eda2dde",
+  "page_readback_blocks": 40,
+  "page_text_matches_local": true
+}

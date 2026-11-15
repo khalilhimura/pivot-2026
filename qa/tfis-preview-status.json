@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "id": "9a3eda9a-9b4d-46d9-9560-a6017849af59",
+  "environment": "preview",
+  "latest_stage": {
+    "name": "deploy",
+    "started_on": "2026-11-14T12:14:25.623558Z",
+    "ended_on": "2026-11-14T12:14:39.309351Z",
+    "status": "success"
+  },
+  "stages": [
+    {
+      "name": "queued",
+      "started_on": "2026-11-14T12:13:56.021379Z",
+      "ended_on": "2026-11-14T12:13:56.030212Z",
+      "status": "success"
+    },
+    {
+      "name": "initialize",
+      "started_on": "2026-11-14T12:13:56.030212Z",
+      "ended_on": "2026-11-14T12:13:57.339978Z",
+      "status": "success"
+    },
+    {
+      "name": "clone_repo",
+      "started_on": "2026-11-14T12:13:57.339978Z",
+      "ended_on": "2026-11-14T12:14:00.99844Z",
+      "status": "success"
+    },
+    {
+      "name": "build",
+      "started_on": "2026-11-14T12:14:00.99844Z",
+      "ended_on": "2026-11-14T12:14:25.623558Z",
+      "status": "success"
+    },
+    {
+      "name": "deploy",
+      "started_on": "2026-11-14T12:14:25.623558Z",
+      "ended_on": "2026-11-14T12:14:39.309351Z",
+      "status": "success"
+    }
+  ],
+  "url": "https://9a3eda9a.tfis.pages.dev",
+  "aliases": [
+    "https://feat-pivot-2026-course.tfis.pages.dev"
+  ],
+  "commit": "154836ab3701c2de30ba30d223d7e5965bcc886c"
+}

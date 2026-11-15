@@ -1,0 +1,68 @@
+{
+  "site": {
+    "project_id": "appgprj_6af83c8f0f7c8191ba249f571bda6f0a",
+    "expected_url": "https://aura-executive-dashboard-pivot-2026.khalilnooh.chatgpt.site",
+    "status": "succeeded",
+    "url": "https://aura-executive-dashboard-pivot-2026.khalilnooh.chatgpt.site",
+    "version_id": "appgprj_6af83c8f0f7c8191ba249f571bda6f0a~appgver_794706bb795c81918dba61b90878e2c9",
+    "deployment_id": "appgdep_6af84a7c2a8c8191b83d1d7381ca201e",
+    "commit_sha": "3296a9453e59dfca64f863ce4157b0dc77073100",
+    "audience": "owner-only"
+  },
+  "brief": {
+    "page_id": "page_1ccf47eaac688191b47f4e26d0019a76",
+    "url": "https://chatgpt.com/space/page_1ccf47eaac688191b47f4e26d0019a76",
+    "title": "Aura Board Decision Brief"
+  },
+  "verification": {
+    "data": "qa/data-verification.json",
+    "browser": "qa/dashboard-browser-review.md",
+    "model_tests": "tests/dashboard-model.test.mjs",
+    "ui_regressions": "tests/dashboard-ui.test.mjs"
+  },
+  "workbook": {
+    "page_id": "page_c6909a9af4188191bae984bb16e6f475",
+    "url": "https://chatgpt.com/space/page_c6909a9af4188191bae984bb16e6f475",
+    "title": "TFIS Pivot 2026 Executive Workbook",
+    "audience": "private personal Page",
+    "readback_sequence": 1,
+    "readback_blocks": 102
+  },
+  "deployment_history": [
+    {
+      "project_id": "appgprj_6af83c8f0f7c8191ba249f571bda6f0a",
+      "expected_url": "https://aura-executive-dashboard-pivot-2026.khalilnooh.chatgpt.site",
+      "status": "succeeded",
+      "url": "https://aura-executive-dashboard-pivot-2026.khalilnooh.chatgpt.site",
+      "version_id": "appgprj_6af83c8f0f7c8191ba249f571bda6f0a~appgver_9ce9a8c2f5048191b7dc3e3d45f0ef7d",
+      "deployment_id": "appgdep_6af83e53aea881918f0f103e2606bd1f",
+      "commit_sha": "189b7685d9799e745a86c92359682cc103612755",
+      "audience": "owner-only"
+    }
+  ],
+  "admin_course_preview": {
+    "project_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90",
+    "url": "https://tfis-pivot-2026-course-preview.khalilnooh.chatgpt.site",
+    "status": "succeeded",
+    "version_number": 1,
+    "version_id": "appgprj_6af8523fcd6881918ffbfd8f93326f90~appgver_5a01d40bbdac81918d049968114b1383",
+    "deployment_id": "appgdep_6af8532123f081919895b61d05b00e9e",
+    "commit_sha": "715d55ce07cb60d478347a2b8d903068e2cc3619",
+    "audience": "owner-only",
+    "owner_email": "khalil@mesolitica.com",
+    "equivalent_cloudflare_preview": "https://9a3eda9a.tfis.pages.dev/pivot-2026/",
+    "cloudflare_identity": "khalil.himura@gmail.com",
+    "verification": "qa/admin-preview-review.md"
+  },
+  "facilitator_handover": {
+    "page_id": "page_a1c72e45615081919a45d04a7eda2dde",
+    "url": "https://chatgpt.com/space/page_a1c72e45615081919a45d04a7eda2dde",
+    "title": "TFIS Pivot 2026 Facilitator Handover",
+    "audience": "private personal Page",
+    "readback_blocks": 40,
+    "text_matches_local_runbook": true,
+    "local_runbook": "delivery/facilitator-handover.md",
+    "bundle": "downloads/pivot-2026-facilitator-handover-v1.zip",
+    "manifest": "delivery/facilitator-handover-manifest.json"
+  }
+}
