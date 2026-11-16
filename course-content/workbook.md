@@ -17,9 +17,16 @@ The reporting period is January–June 2026. Data was finalized on 31 July 2026 
 3. Download and extract the Aura source ZIP. Keep the six source files together in the extracted folder.
 4. Keep this workbook visible beside your chat in the app. No spreadsheet editor, terminal or separate BI software is required.
 
+Then start the timed session. File attach and same-chat details sit below if you need them.
+
+<details>
+<summary>How to attach files and keep one Work chat</summary>
+
 In Work, open a local project attached to the Aura folder if that option is available. Otherwise attach all six files from that folder. A cloud project name alone does not give access to a local folder. Ask ChatGPT to list the actual filenames, then confirm content extraction in Lesson 2.
 
 Use the six prompts in order in the same Work chat. Copy each prompt into that chat; starting a new conversation from a Page prompt can lose the source context. If you resume in a new chat, reattach the files and supply the approved metric contract first.
+
+</details>
 
 # The source folder
 
@@ -86,7 +93,7 @@ Sites will create the working website from the approved information. Let the ini
 
 Use the reporting-month selector for the cards and detail rows. Trends should retain the six-month history for the selected origin while highlighting that month. Customer origin means All, Web-acquired or Mobile-acquired, not the app a customer is using now.
 
-**Do:** Select June / Mobile-acquired. Check CAC MYR70, activation 35% and margin 30%. Change to All and confirm revenue returns to MYR600,000. Open a definition and check its file, formula and reporting date. Select January and confirm the prior-month comparison is unavailable.
+**Do:** Select June / Mobile-acquired. Check CAC MYR70, activation 35% and margin 30%. Change to All and confirm revenue returns to MYR600,000. Open a definition and check its file, formula and reporting date. Select January and confirm the prior-month comparison is unavailable. For a worked reference, open the [June / Mobile demo](demo/?month=2026-06&origin=mobile&uplift=0).
 
 Board targets in this pack apply only to June / All origins. A cohort view should show its measured performance without silently applying the company-wide target. This is a useful test of whether a polished interface respects the business rules.
 
@@ -115,7 +122,7 @@ Set the spending illustration to +20%. It holds CAC and activation constant. On 
 
 The illustration does not know retention, lifetime value, future capacity or the cost of fixing activation. It cannot tell you the financial return from either option. Its value is making an assumption visible so you can question it.
 
-**Do:** Choose a hold, a capped experiment or a conditional increase. Cite two observations. State the strongest counterargument and one piece of missing evidence. Give a condition that would change your mind.
+**Do:** Choose a hold, a capped experiment or a conditional increase. Cite two observations. State the strongest counterargument and one piece of missing evidence. Give a condition that would change your mind. For a worked reference, open the [June / All +20% demo](demo/?month=2026-06&origin=all&uplift=20).
 
 **Continue when:** Your recommendation separates measured facts, your interpretation and assumed scenario outputs. There is no single required investment answer; there is a required standard of evidence.
 
