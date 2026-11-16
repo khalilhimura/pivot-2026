@@ -18,7 +18,7 @@ Explain conflicts and missing information. Do not invent values or build yet.
 ## 2 Agree and verify the metrics
 
 ```text
-Prepare Aura's executive metric contract for net revenue, monthly transacting
+Prepare Aura's executive metric contract for revenue (fee income), monthly transacting
 customers, 30-day activation, CAC per verified customer, contribution margin and
 transaction success. State each formula, numerator, denominator, unit, source
 location and reporting date. acquisition_channel means customer origin, not

@@ -48,12 +48,29 @@ test('lesson navigation and local completion are separate, persistent actions',(
   const restored=open(saved);assert.equal(restored.window.document.querySelector('[data-complete="3"]').getAttribute('aria-pressed'),'true');
   restored.window.close();dom.window.close();
 });
-test('feedback explains a wrong answer before revealing the correct source meaning',()=>{
+test('quiz feedback reveals the explanation on a correct answer or a second miss',()=>{
   const dom=open(),d=dom.window.document;
   const wrong=d.querySelector('[name="checkpoint-1"][value="0"]');wrong.checked=true;wrong.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
+  assert.equal(d.querySelector('[data-feedback="1"]').textContent,'Check the definition and try again.');
+  wrong.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
   assert.match(d.querySelector('[data-feedback="1"]').textContent,/login/);
   const right=d.querySelector('[name="checkpoint-1"][value="1"]');right.checked=true;right.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
   assert.match(d.querySelector('[data-feedback="1"]').textContent,/Correct/);
+  assert.match(d.querySelector('[data-feedback="1"]').textContent,/login/);
+  dom.window.close();
+});
+test('copy prompt sets a temporary Copied label while keeping the status line',async()=>{
+  const dom=open(),d=dom.window.document;
+  let written='';
+  Object.defineProperty(dom.window.navigator,'clipboard',{configurable:true,value:{writeText:async text=>{written=text;}}});
+  const button=d.querySelector('[data-copy-prompt="1"]');
+  button.click();
+  await new Promise(resolve=>setTimeout(resolve,10));
+  assert.match(written,/Board member reviewing Aura/);
+  assert.equal(button.textContent,'Copied');
+  assert.match(d.querySelector('[data-copy-status="1"]').textContent,/Prompt copied/);
+  await new Promise(resolve=>setTimeout(resolve,2100));
+  assert.equal(button.textContent,'Copy prompt');
   dom.window.close();
 });
 test('assessment requires all scores, numerical verification and no empty dimension',()=>{

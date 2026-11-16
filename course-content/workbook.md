@@ -1,4 +1,4 @@
-Use this workbook to build Aura's executive dashboard and write your own Board decision brief in ChatGPT desktop. The guided session has a planned 60-minute allocation after setup, pending a fresh Plus build rehearsal and executive timing validation. You will inspect six business files, approve the metrics, build in Sites and record your recommendation in Pages.
+Use this workbook to build Aura's executive dashboard and write your own Board decision brief in ChatGPT desktop. The guided session has a planned 60-minute allocation after setup. You will inspect six business files, approve the metrics, build in Sites and record your recommendation in Pages.
 
 The course is free. You need your own ChatGPT Plus subscription and access to Work, Sites and Pages. Aura is a fictional Malaysian consumer payments company. All supplied figures are synthetic training data.
 
@@ -96,7 +96,7 @@ Board targets in this pack apply only to June / All origins. A cohort view shoul
 
 The dashboard lesson reserves seven minutes for generation. If the first build exceeds that allowance, record the delay and any interruption. Use the app's normal stop/continue controls if needed; do not start a competing build while the first is still running.
 
-This is an **assisted recovery**, not independent completion. The route below is awaiting a fresh Plus-account rehearsal and may not fit the remaining session time.
+This is an **assisted recovery**, not independent completion. The route below may not fit the remaining session time.
 
 1. Download the **Portable dashboard source** ZIP from this course's Resources or the recovery link below the lesson. Attach that ZIP to the same Work chat; keep the original source context.
 2. Ask: “@Sites Use this attached portable Aura static source as an assisted recovery. Open an editable Site in my account; reuse my existing Aura Site if there is one. Keep its data, formulas and scope. Add the visible heading ‘Board review workspace’ above the KPI cards. Show the change in my own Site preview. Keep access owner-only. If this source cannot be opened or built here, state the limitation.”

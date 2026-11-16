@@ -2,6 +2,7 @@
  'use strict';
  const KEY='tfis-pivot-2026-v1',doc=document;
  let state={done:[],scores:{},last:0},canSave=true;
+ const quizAttempts=new Map();
  try{
   const old=JSON.parse(localStorage.getItem(KEY)||'null');
   if(old&&typeof old==='object'){
@@ -28,10 +29,27 @@
  doc.querySelectorAll('[data-complete]').forEach(button=>button.addEventListener('click',()=>{const id=Number(button.dataset.complete);state.done=state.done.includes(id)?state.done.filter(n=>n!==id):[...state.done,id];renderProgress();save();}));
  doc.querySelectorAll('[data-copy-prompt]').forEach(button=>button.addEventListener('click',async()=>{
   const id=button.dataset.copyPrompt,text=doc.getElementById('prompt-'+id).textContent,status=doc.querySelector('[data-copy-status="'+id+'"]');
-  try{if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');await navigator.clipboard.writeText(text);status.textContent='Prompt copied. Paste it into the same Work chat.';}
+  const label=button.textContent;
+  try{
+   if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');
+   await navigator.clipboard.writeText(text);
+   status.textContent='Prompt copied. Paste it into the same Work chat.';
+   button.textContent='Copied';
+   setTimeout(()=>{button.textContent=label;},2000);
+  }
   catch{status.textContent='Copy was blocked. Select the prompt text and copy it manually.';}
  }));
- doc.querySelectorAll('[data-quiz]').forEach(quiz=>quiz.addEventListener('change',()=>{const chosen=quiz.querySelector('input:checked');if(!chosen)return;const correct=chosen.value===quiz.dataset.correct;doc.querySelector('[data-feedback="'+quiz.dataset.quiz+'"]').textContent=(correct?'Correct. ':'Check the definition and try again. ')+quiz.dataset.explanation;}));
+ doc.querySelectorAll('[data-quiz]').forEach(quiz=>quiz.addEventListener('change',()=>{
+  const chosen=quiz.querySelector('input:checked');
+  if(!chosen)return;
+  const id=quiz.dataset.quiz;
+  const attempts=(quizAttempts.get(id)||0)+1;
+  quizAttempts.set(id,attempts);
+  const correct=chosen.value===quiz.dataset.correct;
+  const feedback=doc.querySelector('[data-feedback="'+id+'"]');
+  if(correct||attempts>=2)feedback.textContent=(correct?'Correct. ':'Check the definition and try again. ')+quiz.dataset.explanation;
+  else feedback.textContent='Check the definition and try again.';
+ }));
  function assess(){
   const target=doc.querySelector('[data-assessment-result]');if(!target)return;
   if(Object.keys(state.scores).length<5){target.textContent='Rate all five dimensions to see your self-check result.';return;}
