@@ -94,6 +94,10 @@ test('setup preflight keeps attach guidance collapsed and starts the timed sessi
   const dom=open(),d=dom.window.document;
   const setup=d.querySelector('#setup');
   assert.match(setup.textContent,/Sixty-second preflight/);
+  const download=setup.querySelector('a[href="https://chatgpt.com/download/"]');
+  assert.ok(download);
+  assert.match(download.textContent,/ChatGPT desktop app/);
+  assert.match(setup.textContent,/install if needed/);
   const detail=setup.querySelector('details');
   assert.ok(detail);
   assert.match(detail.textContent,/attach all six files/);

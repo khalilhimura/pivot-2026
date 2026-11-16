@@ -12,7 +12,7 @@ The reporting period is January–June 2026. Data was finalized on 31 July 2026 
 
 # Before you start
 
-1. Open the ChatGPT desktop app, sign in to Plus and check available usage.
+1. Open the [ChatGPT desktop app](https://chatgpt.com/download/) (install if needed), sign in to Plus and check available usage.
 2. Confirm you can open Work, Sites and Pages. Features and usage depend on the account; do this before starting the clock.
 3. Download and extract the Aura source ZIP. Keep the six source files together in the extracted folder.
 4. Keep this workbook visible beside your chat in the app. No spreadsheet editor, terminal or separate BI software is required.
