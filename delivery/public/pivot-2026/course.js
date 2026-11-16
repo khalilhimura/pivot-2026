@@ -18,17 +18,34 @@
   doc.querySelectorAll('[data-complete]').forEach(button=>{const done=state.done.includes(Number(button.dataset.complete));button.setAttribute('aria-pressed',String(done));button.textContent=done?'Lesson checked · undo':'Mark lesson checked';});
   doc.querySelectorAll('[data-index-check]').forEach(el=>{el.textContent=state.done.includes(Number(el.dataset.indexCheck))?' · checked':'';});
  }
+ function syncLessonIndex(){
+  const details=doc.querySelector('.lesson-index-all');
+  if(!details)return;
+  const mq=typeof window.matchMedia==='function'?window.matchMedia('(max-width:700px)'):null;
+  details.open=!(mq&&mq.matches);
+  return mq;
+ }
  function showLesson(id,focus=false){
   if(!doc.querySelector('[data-lesson="'+id+'"]'))return;
   state.last=id;
   doc.querySelectorAll('[data-lesson]').forEach(el=>{el.hidden=Number(el.dataset.lesson)!==id;if(el.hidden)el.querySelectorAll('video').forEach(video=>{if(!video.paused)video.pause();});});
-  doc.querySelectorAll('.lesson-index [data-lesson-link]').forEach(a=>{if(Number(a.dataset.lessonLink)===id)a.setAttribute('aria-current','step');else a.removeAttribute('aria-current');});
+  doc.querySelectorAll('.lesson-index-all [data-lesson-link]').forEach(a=>{if(Number(a.dataset.lessonLink)===id)a.setAttribute('aria-current','step');else a.removeAttribute('aria-current');});
   const compact=doc.querySelector('[data-compact-current]');
+  const prev=doc.querySelector('[data-compact-prev]');
   const next=doc.querySelector('[data-compact-next]');
   const label=doc.querySelector('.lesson-index-all [data-lesson-link="'+id+'"] span');
   if(compact)compact.textContent=label?label.textContent:'Lesson '+(id+1);
+  if(prev){
+   if(id>0){
+    prev.hidden=false;
+    prev.dataset.lessonLink=String(id-1);
+    prev.setAttribute('href','#lesson-'+(id-1));
+   }else{
+    prev.hidden=true;
+    prev.removeAttribute('data-lesson-link');
+   }
+  }
   if(next){
-   next.removeAttribute('data-complete-advance');
    if(id<6){
     next.hidden=false;
     next.dataset.lessonLink=String(id+1);
@@ -38,23 +55,17 @@
     next.hidden=false;
     next.removeAttribute('data-lesson-link');
     next.setAttribute('href','#assessment');
-    next.dataset.completeAdvance='6';
     next.textContent='Self-check';
    }
   }
   if(focus){const heading=doc.querySelector('[data-lesson="'+id+'"] h2');heading.focus({preventScroll:true});heading.scrollIntoView({block:'start',behavior:'auto'});}
   save();
  }
- function markDone(id){if(!state.done.includes(id)){state.done=[...state.done,id];renderProgress();save();}}
  doc.addEventListener('click',e=>{
-  const advance=e.target.closest('[data-complete-advance]');
-  if(advance)markDone(Number(advance.dataset.completeAdvance));
   const a=e.target.closest('[data-lesson-link]');
   if(!a)return;
   e.preventDefault();
   const id=Number(a.dataset.lessonLink);
-  const current=a.closest('[data-lesson]');
-  if(current&&a.closest('.lesson-actions'))markDone(Number(current.dataset.lesson));
   showLesson(id,true);
   history.replaceState(null,'','#lesson-'+id);
  });
@@ -96,6 +107,11 @@
  doc.querySelectorAll('[data-rubric-score]').forEach(select=>{select.value=state.scores[select.dataset.rubricScore]??'';select.addEventListener('change',()=>{const id=select.dataset.rubricScore;if(['0','1','2'].includes(select.value))state.scores[id]=select.value;else delete state.scores[id];assess();save();});});
  doc.querySelectorAll('[data-theme-toggle]').forEach(button=>button.addEventListener('click',()=>{const next=doc.documentElement.dataset.theme==='dark'?'light':'dark';doc.documentElement.dataset.theme=next;try{localStorage.setItem('tfis-theme',next);}catch{}}));
  const match=location.hash.match(/^#lesson-([0-6])$/);
- if(doc.querySelector('[data-lesson]')){doc.documentElement.classList.add('course-enhanced');showLesson(match?Number(match[1]):state.last);renderProgress();assess();}
+ if(doc.querySelector('[data-lesson]')){
+  doc.documentElement.classList.add('course-enhanced');
+  const mq=syncLessonIndex();
+  if(mq&&mq.addEventListener)mq.addEventListener('change',syncLessonIndex);
+  showLesson(match?Number(match[1]):state.last);renderProgress();assess();
+ }
  window.addEventListener('hashchange',()=>{const m=location.hash.match(/^#lesson-([0-6])$/);if(m)showLesson(Number(m[1]));});
 })();

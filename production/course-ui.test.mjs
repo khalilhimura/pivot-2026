@@ -114,16 +114,21 @@ test('quiz lessons use one judgment gate without stacked reveal and result-check
   assert.match(html,/demo\/\?month=2026-06&origin=all&uplift=20/);
   assert.match(html,/class="recovery-callout"/);
 });
-test('next lesson from lesson actions marks the current lesson checked',()=>{
+test('next and previous lesson navigate without auto-checking',()=>{
   const dom=open(),d=dom.window.document;
-  d.querySelector('[data-lesson-link="0"]').click();
+  d.querySelector('.lesson-index-all [data-lesson-link="0"]').click();
   assert.equal(d.querySelector('[data-progress-count]').textContent,'0 of 7 lessons checked');
   d.querySelector('[data-lesson="0"] .lesson-actions [data-lesson-link="1"]').click();
-  assert.equal(d.querySelector('[data-progress-count]').textContent,'1 of 7 lessons checked');
-  assert.equal(d.querySelector('[data-complete="0"]').getAttribute('aria-pressed'),'true');
+  assert.equal(d.querySelector('[data-progress-count]').textContent,'0 of 7 lessons checked');
+  assert.equal(d.querySelector('[data-complete="0"]').getAttribute('aria-pressed'),'false');
   assert.equal(d.querySelector('[data-lesson="1"]').hidden,false);
-  d.querySelector('.lesson-index [data-lesson-link="3"]').click();
-  assert.equal(d.querySelector('[data-progress-count]').textContent,'1 of 7 lessons checked');
+  assert.match(d.querySelector('[data-lesson="1"] .lesson-step-links').textContent,/Previous lesson/);
+  d.querySelector('[data-lesson="1"] .lesson-actions [data-lesson-link="0"]').click();
+  assert.equal(d.querySelector('[data-lesson="0"]').hidden,false);
+  assert.equal(d.querySelector('[data-progress-count]').textContent,'0 of 7 lessons checked');
+  d.querySelector('.lesson-index-all [data-lesson-link="3"]').click();
+  assert.equal(d.querySelector('[data-lesson="3"]').hidden,false);
+  assert.equal(d.querySelector('.lesson-index-all').open,true);
   dom.window.close();
 });
 test('progress track fills as lessons are checked',()=>{
@@ -156,18 +161,25 @@ test('narrow-screen chrome exposes current lesson and next without the two-colum
   const html=fs.readFileSync(path.join(course,'index.html'),'utf8');
   assert.match(html,/class="lesson-compact"/);
   assert.match(html,/class="lesson-index-all"/);
+  assert.match(html,/data-compact-prev/);
   assert.match(html,/Planned ~60 minutes including AI wait time/);
   assert.match(html,/can extend past the plan/);
+  assert.doesNotMatch(html,/data-complete-advance/);
   const dom=open(),d=dom.window.document;
+  assert.equal(d.querySelector('.lesson-index-all').open,true);
+  assert.equal(d.querySelectorAll('.lesson-index-all [data-lesson-link]').length,7);
   assert.match(d.querySelector('[data-compact-current]').textContent,/Lesson 1/);
+  assert.equal(d.querySelector('[data-compact-prev]').hidden,true);
   const next=d.querySelector('[data-compact-next]');
   assert.equal(next.getAttribute('data-lesson-link'),'1');
   next.click();
   assert.match(d.querySelector('[data-compact-current]').textContent,/Lesson 2/);
+  assert.equal(d.querySelector('[data-compact-prev]').hidden,false);
   assert.equal(d.querySelector('[data-lesson="1"]').hidden,false);
+  assert.equal(d.querySelector('[data-progress-count]').textContent,'0 of 7 lessons checked');
   d.querySelector('.lesson-index-all [data-lesson-link="6"]').click();
   assert.equal(d.querySelector('[data-compact-next]').getAttribute('href'),'#assessment');
-  assert.equal(d.querySelector('[data-compact-next]').dataset.completeAdvance,'6');
+  assert.equal(d.querySelector('[data-compact-next]').dataset.completeAdvance,undefined);
   dom.window.close();
 });
 test('workbook states that the 60-minute plan can slip with waits or recovery',()=>{
