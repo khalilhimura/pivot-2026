@@ -14,6 +14,7 @@
  const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state));}catch{canSave=false;}if(!canSave){const n=doc.querySelector('[data-storage-note]');if(n)n.textContent='Progress works for this visit but cannot be saved in this browser.';}};
  function renderProgress(){
   const count=doc.querySelector('[data-progress-count]');if(count)count.textContent=state.done.length+' of 7 lessons checked';
+  const fill=doc.querySelector('[data-progress-fill]');if(fill)fill.style.width=(state.done.length/7*100)+'%';
   doc.querySelectorAll('[data-complete]').forEach(button=>{const done=state.done.includes(Number(button.dataset.complete));button.setAttribute('aria-pressed',String(done));button.textContent=done?'Lesson checked · undo':'Mark lesson checked';});
   doc.querySelectorAll('[data-index-check]').forEach(el=>{el.textContent=state.done.includes(Number(el.dataset.indexCheck))?' · checked':'';});
  }

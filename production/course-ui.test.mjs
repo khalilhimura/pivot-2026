@@ -122,3 +122,29 @@ test('next lesson from lesson actions marks the current lesson checked',()=>{
   assert.equal(d.querySelector('[data-progress-count]').textContent,'1 of 7 lessons checked');
   dom.window.close();
 });
+test('progress track fills as lessons are checked',()=>{
+  const dom=open(),d=dom.window.document;
+  const fill=d.querySelector('[data-progress-fill]');
+  assert.ok(fill);
+  assert.equal(fill.style.width,'0%');
+  d.querySelector('[data-complete="0"]').click();
+  assert.equal(fill.style.width,(1/7*100)+'%');
+  d.querySelector('[data-complete="2"]').click();
+  assert.equal(fill.style.width,(2/7*100)+'%');
+  dom.window.close();
+});
+test('lesson 6 keeps brief quality and parks access liturgy under details',()=>{
+  const html=fs.readFileSync(path.join(course,'index.html'),'utf8');
+  const lesson6=html.match(/<article id="lesson-5"[\s\S]*?<\/article>/)[0];
+  assert.match(lesson6,/400–500 words/);
+  assert.match(lesson6,/Access notes if you share later/);
+  assert.doesNotMatch(lesson6,/Review the Site and Page audience separately/);
+});
+test('demo spending scenario sits above the trend charts',()=>{
+  const html=fs.readFileSync(path.join(course,'demo/index.html'),'utf8');
+  const scenario=html.indexOf('id="scenario"');
+  const trends=html.indexOf('class="trends"');
+  const charts=html.indexOf('id="revenue-chart"');
+  assert.ok(scenario>0&&trends>0&&charts>0);
+  assert.ok(scenario<trends&&scenario<charts);
+});
