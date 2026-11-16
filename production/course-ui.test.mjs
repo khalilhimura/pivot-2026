@@ -90,3 +90,35 @@ test('corrupt or blocked storage does not prevent course use',()=>{
   d.window.document.querySelector('[data-complete="0"]').click();
   assert.equal(d.window.document.querySelector('[data-progress-count]').textContent,'1 of 7 lessons checked');d.window.close();
 });
+test('setup preflight keeps attach guidance collapsed and starts the timed session',()=>{
+  const dom=open(),d=dom.window.document;
+  const setup=d.querySelector('#setup');
+  assert.match(setup.textContent,/Sixty-second preflight/);
+  const detail=setup.querySelector('details');
+  assert.ok(detail);
+  assert.match(detail.textContent,/attach all six files/);
+  assert.equal(detail.open,false);
+  dom.window.close();
+});
+test('quiz lessons use one judgment gate without stacked reveal and result-check',()=>{
+  const html=fs.readFileSync(path.join(course,'index.html'),'utf8');
+  const lesson2=html.match(/<article id="lesson-1"[\s\S]*?<\/article>/)[0];
+  assert.match(lesson2,/data-quiz="1"/);
+  assert.doesNotMatch(lesson2,/class="answer"/);
+  assert.doesNotMatch(lesson2,/class="result-check"/);
+  assert.match(html,/demo\/\?month=2026-06&origin=mobile&uplift=0/);
+  assert.match(html,/demo\/\?month=2026-06&origin=all&uplift=20/);
+  assert.match(html,/class="recovery-callout"/);
+});
+test('next lesson from lesson actions marks the current lesson checked',()=>{
+  const dom=open(),d=dom.window.document;
+  d.querySelector('[data-lesson-link="0"]').click();
+  assert.equal(d.querySelector('[data-progress-count]').textContent,'0 of 7 lessons checked');
+  d.querySelector('[data-lesson="0"] .lesson-actions [data-lesson-link="1"]').click();
+  assert.equal(d.querySelector('[data-progress-count]').textContent,'1 of 7 lessons checked');
+  assert.equal(d.querySelector('[data-complete="0"]').getAttribute('aria-pressed'),'true');
+  assert.equal(d.querySelector('[data-lesson="1"]').hidden,false);
+  d.querySelector('.lesson-index [data-lesson-link="3"]').click();
+  assert.equal(d.querySelector('[data-progress-count]').textContent,'1 of 7 lessons checked');
+  dom.window.close();
+});
