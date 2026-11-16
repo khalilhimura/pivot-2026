@@ -132,11 +132,16 @@ The illustration does not know retention, lifetime value, future capacity or the
 
 Keep the brief to about 400–500 words. State the question, reporting month, customer origin, verified observations, chosen recommendation, counterargument and scenario limits. Name an accountable executive role and a review date or measurable trigger. Confirm the brief reflects your choice rather than an invented decision.
 
-Review the Site and Page audience separately. A link does not grant access to its target. Keep your learner build private initially; if you later share it, choose the audience explicitly and check what an intended viewer can open. No message or email needs to be sent to complete this course.
+**Do:** Open both final links. Confirm June / All values, the scenario control and the cross-links. Check source version and dates.
 
-**Do:** Open both final links in the in-app browser. Confirm the hosted June / All values, the scenario control and the cross-links. Check the source version and dates. A saved Page is a document; a deployed Site is a hosted experience. Neither action by itself means everyone on the internet can see it.
+**Continue when:** Your account can open both reviewed outputs and the brief shows the recommendation you chose.
 
-**Continue when:** Your own account can open both reviewed outputs. If a feature or sharing option is unavailable, preserve the work and record the limitation; do not claim a check passed when it could not be performed.
+<details>
+<summary>Access notes if you share later</summary>
+
+A link does not grant access to its target. Keep the learner build private initially. If you later share it, choose the audience explicitly and check what an intended viewer can open. No message or email is required to finish the course. A saved Page is a document; a deployed Site is a hosted experience.
+
+</details>
 
 # Lesson 7  Defend the decision
 
