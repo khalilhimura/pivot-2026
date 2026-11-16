@@ -23,19 +23,41 @@
   state.last=id;
   doc.querySelectorAll('[data-lesson]').forEach(el=>{el.hidden=Number(el.dataset.lesson)!==id;if(el.hidden)el.querySelectorAll('video').forEach(video=>{if(!video.paused)video.pause();});});
   doc.querySelectorAll('.lesson-index [data-lesson-link]').forEach(a=>{if(Number(a.dataset.lessonLink)===id)a.setAttribute('aria-current','step');else a.removeAttribute('aria-current');});
+  const compact=doc.querySelector('[data-compact-current]');
+  const next=doc.querySelector('[data-compact-next]');
+  const label=doc.querySelector('.lesson-index-all [data-lesson-link="'+id+'"] span');
+  if(compact)compact.textContent=label?label.textContent:'Lesson '+(id+1);
+  if(next){
+   next.removeAttribute('data-complete-advance');
+   if(id<6){
+    next.hidden=false;
+    next.dataset.lessonLink=String(id+1);
+    next.setAttribute('href','#lesson-'+(id+1));
+    next.textContent='Next lesson';
+   }else{
+    next.hidden=false;
+    next.removeAttribute('data-lesson-link');
+    next.setAttribute('href','#assessment');
+    next.dataset.completeAdvance='6';
+    next.textContent='Self-check';
+   }
+  }
   if(focus){const heading=doc.querySelector('[data-lesson="'+id+'"] h2');heading.focus({preventScroll:true});heading.scrollIntoView({block:'start',behavior:'auto'});}
   save();
  }
  function markDone(id){if(!state.done.includes(id)){state.done=[...state.done,id];renderProgress();save();}}
- doc.querySelectorAll('[data-lesson-link]').forEach(a=>a.addEventListener('click',e=>{
+ doc.addEventListener('click',e=>{
+  const advance=e.target.closest('[data-complete-advance]');
+  if(advance)markDone(Number(advance.dataset.completeAdvance));
+  const a=e.target.closest('[data-lesson-link]');
+  if(!a)return;
   e.preventDefault();
   const id=Number(a.dataset.lessonLink);
   const current=a.closest('[data-lesson]');
   if(current&&a.closest('.lesson-actions'))markDone(Number(current.dataset.lesson));
   showLesson(id,true);
   history.replaceState(null,'','#lesson-'+id);
- }));
- doc.querySelectorAll('[data-complete-advance]').forEach(a=>a.addEventListener('click',()=>markDone(Number(a.dataset.completeAdvance))));
+ });
  doc.querySelectorAll('[data-complete]').forEach(button=>button.addEventListener('click',()=>{const id=Number(button.dataset.complete);state.done=state.done.includes(id)?state.done.filter(n=>n!==id):[...state.done,id];renderProgress();save();}));
  doc.querySelectorAll('[data-copy-prompt]').forEach(button=>button.addEventListener('click',async()=>{
   const id=button.dataset.copyPrompt,text=doc.getElementById('prompt-'+id).textContent,status=doc.querySelector('[data-copy-status="'+id+'"]');

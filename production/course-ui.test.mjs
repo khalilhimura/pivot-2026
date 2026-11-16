@@ -148,3 +148,27 @@ test('demo spending scenario sits above the trend charts',()=>{
   assert.ok(scenario>0&&trends>0&&charts>0);
   assert.ok(scenario<trends&&scenario<charts);
 });
+test('narrow-screen chrome exposes current lesson and next without the two-column index',()=>{
+  const html=fs.readFileSync(path.join(course,'index.html'),'utf8');
+  assert.match(html,/class="lesson-compact"/);
+  assert.match(html,/class="lesson-index-all"/);
+  assert.match(html,/Planned ~60 minutes including AI wait time/);
+  assert.match(html,/can extend past the plan/);
+  const dom=open(),d=dom.window.document;
+  assert.match(d.querySelector('[data-compact-current]').textContent,/Lesson 1/);
+  const next=d.querySelector('[data-compact-next]');
+  assert.equal(next.getAttribute('data-lesson-link'),'1');
+  next.click();
+  assert.match(d.querySelector('[data-compact-current]').textContent,/Lesson 2/);
+  assert.equal(d.querySelector('[data-lesson="1"]').hidden,false);
+  d.querySelector('.lesson-index-all [data-lesson-link="6"]').click();
+  assert.equal(d.querySelector('[data-compact-next]').getAttribute('href'),'#assessment');
+  assert.equal(d.querySelector('[data-compact-next]').dataset.completeAdvance,'6');
+  dom.window.close();
+});
+test('workbook states that the 60-minute plan can slip with waits or recovery',()=>{
+  const workbook=fs.readFileSync(path.join(course,'files/workbook.md'),'utf8');
+  assert.match(workbook,/planned 60-minute allocation/);
+  assert.match(workbook,/Actual time varies/);
+  assert.match(workbook,/assisted recovery may not fit/);
+});
