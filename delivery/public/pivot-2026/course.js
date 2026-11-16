@@ -25,17 +25,28 @@
   if(focus){const heading=doc.querySelector('[data-lesson="'+id+'"] h2');heading.focus({preventScroll:true});heading.scrollIntoView({block:'start',behavior:'auto'});}
   save();
  }
- doc.querySelectorAll('[data-lesson-link]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const id=Number(a.dataset.lessonLink);showLesson(id,true);history.replaceState(null,'','#lesson-'+id);}));
+ function markDone(id){if(!state.done.includes(id)){state.done=[...state.done,id];renderProgress();save();}}
+ doc.querySelectorAll('[data-lesson-link]').forEach(a=>a.addEventListener('click',e=>{
+  e.preventDefault();
+  const id=Number(a.dataset.lessonLink);
+  const current=a.closest('[data-lesson]');
+  if(current&&a.closest('.lesson-actions'))markDone(Number(current.dataset.lesson));
+  showLesson(id,true);
+  history.replaceState(null,'','#lesson-'+id);
+ }));
+ doc.querySelectorAll('[data-complete-advance]').forEach(a=>a.addEventListener('click',()=>markDone(Number(a.dataset.completeAdvance))));
  doc.querySelectorAll('[data-complete]').forEach(button=>button.addEventListener('click',()=>{const id=Number(button.dataset.complete);state.done=state.done.includes(id)?state.done.filter(n=>n!==id):[...state.done,id];renderProgress();save();}));
  doc.querySelectorAll('[data-copy-prompt]').forEach(button=>button.addEventListener('click',async()=>{
   const id=button.dataset.copyPrompt,text=doc.getElementById('prompt-'+id).textContent,status=doc.querySelector('[data-copy-status="'+id+'"]');
-  const label=button.textContent;
+  const label=button.dataset.copyLabel||button.textContent;
+  button.dataset.copyLabel=label;
+  if(button._copyReset)clearTimeout(button._copyReset);
   try{
    if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');
    await navigator.clipboard.writeText(text);
    status.textContent='Prompt copied. Paste it into the same Work chat.';
    button.textContent='Copied';
-   setTimeout(()=>{button.textContent=label;},2000);
+   button._copyReset=setTimeout(()=>{button.textContent=label;},2000);
   }
   catch{status.textContent='Copy was blocked. Select the prompt text and copy it manually.';}
  }));
