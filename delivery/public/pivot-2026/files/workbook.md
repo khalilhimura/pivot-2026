@@ -1,4 +1,4 @@
-Use this workbook to build Aura's executive dashboard and write your own Board decision brief in ChatGPT desktop. The guided session has a planned 60-minute allocation after setup. You will inspect six business files, approve the metrics, build in Sites and record your recommendation in Pages.
+Use this workbook to build Aura's executive dashboard and write your own Board decision brief in ChatGPT desktop. The session has a planned 60-minute allocation after setup. Actual time varies with ChatGPT generation waits, and assisted recovery may not fit the remaining session. You will inspect six business files, approve the metrics, build in Sites and record your recommendation in Pages.
 
 The course is free. You need your own ChatGPT Plus subscription and access to Work, Sites and Pages. Aura is a fictional Malaysian consumer payments company. All supplied figures are synthetic training data.
 
