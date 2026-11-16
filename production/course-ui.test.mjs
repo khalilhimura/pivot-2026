@@ -73,6 +73,11 @@ test('copy prompt sets a temporary Copied label while keeping the status line',a
   assert.equal(button.textContent,'Copy prompt');
   dom.window.close();
 });
+test('rubric selects keep space for the chevron',()=>{
+  const css=fs.readFileSync(path.join(course,'course.css'),'utf8');
+  assert.match(css,/\.rubric select\{[^}]*padding:9px 40px 9px 12px/);
+  assert.match(css,/background-position:right 14px center/);
+});
 test('assessment requires all scores, numerical verification and no empty dimension',()=>{
   const dom=open(),d=dom.window.document;
   function set(values){[...d.querySelectorAll('[data-rubric-score]')].forEach((el,i)=>{el.value=String(values[i]);el.dispatchEvent(new dom.window.Event('change',{bubbles:true}));});}
